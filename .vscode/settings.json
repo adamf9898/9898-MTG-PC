@@ -1,0 +1,12 @@
+{
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.showBuildInLibs": true,
+    "task.quickOpen.showAll": true,
+    "problems.showCurrentInStatus": true,
+    "remote.extensionKind": {
+        
+        "pub.name": [
+            "ui"
+        ]
+    }
+}
