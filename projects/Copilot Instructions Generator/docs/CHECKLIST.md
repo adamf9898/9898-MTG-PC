@@ -1,0 +1,18 @@
+- [ ] README.md: Project overview, features, setup, and usage instructions.
+- [ ] CONTRIBUTING.md: Guidelines for contributing, coding standards, and pull request process.
+- [ ] CODE_OF_CONDUCT.md: Community standards and expected behavior.
+- [ ] LICENSE or LICENSE.md: Project license (MIT, Apache, etc.).
+- [ ] SECURITY.md: Security policy and vulnerability reporting instructions.
+- [ ] PULL_REQUEST_TEMPLATE.md: Pull request template for contributors.
+- [ ] ISSUE_TEMPLATE.md: Templates for bug reports and feature requests.
+- [ ] DISCUSSIONS.md: For community discussion topics if not using GitHub Discussions.
+- [ ] CHANGELOG.md: Record of changes and version history.
+- [ ] ROADMAP.md: Future plans and milestones for the project.
+- [ ] FAQ.md: Frequently asked questions about the project.
+- [ ] SUPPORT.md: Information on how to get support for the project.
+- [ ] ARCHITECTURE.md: Overview of the project's architecture and design decisions.
+- [ ] TESTING.md: Instructions for running tests and contributing tests.
+- [ ] DEPLOYMENT.md: Deployment instructions and environment setup.
+- [ ] GOVERNANCE.md: Project governance model and decision-making process.
+- [ ] MAINTAINERS.md: List of project maintainers and their roles.
+- [ ] SUPPLEMENTARY.md: Any additional documentation relevant to the project.

@@ -1,0 +1,120 @@
+# Dynamic AI Game Assets Generator Configuration
+# Generates game assets using AI models for MTG-PC project
+
+name: dynamic-ai-game-assets-generator
+version: 1.0.0
+
+# Asset generation settings
+assets:
+  # Card artwork generation
+  cards:
+    enabled: true
+    output_dir: ./assets/cards
+    formats:
+      - png
+      - jpg
+    dimensions:
+      width: 488
+      height: 680
+    ai_model:
+      provider: stable-diffusion
+      model: sdxl-1.0
+      parameters:
+        steps: 30
+        cfg_scale: 7.5
+        sampler: DPM++ 2M Karras
+
+  # Token artwork generation
+  tokens:
+    enabled: true
+    output_dir: ./assets/tokens
+    formats:
+      - png
+    dimensions:
+      width: 256
+      height: 256
+    ai_model:
+      provider: dalle
+      model: dall-e-3
+      parameters:
+        quality: standard
+        style: natural
+
+  # Background/playmat generation
+  backgrounds:
+    enabled: true
+    output_dir: ./assets/backgrounds
+    formats:
+      - png
+      - jpg
+    dimensions:
+      width: 1920
+      height: 1080
+    ai_model:
+      provider: midjourney
+      parameters:
+        version: v6
+        quality: 1
+
+# Prompt templates for different asset types
+prompts:
+  card_creature:
+    template: "fantasy {creature_type}, {color_identity} magic theme, detailed illustration, trading card game art, by {artist_style}"
+    variables:
+      - creature_type
+      - color_identity
+      - artist_style
+
+  card_spell:
+    template: "{spell_effect} magical effect, {color_identity} energy, dramatic lighting, MTG card art style"
+    variables:
+      - spell_effect
+      - color_identity
+
+  token:
+    template: "simple {token_type} token icon, clean design, centered composition, game asset"
+    variables:
+      - token_type
+
+# Generation workflow
+workflow:
+  batch_size: 10
+  retry_attempts: 3
+  cache_results: true
+  cache_dir: ./cache/generated_assets
+  
+  # Post-processing steps
+  post_process:
+    - resize_if_needed
+    - optimize_file_size
+    - add_metadata
+    - generate_thumbnail
+
+# API configurations
+api:
+  rate_limits:
+    requests_per_minute: 10
+    concurrent_requests: 3
+  
+  timeout_seconds: 120
+  
+  credentials:
+    stable_diffusion_key: ${STABLE_DIFFUSION_API_KEY}
+    openai_key: ${OPENAI_API_KEY}
+    midjourney_key: ${MIDJOURNEY_API_KEY}
+
+# Quality control
+quality:
+  auto_reject:
+    min_resolution: 256
+    max_file_size_mb: 50
+  
+  manual_review:
+    enabled: false
+    output_dir: ./review_queue
+
+# Logging and monitoring
+logging:
+  level: INFO
+  output: ./logs/asset_generator.log
+  include_timestamps: true
