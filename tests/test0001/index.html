@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Card Generator (Split JSON Demo)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f8f8fa; }
+    #output { font-size: 1.1em; margin-top: 1.5em; background: #fff; border: 1px solid #ccc; padding: 1em; border-radius: 6px; white-space: pre-wrap; }
+    button { font-size: 1em; padding: 0.5em 1.2em; border-radius: 4px; border: 1px solid #888; background: #e0e0e0; cursor: pointer; }
+    button:disabled { background: #ccc; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <h1>Random Card Generator</h1>
+  <p>This demo loads a random chunk of cards (from split JSON files) and displays a random card.</p>
+  <button id="randomBtn" disabled>Show Random Card (JSON)</button>
+  <button id="nameBtn" disabled>Show Card Name Only</button>
+  <button id="detailsBtn" disabled>Show Card Details</button>
+  <button id="tableBtn" disabled>Show Card as Table</button>
+  <div id="output">Loading...</div>
+  <script src="main.js"></script>
+</body>
+</html>
