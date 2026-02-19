@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "stream-json": "^1.9.1"
+  }
+}
