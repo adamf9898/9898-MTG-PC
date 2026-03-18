@@ -1,0 +1,4 @@
+{
+  "name": "scaffold",
+  "description": "Hook for scaffolding new files, directories, and project structure."
+}

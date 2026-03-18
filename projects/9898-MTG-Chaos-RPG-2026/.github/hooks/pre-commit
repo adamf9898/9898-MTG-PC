@@ -1,0 +1,3 @@
+#!/bin/sh
+# Pre-commit hook: Lint and check staged files
+npm run lint || exit 1

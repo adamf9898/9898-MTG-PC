@@ -1,0 +1,4 @@
+{
+  "name": "update",
+  "description": "Hook for updating dependencies, code, and documentation."
+}

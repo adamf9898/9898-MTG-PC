@@ -1,0 +1,4 @@
+{
+  "name": "analyze",
+  "description": "Hook for running analysis tasks on code and documentation."
+}

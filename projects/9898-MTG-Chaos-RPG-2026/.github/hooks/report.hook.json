@@ -1,0 +1,4 @@
+{
+  "name": "report",
+  "description": "Hook for generating project status and code quality reports."
+}

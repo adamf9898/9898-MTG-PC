@@ -1,0 +1,6 @@
+{
+  "onSessionStart": ["injectProjectConventions", "scanForDisconnectedFiles"],
+  "onFileCreate": ["enforceFileLocation", "logFileCreation"],
+  "onFileUpdate": ["checkConnections", "logUpdate"],
+  "onWorkflowComplete": ["generateIntegrationReport"]
+}

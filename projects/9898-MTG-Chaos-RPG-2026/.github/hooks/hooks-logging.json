@@ -1,0 +1,16 @@
+---
+name: hooks-logging
+---
+
+# Hooks Logging
+
+Automated hooks for logging actions and changes:
+- Log all file updates
+- Record maintenance and review actions
+- Generate change reports after each workflow
+
+## Example Hook (JSON)
+{
+  "onUpdate": ["logChange"],
+  "onWorkflowComplete": ["generateReport"]
+}

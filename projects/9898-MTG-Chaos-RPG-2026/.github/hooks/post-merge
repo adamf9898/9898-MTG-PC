@@ -1,0 +1,5 @@
+#!/bin/sh
+# Post-merge hook: Install dependencies if package files changed
+if git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep -E 'package(-lock)?\.json'; then
+  npm install
+fi

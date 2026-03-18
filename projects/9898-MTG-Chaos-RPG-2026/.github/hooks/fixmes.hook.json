@@ -1,0 +1,4 @@
+{
+  "name": "fixmes",
+  "description": "Hook for tracking and resolving FIXMEs in the codebase."
+}
