@@ -1,0 +1,22 @@
+{
+  "name": "Automated Project Maintenance",
+  "on": {
+    "schedule": [
+      { "cron": "0 3 * * *" },
+      { "cron": "0 15 * * *" }
+    ]
+  },
+  "jobs": {
+    "full-automation-run": {
+      "runs-on": "ubuntu-latest",
+      "steps": [
+        { "name": "Checkout code", "uses": "actions/checkout@v3" },
+        { "name": "Install dependencies", "run": "npm ci" },
+        { "name": "Run maintenance checklist", "run": "npm run lint && npm test" },
+        { "name": "Run project-iterate-improvements skill", "run": "echo 'Run project-iterate-improvements skill'" },
+        { "name": "Generate integration report", "run": "echo 'Generate integration report'" },
+        { "name": "Upload logs", "uses": "actions/upload-artifact@v3", "with": { "name": "logs", "path": "./logs" } }
+      ]
+    }
+  }
+}
