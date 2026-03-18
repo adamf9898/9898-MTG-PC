@@ -1,0 +1,28 @@
+{
+  "name": "9898-mtg-chaos-rpg-2026",
+  "version": "1.0.0",
+  "description": "A modular web game inspired by Magic: The Gathering, with RPG and chaos mechanics.",
+  "main": "src/scripts/game.js",
+  "scripts": {
+    "start": "npx serve src/scenes",
+    "dev": "npx serve src/scenes -l 3000",
+    "test": "jest",
+    "lint": "echo \"No linter configured yet.\"",
+    "build": "echo \"No build step required for static web app.\""
+  },
+  "author": "adamf9898",
+  "license": "MIT",
+  "dependencies": {
+    "boardgame.io": "^0.50.2",
+    "css": "^3.0.0",
+    "esprima": "^4.0.1",
+    "express": "^4.18.2",
+    "htmlhint": "^1.9.2",
+    "js-yaml": "^4.1.1",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "serve": "^14.2.0"
+  }
+}
