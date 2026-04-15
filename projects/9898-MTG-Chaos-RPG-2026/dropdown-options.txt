@@ -1,0 +1,8 @@
+I train, fine-tune, or modify Al models, or build foundational model capabilities
+I integrate Al features into applications or workflows
+I design and build Al agents, orchestration layers, or Al platforms
+I use Al in my work either to integrate Al into applications, products, or workflows, or to improve my own development or productivity
+I make product or business decisions about how Al is used or shipped
+I design, build, or maintain software systems or developer tooling that are not primarily Al-related
+None of the above
+Other

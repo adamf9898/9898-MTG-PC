@@ -1,0 +1,2011 @@
+
+> 9898-mtg-chaos-rpg-2026@1.0.0 phaser
+> npx serve . -l 3000
+
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  4/9/2026 10:28:23 AM 127.0.0.1 GET /src/scenes/index.html
+ HTTP  4/9/2026 10:28:23 AM 127.0.0.1 Returned 301 in 7 ms
+ HTTP  4/9/2026 10:28:23 AM 127.0.0.1 GET /src/scenes/index
+ HTTP  4/9/2026 10:28:23 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  4/9/2026 10:28:23 AM 127.0.0.1 GET /src/scenes
+ HTTP  4/9/2026 10:28:23 AM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  4/9/2026 10:29:16 AM ::1 GET /scenes/scene-generators
+ HTTP  4/9/2026 10:29:16 AM ::1 GET /scenes
+ HTTP  4/9/2026 10:29:16 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:29:16 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:29:17 AM ::1 GET /favicon.ico
+ HTTP  4/9/2026 10:29:17 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:29:17 AM ::1 GET /favicon.ico
+ HTTP  4/9/2026 10:29:17 AM ::1 Returned 404 in 0 ms
+ HTTP  4/9/2026 10:29:43 AM ::1 GET /
+ HTTP  4/9/2026 10:29:43 AM ::1 Returned 200 in 9 ms
+ HTTP  4/9/2026 10:30:02 AM ::1 GET /src/
+ HTTP  4/9/2026 10:30:02 AM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 10:30:02 AM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 10:30:02 AM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /src/scenes/index.html
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /src/scenes/index
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /src/scenes
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 200 in 0 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /styles/style.css
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 10:30:05 AM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:05 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /src/scenes
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /styles/style.css
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 10:30:11 AM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 10:30:11 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 10:30:16 AM ::1 GET /src/scene-generators.html
+ HTTP  4/9/2026 10:30:16 AM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 10:30:16 AM ::1 GET /src/scene-generators
+ HTTP  4/9/2026 10:30:16 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /src/scenes
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /styles/style.css
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 4 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:02:43 AM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 11:02:43 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /src/scenes
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /styles/style.css
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:06:54 AM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 11:06:54 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /src/scenes
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /styles/style.css
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:24:37 AM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 11:24:37 AM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 11:24:44 AM ::1 GET /
+ HTTP  4/9/2026 11:24:44 AM ::1 Returned 200 in 5 ms
+ HTTP  4/9/2026 11:25:03 AM ::1 GET /dist/
+ HTTP  4/9/2026 11:25:03 AM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 11:25:03 AM ::1 GET /dist/styles/style.css
+ HTTP  4/9/2026 11:25:03 AM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /dist/scenes/index.html
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /dist/scenes/index
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /dist/scenes
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /styles/style.css
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:25:06 AM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 2:49:25 PM ::1 GET /
+ HTTP  4/9/2026 2:49:25 PM ::1 Returned 200 in 9 ms
+ HTTP  4/9/2026 2:49:30 PM ::1 GET /src/
+ HTTP  4/9/2026 2:49:30 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 2:49:30 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 2:49:30 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /styles/style.css
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /lib/world-data.js
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /modules/phaser-chaos-module.js
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /scripts/game.js
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /modules/runtime-bridge.js
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /scripts/phaser-root-game.js
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 3 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 2:49:33 PM ::1 GET /scripts/log-window.js
+ HTTP  4/9/2026 2:49:33 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 GET /src/styles/style.css
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 GET /src/scenes/index.html
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 GET /src/scenes/index
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 GET /src/scenes
+ HTTP  4/9/2026 2:52:00 PM 127.0.0.1 Returned 200 in 0 ms
+ HTTP  4/9/2026 3:12:17 PM 127.0.0.1 GET /src/scenes/index.html
+ HTTP  4/9/2026 3:12:17 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  4/9/2026 3:12:17 PM 127.0.0.1 GET /src/scenes/index
+ HTTP  4/9/2026 3:12:17 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  4/9/2026 3:12:17 PM 127.0.0.1 GET /src/scenes
+ HTTP  4/9/2026 3:12:17 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:35:12 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 4:35:12 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:38:02 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:02 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:08 PM ::1 GET /src/scenes/scene-character-creation.html
+ HTTP  4/9/2026 4:38:08 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 4:38:08 PM ::1 GET /src/scenes/scene-character-creation
+ HTTP  4/9/2026 4:38:08 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:08 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:08 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:38:08 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:08 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:08 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:38:08 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:38:08 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:08 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:23 PM ::1 GET /src/scenes/scene-quest.html
+ HTTP  4/9/2026 4:38:23 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 4:38:23 PM ::1 GET /src/scenes/scene-quest
+ HTTP  4/9/2026 4:38:23 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:23 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:23 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:23 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:38:23 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:38:23 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:23 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:38:23 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:38:23 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:33 PM ::1 GET /src/scenes/scene-battlefield.html
+ HTTP  4/9/2026 4:38:33 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 4:38:33 PM ::1 GET /src/scenes/scene-battlefield
+ HTTP  4/9/2026 4:38:33 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:33 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:33 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:33 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:38:33 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:38:33 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:33 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:33 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:38:33 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:38:40 PM ::1 GET /src/scenes/scene-mtgBot.html
+ HTTP  4/9/2026 4:38:40 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 4:38:40 PM ::1 GET /src/scenes/scene-mtgBot
+ HTTP  4/9/2026 4:38:40 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:40 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:40 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:38:40 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:40 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:38:40 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:38:40 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:38:40 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:38:40 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/scenes/scene-generators.html
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/scenes/scene-generators
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 GET /src/scripts/generators.js
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 4:38:50 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:57 PM ::1 GET /src/scenes/scene-generator-workbench.html
+ HTTP  4/9/2026 4:38:57 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 4:38:57 PM ::1 GET /src/scenes/scene-generator-workbench
+ HTTP  4/9/2026 4:38:57 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:57 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:38:57 PM ::1 GET /src/styles/generator-workbench.css
+ HTTP  4/9/2026 4:38:57 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:38:57 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:57 PM ::1 GET /src/scripts/generator-workbench.js
+ HTTP  4/9/2026 4:38:57 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:38:57 PM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/9/2026 4:38:57 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 4:41:21 PM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/9/2026 4:41:21 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:41:23 PM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/9/2026 4:41:23 PM ::1 Returned 200 in 0 ms
+ HTTP  4/9/2026 4:43:13 PM ::1 GET /src/scenes/scene-generator-workbench
+ HTTP  4/9/2026 4:43:13 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:13 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:43:13 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:43:13 PM ::1 GET /src/styles/generator-workbench.css
+ HTTP  4/9/2026 4:43:13 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:13 PM ::1 GET /src/scripts/generator-workbench.js
+ HTTP  4/9/2026 4:43:13 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:43:13 PM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/9/2026 4:43:13 PM ::1 Returned 200 in 0 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/scenes/scene-generators
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 GET /src/scripts/generators.js
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:43:18 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:44:29 PM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/9/2026 4:44:29 PM ::1 Returned 200 in 0 ms
+ HTTP  4/9/2026 4:44:36 PM ::1 GET /
+ HTTP  4/9/2026 4:44:36 PM ::1 Returned 200 in 6 ms
+ HTTP  4/9/2026 4:44:45 PM ::1 GET /src/
+ HTTP  4/9/2026 4:44:45 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:45 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:44:45 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:44:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/scenes/scene-generators
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:44:53 PM ::1 GET /src/scripts/generators.js
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:44:53 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/scenes/scene-phaser-demo.html
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/scenes/scene-phaser-demo
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:01 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:01 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/scenes/scene-react-demo.html
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/scenes/scene-react-demo
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/modules/runtime-hooks.js
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/scripts/react-demo.js
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:45:16 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/scenes/scene-three-demo.html
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/scenes/scene-three-demo
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/scripts/three-demo.js
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:21 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/scenes/scene-phaser-demo
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:42 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:42 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/scenes/scene-react-demo
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/modules/runtime-hooks.js
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/scripts/react-demo.js
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/scenes/scene-three-demo
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/scripts/three-demo.js
+ HTTP  4/9/2026 4:45:46 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:46 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/scenes/scene-react-demo
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/modules/runtime-hooks.js
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/scripts/react-demo.js
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/scenes/scene-phaser-demo
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:50 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:50 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:51 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/scenes/scene-generators
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:45:56 PM ::1 GET /src/scripts/generators.js
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:45:56 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/scenes/scene-generators
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 GET /src/scripts/generators.js
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:01 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:06 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:13 PM ::1 GET /src/scenes/scene-wiki.html
+ HTTP  4/9/2026 4:46:13 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 4:46:13 PM ::1 GET /src/scenes/scene-wiki
+ HTTP  4/9/2026 4:46:13 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:46:13 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:46:13 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:13 PM ::1 GET /src/lib/docs-plugin.js
+ HTTP  4/9/2026 4:46:13 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:46:13 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:46:13 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 4:46:24 PM ::1 GET /src/scenes/scene-game-rules.html
+ HTTP  4/9/2026 4:46:24 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 4:46:24 PM ::1 GET /src/scenes/scene-game-rules
+ HTTP  4/9/2026 4:46:24 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 4:46:24 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 4:46:24 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 4:46:24 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 4:46:24 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 6:01:26 PM ::1 GET /src/scenes/scene-game-rules
+ HTTP  4/9/2026 6:01:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:01:26 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 6:01:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:01:26 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 6:01:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/scenes/scene-ultra-deep-report.html
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/scenes/scene-ultra-deep-report
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/game-logic/perchance-logic.js
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/scenes/scene-ultra-deep-report.hook.js
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/modules/runtime-hooks.js
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 6:43:04 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/scene-godot.html
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/scene-godot
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scripts/phaser-godot-bridge.js
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/godot-export/index.html
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/godot-export/index
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/godot-export
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/index.png
+ HTTP  4/9/2026 6:48:35 PM ::1 GET /src/scenes/index.js
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 6:48:35 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 6:49:02 PM ::1 GET /src/scenes/godot-export/index.html
+ HTTP  4/9/2026 6:49:02 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 6:49:02 PM ::1 GET /src/scenes/godot-export/index
+ HTTP  4/9/2026 6:49:02 PM ::1 Returned 301 in 0 ms
+ HTTP  4/9/2026 6:49:02 PM ::1 GET /src/scenes/godot-export
+ HTTP  4/9/2026 6:49:02 PM ::1 Returned 200 in 0 ms
+ HTTP  4/9/2026 6:49:02 PM ::1 GET /src/scenes/index.png
+ HTTP  4/9/2026 6:49:02 PM ::1 GET /src/scenes/index.js
+ HTTP  4/9/2026 6:49:02 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 6:49:02 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 6:49:02 PM ::1 GET /src/scenes/index.icon.png
+ HTTP  4/9/2026 6:49:02 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 9:03:45 PM ::1 GET /
+ HTTP  4/9/2026 9:03:45 PM ::1 Returned 200 in 9 ms
+ HTTP  4/9/2026 9:03:53 PM ::1 GET /phaser/
+ HTTP  4/9/2026 9:03:53 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:03:57 PM ::1 GET /phaser/dist/
+ HTTP  4/9/2026 9:03:57 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 9:04:02 PM ::1 GET /phaser/
+ HTTP  4/9/2026 9:04:02 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:03 PM ::1 GET /phaser/plugins/
+ HTTP  4/9/2026 9:04:03 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 9:04:06 PM ::1 GET /phaser/
+ HTTP  4/9/2026 9:04:06 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:07 PM ::1 GET /
+ HTTP  4/9/2026 9:04:07 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 9:04:09 PM ::1 GET /.agents/
+ HTTP  4/9/2026 9:04:09 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:10 PM ::1 GET /.agents/plugins/
+ HTTP  4/9/2026 9:04:10 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:12 PM ::1 GET /.agents/
+ HTTP  4/9/2026 9:04:12 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:13 PM ::1 GET /
+ HTTP  4/9/2026 9:04:13 PM ::1 Returned 200 in 3 ms
+ HTTP  4/9/2026 9:04:16 PM ::1 GET /.genaiscript-serve.err
+ HTTP  4/9/2026 9:04:16 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:22 PM ::1 GET /.genaiscript-serve.err
+ HTTP  4/9/2026 9:04:22 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 9:04:51 PM ::1 GET /9898-mtg-chaos-commander-booster-pack.lua.backup
+ HTTP  4/9/2026 9:04:51 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:04:59 PM ::1 GET /README.html
+ HTTP  4/9/2026 9:04:59 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 9:04:59 PM ::1 GET /README
+ HTTP  4/9/2026 9:04:59 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:05:04 PM ::1 GET /genaiscripts/
+ HTTP  4/9/2026 9:05:04 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:05:21 PM ::1 GET /genaiscripts/README.html
+ HTTP  4/9/2026 9:05:21 PM ::1 Returned 301 in 1 ms
+ HTTP  4/9/2026 9:05:21 PM ::1 GET /genaiscripts/README
+ HTTP  4/9/2026 9:05:21 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 9:05:31 PM ::1 GET /genaiscripts/Untitled-5.md
+ HTTP  4/9/2026 9:05:31 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 10:28:32 PM ::1 GET /genaiscripts/
+ HTTP  4/9/2026 10:28:32 PM ::1 Returned 200 in 7 ms
+ HTTP  4/9/2026 10:28:35 PM ::1 GET /
+ HTTP  4/9/2026 10:28:35 PM ::1 Returned 200 in 4 ms
+ HTTP  4/9/2026 10:28:38 PM ::1 GET /dist/
+ HTTP  4/9/2026 10:28:38 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:28:38 PM ::1 GET /dist/styles/style.css
+ HTTP  4/9/2026 10:28:38 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /dist/scenes
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 200 in 2 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/styles/9898-MTG.css
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:28:41 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 10:30:54 PM ::1 GET /dist/
+ HTTP  4/9/2026 10:30:54 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:55 PM ::1 GET /dist/styles/style.css
+ HTTP  4/9/2026 10:30:55 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /dist/scenes
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/styles/9898-MTG.css
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 10:30:58 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 10:30:58 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/scenes
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 76 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:05:07 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 4 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 9 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 9 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 8 ms
+ HTTP  4/9/2026 11:05:07 PM ::1 Returned 304 in 17 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/scenes/scene-phaser-demo
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:26 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 11:05:26 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/scenes/scene-ultra-deep-report
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/modules/runtime-hooks.js
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/game-logic/perchance-logic.js
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/scenes/scene-ultra-deep-report.hook.js
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:29 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 11:05:29 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/scenes/scene-godot
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/scripts/phaser-godot-bridge.js
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/scenes/godot-export
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/scenes/index.png
+ HTTP  4/9/2026 11:05:33 PM ::1 GET /src/scenes/index.js
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 404 in 2 ms
+ HTTP  4/9/2026 11:05:33 PM ::1 Returned 404 in 1 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/scenes/scene-three-demo
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/scripts/three-demo.js
+ HTTP  4/9/2026 11:05:41 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:41 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/scenes/scene-react-demo
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/modules/runtime-hooks.js
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/scripts/react-demo.js
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 2 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:05:44 PM ::1 GET /src/scripts/scenes.js
+ HTTP  4/9/2026 11:05:44 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/scenes/
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 200 in 1 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/styles/style.css
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 0 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/scripts/game.js
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 1 ms
+ HTTP  4/9/2026 11:06:00 PM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 12:17:52 AM ::1 GET /api/
+ HTTP  4/10/2026 12:17:52 AM ::1 Returned 404 in 79 ms
+ HTTP  4/10/2026 12:17:52 AM ::1 GET /favicon.ico
+ HTTP  4/10/2026 12:17:52 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:18:05 AM ::1 GET /
+ HTTP  4/10/2026 12:18:05 AM ::1 Returned 200 in 19 ms
+ HTTP  4/10/2026 12:18:12 AM ::1 GET /README
+ HTTP  4/10/2026 12:18:12 AM ::1 Returned 304 in 4 ms
+ HTTP  4/10/2026 12:18:31 AM ::1 GET /intro.html
+ HTTP  4/10/2026 12:18:31 AM ::1 Returned 301 in 3 ms
+ HTTP  4/10/2026 12:18:31 AM ::1 GET /intro
+ HTTP  4/10/2026 12:18:31 AM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 12:18:40 AM ::1 GET /tmp-jest-out.txt
+ HTTP  4/10/2026 12:18:40 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:18:46 AM ::1 GET /wikis/
+ HTTP  4/10/2026 12:18:46 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:18:52 AM ::1 GET /wikis/perchance-generator.wiki.md
+ HTTP  4/10/2026 12:18:52 AM ::1 Returned 200 in 14 ms
+ HTTP  4/10/2026 12:18:56 AM ::1 GET /.env
+ HTTP  4/10/2026 12:18:56 AM ::1 Returned 200 in 13 ms
+ HTTP  4/10/2026 12:19:00 AM ::1 GET /.env
+ HTTP  4/10/2026 12:19:00 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 12:19:42 AM ::1 GET /NUL
+ HTTP  4/10/2026 12:19:42 AM ::1 Returned 200 in 51 ms
+ HTTP  4/10/2026 12:20:00 AM ::1 GET /
+ HTTP  4/10/2026 12:20:00 AM ::1 Returned 200 in 18 ms
+ HTTP  4/10/2026 12:20:08 AM ::1 GET /
+ HTTP  4/10/2026 12:20:08 AM ::1 Returned 200 in 7 ms
+ HTTP  4/10/2026 12:20:17 AM ::1 GET /auto-advance.config.json
+ HTTP  4/10/2026 12:20:17 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:20:39 AM ::1 GET /docs/
+ HTTP  4/10/2026 12:20:39 AM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /docs/Arena_Powered_Cube_Draft_March_31_-_April_21.html
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 301 in 1 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /docs/Arena_Powered_Cube_Draft_March_31_-_April_21
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/95.056a899347208789c682.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/90.2cc7f6e2178ea16b8453.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/97.5262f202e01f28ad94f9.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/18.5f9062ade5db231f2481.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/51.e8bdec744048feec777d.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/33.6306e2b23fe2109fdcba.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/34.f7e7eb50c5fd9cf44eac.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/37.6e688dcca557cea19fe2.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/20.095c707d5e188985dc22.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/28.47fa9dbcca27b972deb1.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/489.8e7771c8ac286ac5f98a.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/8.bfbfcaa7551a7ef928e2.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 4 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/js/web-components-registry.MPkNudQm.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/4c0c639.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/137.c55fec655aac4fda4db0.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/369.5ff6e6fb490e7fac26a0.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/416.29085a4afd8f9767e27e.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/6.e51c2542ff530e3a3b8a.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/27.020faa646d174c3d79d3.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/14.4820173744e436a56592.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/22.ec78f31303d7b092c3d4.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/134.9119bfeccfdb1b60e4fb.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/131.191c38b19336d8d3c53f.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/124.acbba523c9678d599033.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/106.5c14cd6d062d7df32e95.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 4 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/445.9c494857e4b76815ce0d.js
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /_nuxt/105.e433b38a14cbc5a4ac70.js
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/OpenSans-Regular.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 0 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/OpenSans-Bold.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/OpenSans-SemiBold.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/GothamNarrow-Black.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/OpenSans-Italic.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/OpenSans-ExtraBold.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 GET /assets/fonts/GothamNarrow-Bold.woff2
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:20:45 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:20:46 AM ::1 GET /assets/favicon.ico
+ HTTP  4/10/2026 12:20:46 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:21:02 AM ::1 GET /docs/GenAIScripts%20for%209898-MTG-Chaos-RPG.md
+ HTTP  4/10/2026 12:21:02 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:18 AM ::1 GET /docs/
+ HTTP  4/10/2026 12:23:18 AM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 12:23:21 AM ::1 GET /docs/README.md
+ HTTP  4/10/2026 12:23:21 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:21 AM ::1 GET /docs/README.md
+ HTTP  4/10/2026 12:23:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:23:22 AM ::1 GET /docs/README.md?preventCache=1775795002388
+ HTTP  4/10/2026 12:23:22 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:23 AM ::1 GET /docs/README.md?preventCache=1775795003390
+ HTTP  4/10/2026 12:23:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:24 AM ::1 GET /docs/README.md?preventCache=1775795004397
+ HTTP  4/10/2026 12:23:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:25 AM ::1 GET /docs/README.md?preventCache=1775795005389
+ HTTP  4/10/2026 12:23:25 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:26 AM ::1 GET /docs/README.md?preventCache=1775795006389
+ HTTP  4/10/2026 12:23:26 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:27 AM ::1 GET /docs/README.md?preventCache=1775795007390
+ HTTP  4/10/2026 12:23:27 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:28 AM ::1 GET /docs/README.md?preventCache=1775795008397
+ HTTP  4/10/2026 12:23:28 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:29 AM ::1 GET /docs/README.md?preventCache=1775795009389
+ HTTP  4/10/2026 12:23:29 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:30 AM ::1 GET /docs/README.md?preventCache=1775795010390
+ HTTP  4/10/2026 12:23:30 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:23:31 AM ::1 GET /docs/README.md?preventCache=1775795011389
+ HTTP  4/10/2026 12:23:31 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:23:32 AM ::1 GET /docs/README.md?preventCache=1775795012392
+ HTTP  4/10/2026 12:23:32 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:23:33 AM ::1 GET /docs/README.md?preventCache=1775795013390
+ HTTP  4/10/2026 12:23:33 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:34 AM ::1 GET /docs/README.md?preventCache=1775795014390
+ HTTP  4/10/2026 12:23:34 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:35 AM ::1 GET /docs/README.md?preventCache=1775795015394
+ HTTP  4/10/2026 12:23:35 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:23:36 AM ::1 GET /docs/README.md?preventCache=1775795016395
+ HTTP  4/10/2026 12:23:36 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:37 AM ::1 GET /docs/README.md?preventCache=1775795017391
+ HTTP  4/10/2026 12:23:37 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:23:38 AM ::1 GET /docs/README.md?preventCache=1775795018389
+ HTTP  4/10/2026 12:23:38 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:44 AM ::1 GET /docs/custom/
+ HTTP  4/10/2026 12:23:44 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:47 AM ::1 GET /docs/custom/cube/
+ HTTP  4/10/2026 12:23:47 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:48 AM ::1 GET /docs/custom/cube/TheArchive.txt
+ HTTP  4/10/2026 12:23:48 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:52 AM ::1 GET /docs/custom/cube/9898-MTG-Chaos-RPG-Adam-Anita.txt
+ HTTP  4/10/2026 12:23:52 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:55 AM ::1 GET /docs/custom/cube/9898-MTG-Perpetually-Cube.txt
+ HTTP  4/10/2026 12:23:55 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:23:58 AM ::1 GET /docs/custom/cube/As%20Above,%20So%20Below.txt
+ HTTP  4/10/2026 12:23:58 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:24:02 AM ::1 GET /docs/
+ HTTP  4/10/2026 12:24:02 AM ::1 Returned 200 in 4 ms
+ HTTP  4/10/2026 12:24:06 AM ::1 GET /docs/code.txt
+ HTTP  4/10/2026 12:24:06 AM ::1 Returned 200 in 12 ms
+ HTTP  4/10/2026 12:24:41 AM ::1 GET /
+ HTTP  4/10/2026 12:24:41 AM ::1 Returned 200 in 7 ms
+ HTTP  4/10/2026 12:24:48 AM ::1 GET /.agents/
+ HTTP  4/10/2026 12:24:48 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:24:58 AM ::1 GET /.agents/plugins/
+ HTTP  4/10/2026 12:24:58 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:25:00 AM ::1 GET /.agents/
+ HTTP  4/10/2026 12:25:00 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:25:00 AM ::1 GET /
+ HTTP  4/10/2026 12:25:00 AM ::1 Returned 200 in 85 ms
+ HTTP  4/10/2026 12:25:05 AM ::1 GET /.genaiscript-serve.err
+ HTTP  4/10/2026 12:25:05 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:25:12 AM ::1 GET /.gitignore
+ HTTP  4/10/2026 12:25:12 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:25:16 AM ::1 GET /.serve-phaser.err
+ HTTP  4/10/2026 12:25:16 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:25:26 AM ::1 GET /9898-mtg-chaos-commander-booster-pack.lua.backup
+ HTTP  4/10/2026 12:25:26 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:26:13 AM ::1 GET /GOAL.md
+ HTTP  4/10/2026 12:26:13 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:26:13 AM ::1 GET /GOAL.md
+ HTTP  4/10/2026 12:26:13 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 12:26:13 AM ::1 GET /GOAL.md?preventCache=1775795173916
+ HTTP  4/10/2026 12:26:13 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:14 AM ::1 GET /GOAL.md?preventCache=1775795174918
+ HTTP  4/10/2026 12:26:14 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:26:15 AM ::1 GET /GOAL.md?preventCache=1775795175918
+ HTTP  4/10/2026 12:26:15 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:16 AM ::1 GET /GOAL.md?preventCache=1775795176924
+ HTTP  4/10/2026 12:26:16 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:17 AM ::1 GET /GOAL.md?preventCache=1775795177917
+ HTTP  4/10/2026 12:26:17 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:18 AM ::1 GET /GOAL.md?preventCache=1775795178921
+ HTTP  4/10/2026 12:26:18 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:19 AM ::1 GET /GOAL.md?preventCache=1775795179917
+ HTTP  4/10/2026 12:26:19 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:20 AM ::1 GET /GOAL.md?preventCache=1775795180920
+ HTTP  4/10/2026 12:26:20 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:21 AM ::1 GET /GOAL.md?preventCache=1775795181918
+ HTTP  4/10/2026 12:26:21 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:22 AM ::1 GET /GOAL.md?preventCache=1775795182917
+ HTTP  4/10/2026 12:26:22 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:26:23 AM ::1 GET /GOAL.md?preventCache=1775795183920
+ HTTP  4/10/2026 12:26:23 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:26:24 AM ::1 GET /GOAL.md?preventCache=1775795184928
+ HTTP  4/10/2026 12:26:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:25 AM ::1 GET /GOAL.md?preventCache=1775795185917
+ HTTP  4/10/2026 12:26:25 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:26 AM ::1 GET /GOAL.md?preventCache=1775795186917
+ HTTP  4/10/2026 12:26:26 AM ::1 Returned 200 in 7 ms
+ HTTP  4/10/2026 12:26:30 AM ::1 GET /README
+ HTTP  4/10/2026 12:26:30 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 12:26:35 AM ::1 GET /coverage/
+ HTTP  4/10/2026 12:26:35 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:26:40 AM ::1 GET /coverage/lcov.info
+ HTTP  4/10/2026 12:26:40 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:26:45 AM ::1 GET /coverage/clover.xml
+ HTTP  4/10/2026 12:26:45 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:26:51 AM ::1 GET /coverage/coverage-final.json
+ HTTP  4/10/2026 12:26:51 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:27:44 AM ::1 GET /
+ HTTP  4/10/2026 12:27:44 AM ::1 Returned 200 in 8 ms
+ HTTP  4/10/2026 12:27:50 AM ::1 GET /docs/
+ HTTP  4/10/2026 12:27:50 AM ::1 Returned 200 in 7 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /docs/Arena_Powered_Cube_Draft_March_31_-_April_21
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/95.056a899347208789c682.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/97.5262f202e01f28ad94f9.js
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/90.2cc7f6e2178ea16b8453.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/18.5f9062ade5db231f2481.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/51.e8bdec744048feec777d.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/33.6306e2b23fe2109fdcba.js
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/34.f7e7eb50c5fd9cf44eac.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/37.6e688dcca557cea19fe2.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/20.095c707d5e188985dc22.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/28.47fa9dbcca27b972deb1.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/489.8e7771c8ac286ac5f98a.js
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /_nuxt/8.bfbfcaa7551a7ef928e2.js
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 4 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:11 AM ::1 GET /assets/js/web-components-registry.MPkNudQm.js
+ HTTP  4/10/2026 12:28:11 AM ::1 Returned 404 in 0 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/137.c55fec655aac4fda4db0.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/369.5ff6e6fb490e7fac26a0.js
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/4c0c639.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/416.29085a4afd8f9767e27e.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/27.020faa646d174c3d79d3.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/6.e51c2542ff530e3a3b8a.js
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 4 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/14.4820173744e436a56592.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/22.ec78f31303d7b092c3d4.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/134.9119bfeccfdb1b60e4fb.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/131.191c38b19336d8d3c53f.js
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/124.acbba523c9678d599033.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/106.5c14cd6d062d7df32e95.js
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 0 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/445.9c494857e4b76815ce0d.js
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /_nuxt/105.e433b38a14cbc5a4ac70.js
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/OpenSans-Regular.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/OpenSans-Bold.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/OpenSans-SemiBold.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/GothamNarrow-Black.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/OpenSans-Italic.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/OpenSans-ExtraBold.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 12:28:12 AM ::1 GET /assets/fonts/GothamNarrow-Bold.woff2
+ HTTP  4/10/2026 12:28:12 AM ::1 Returned 404 in 4 ms
+ HTTP  4/10/2026 12:28:25 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:28:25 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:28:31 AM ::1 GET /docs/pdf/.genaiscript/
+ HTTP  4/10/2026 12:28:31 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:28:32 AM ::1 GET /docs/pdf/.genaiscript/runs/
+ HTTP  4/10/2026 12:28:32 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:28:34 AM ::1 GET /docs/pdf/.genaiscript/runs/Arena%20Power%20Cube%203.0/
+ HTTP  4/10/2026 12:28:34 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:28:35 AM ::1 GET /docs/pdf/.genaiscript/runs/
+ HTTP  4/10/2026 12:28:35 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:37 AM ::1 GET /docs/pdf/.genaiscript/
+ HTTP  4/10/2026 12:28:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:39 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:28:39 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:28:42 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:28:42 AM ::1 Returned 200 in 4 ms
+ HTTP  4/10/2026 12:28:48 AM ::1 GET /docs/pdf/docs/wiki/
+ HTTP  4/10/2026 12:28:48 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:49 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:28:49 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:50 AM ::1 GET /docs/pdf/docs/guides/
+ HTTP  4/10/2026 12:28:50 AM ::1 Returned 200 in 4 ms
+ HTTP  4/10/2026 12:28:51 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:28:51 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:28:52 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:28:52 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:28:55 AM ::1 GET /docs/pdf/src/
+ HTTP  4/10/2026 12:28:55 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:56 AM ::1 GET /docs/pdf/src/features/
+ HTTP  4/10/2026 12:28:56 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:58 AM ::1 GET /docs/pdf/src/features/new-feature/
+ HTTP  4/10/2026 12:28:58 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:28:59 AM ::1 GET /docs/pdf/src/features/
+ HTTP  4/10/2026 12:28:59 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:01 AM ::1 GET /docs/pdf/src/features/quest-system/
+ HTTP  4/10/2026 12:29:01 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:03 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:29:03 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:09 AM ::1 GET /docs/pdf/bgio-tutorial/
+ HTTP  4/10/2026 12:29:09 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:11 AM ::1 GET /docs/pdf/bgio-tutorial/bgio-tutorial/
+ HTTP  4/10/2026 12:29:11 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:29:12 AM ::1 GET /docs/pdf/bgio-tutorial/
+ HTTP  4/10/2026 12:29:12 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:13 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:29:13 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:16 AM ::1 GET /docs/pdf/9898-mtg-chaos-rpg-(4.6)/
+ HTTP  4/10/2026 12:29:16 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:29:18 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:29:18 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:20 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:29:20 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:22 AM ::1 GET /docs/pdf/docs/walkthroughs/
+ HTTP  4/10/2026 12:29:22 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:23 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:29:23 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:24 AM ::1 GET /docs/pdf/docs/guides/
+ HTTP  4/10/2026 12:29:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:25 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:29:25 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:26 AM ::1 GET /docs/pdf/docs/wiki/
+ HTTP  4/10/2026 12:29:26 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:27 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:29:27 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:28 AM ::1 GET /docs/pdf/docs/reports/
+ HTTP  4/10/2026 12:29:28 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:30 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:29:30 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:31 AM ::1 GET /docs/pdf/docs/tutorials/
+ HTTP  4/10/2026 12:29:31 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:32 AM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 12:29:32 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:32 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:29:32 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:34 AM ::1 GET /docs/pdf/library/
+ HTTP  4/10/2026 12:29:34 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:35 AM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 12:29:35 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:29:43 AM ::1 GET /docs/pdf/src/
+ HTTP  4/10/2026 12:29:43 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:45 AM ::1 GET /docs/pdf/src/scenes/
+ HTTP  4/10/2026 12:29:45 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:47 AM ::1 GET /
+ HTTP  4/10/2026 12:29:47 AM ::1 Returned 200 in 4 ms
+ HTTP  4/10/2026 12:29:50 AM ::1 GET /src/
+ HTTP  4/10/2026 12:29:50 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:29:50 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 12:29:50 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/scenes
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/scripts/log-window.js
+ HTTP  4/10/2026 12:29:53 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:29:53 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:30:11 AM ::1 GET /phaser/
+ HTTP  4/10/2026 12:30:11 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:14 AM ::1 GET /
+ HTTP  4/10/2026 12:30:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:30:21 AM ::1 GET /.github/
+ HTTP  4/10/2026 12:30:21 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:30:24 AM ::1 GET /.github/docs/
+ HTTP  4/10/2026 12:30:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:26 AM ::1 GET /.github/
+ HTTP  4/10/2026 12:30:26 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:30:31 AM ::1 GET /.github/copilot-instructions.md
+ HTTP  4/10/2026 12:30:31 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:31 AM ::1 GET /.github/copilot-instructions.md
+ HTTP  4/10/2026 12:30:31 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 12:30:32 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795432482
+ HTTP  4/10/2026 12:30:32 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:33 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795433488
+ HTTP  4/10/2026 12:30:33 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:34 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795434494
+ HTTP  4/10/2026 12:30:34 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:30:35 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795435487
+ HTTP  4/10/2026 12:30:35 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:36 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795436487
+ HTTP  4/10/2026 12:30:36 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:37 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795437495
+ HTTP  4/10/2026 12:30:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:38 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795438487
+ HTTP  4/10/2026 12:30:38 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:30:39 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795439487
+ HTTP  4/10/2026 12:30:39 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:40 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795440489
+ HTTP  4/10/2026 12:30:40 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:30:41 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795441490
+ HTTP  4/10/2026 12:30:41 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:42 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795442501
+ HTTP  4/10/2026 12:30:42 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:43 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795443488
+ HTTP  4/10/2026 12:30:43 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:30:44 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795444488
+ HTTP  4/10/2026 12:30:44 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:45 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795445488
+ HTTP  4/10/2026 12:30:45 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:46 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795446488
+ HTTP  4/10/2026 12:30:46 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:30:47 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795447487
+ HTTP  4/10/2026 12:30:47 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:30:48 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795448487
+ HTTP  4/10/2026 12:30:48 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:30:49 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795449487
+ HTTP  4/10/2026 12:30:49 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:50 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795450490
+ HTTP  4/10/2026 12:30:50 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:51 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795451487
+ HTTP  4/10/2026 12:30:51 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:52 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795452488
+ HTTP  4/10/2026 12:30:52 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:53 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795453488
+ HTTP  4/10/2026 12:30:53 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:54 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795454487
+ HTTP  4/10/2026 12:30:54 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:55 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795455487
+ HTTP  4/10/2026 12:30:55 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:30:56 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795456488
+ HTTP  4/10/2026 12:30:56 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:57 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795457492
+ HTTP  4/10/2026 12:30:57 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:30:58 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795458493
+ HTTP  4/10/2026 12:30:58 AM ::1 Returned 200 in 7 ms
+ HTTP  4/10/2026 12:30:59 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795459488
+ HTTP  4/10/2026 12:30:59 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:00 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795460487
+ HTTP  4/10/2026 12:31:00 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:01 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795461487
+ HTTP  4/10/2026 12:31:01 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:31:02 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795462488
+ HTTP  4/10/2026 12:31:02 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:03 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795463490
+ HTTP  4/10/2026 12:31:03 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:04 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795464490
+ HTTP  4/10/2026 12:31:04 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:05 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795465502
+ HTTP  4/10/2026 12:31:05 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:06 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795466488
+ HTTP  4/10/2026 12:31:06 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:07 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795467487
+ HTTP  4/10/2026 12:31:07 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:08 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795468496
+ HTTP  4/10/2026 12:31:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:09 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795469491
+ HTTP  4/10/2026 12:31:09 AM ::1 Returned 200 in 12 ms
+ HTTP  4/10/2026 12:31:10 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795470488
+ HTTP  4/10/2026 12:31:10 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:11 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795471492
+ HTTP  4/10/2026 12:31:11 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:12 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795472496
+ HTTP  4/10/2026 12:31:12 AM ::1 Returned 200 in 9 ms
+ HTTP  4/10/2026 12:31:13 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795473485
+ HTTP  4/10/2026 12:31:13 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:14 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795474489
+ HTTP  4/10/2026 12:31:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:15 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795475484
+ HTTP  4/10/2026 12:31:15 AM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 12:31:16 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795476489
+ HTTP  4/10/2026 12:31:16 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:17 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795477490
+ HTTP  4/10/2026 12:31:17 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:18 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795478483
+ HTTP  4/10/2026 12:31:18 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:19 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795479483
+ HTTP  4/10/2026 12:31:19 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:20 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795480489
+ HTTP  4/10/2026 12:31:20 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 12:31:21 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795481489
+ HTTP  4/10/2026 12:31:21 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:22 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795482488
+ HTTP  4/10/2026 12:31:22 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:23 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795483484
+ HTTP  4/10/2026 12:31:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:24 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795484484
+ HTTP  4/10/2026 12:31:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:25 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795485486
+ HTTP  4/10/2026 12:31:25 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:26 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795486484
+ HTTP  4/10/2026 12:31:26 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:27 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795487484
+ HTTP  4/10/2026 12:31:27 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:28 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795488484
+ HTTP  4/10/2026 12:31:28 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:29 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795489487
+ HTTP  4/10/2026 12:31:29 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:30 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795490486
+ HTTP  4/10/2026 12:31:30 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:31 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795491492
+ HTTP  4/10/2026 12:31:31 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:31:32 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795492489
+ HTTP  4/10/2026 12:31:32 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:33 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795493485
+ HTTP  4/10/2026 12:31:33 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:34 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795494484
+ HTTP  4/10/2026 12:31:34 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:35 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795495484
+ HTTP  4/10/2026 12:31:35 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:36 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795496484
+ HTTP  4/10/2026 12:31:36 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:37 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795497484
+ HTTP  4/10/2026 12:31:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:38 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795498485
+ HTTP  4/10/2026 12:31:38 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:39 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795499484
+ HTTP  4/10/2026 12:31:39 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:40 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795500485
+ HTTP  4/10/2026 12:31:40 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:41 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795501485
+ HTTP  4/10/2026 12:31:41 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:42 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795502485
+ HTTP  4/10/2026 12:31:42 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:31:43 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795503484
+ HTTP  4/10/2026 12:31:43 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:44 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795504486
+ HTTP  4/10/2026 12:31:44 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:31:45 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795505484
+ HTTP  4/10/2026 12:31:45 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:46 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795506485
+ HTTP  4/10/2026 12:31:46 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:47 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795507485
+ HTTP  4/10/2026 12:31:47 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:48 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795508495
+ HTTP  4/10/2026 12:31:48 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:49 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795509484
+ HTTP  4/10/2026 12:31:49 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:50 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795510484
+ HTTP  4/10/2026 12:31:50 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:51 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795511486
+ HTTP  4/10/2026 12:31:51 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:52 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795512492
+ HTTP  4/10/2026 12:31:52 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:53 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795513485
+ HTTP  4/10/2026 12:31:53 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:31:54 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795514491
+ HTTP  4/10/2026 12:31:54 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:55 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795515484
+ HTTP  4/10/2026 12:31:55 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:31:56 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795516484
+ HTTP  4/10/2026 12:31:56 AM ::1 Returned 200 in 17 ms
+ HTTP  4/10/2026 12:31:57 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795517486
+ HTTP  4/10/2026 12:31:57 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:58 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795518487
+ HTTP  4/10/2026 12:31:58 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:31:59 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795519484
+ HTTP  4/10/2026 12:31:59 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:00 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795520488
+ HTTP  4/10/2026 12:32:00 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:01 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795521485
+ HTTP  4/10/2026 12:32:01 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:02 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795522484
+ HTTP  4/10/2026 12:32:02 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:03 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795523487
+ HTTP  4/10/2026 12:32:03 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:04 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795524484
+ HTTP  4/10/2026 12:32:04 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:05 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795525485
+ HTTP  4/10/2026 12:32:05 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:06 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795526490
+ HTTP  4/10/2026 12:32:06 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:07 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795527483
+ HTTP  4/10/2026 12:32:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:08 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795528485
+ HTTP  4/10/2026 12:32:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:09 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795529496
+ HTTP  4/10/2026 12:32:09 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:10 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795530489
+ HTTP  4/10/2026 12:32:10 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:11 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795531492
+ HTTP  4/10/2026 12:32:11 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:12 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795532485
+ HTTP  4/10/2026 12:32:12 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:13 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795533480
+ HTTP  4/10/2026 12:32:13 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:14 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795534485
+ HTTP  4/10/2026 12:32:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:15 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795535500
+ HTTP  4/10/2026 12:32:15 AM ::1 Returned 200 in 61 ms
+ HTTP  4/10/2026 12:32:17 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795536994
+ HTTP  4/10/2026 12:32:17 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:17 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795537485
+ HTTP  4/10/2026 12:32:17 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:18 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795538484
+ HTTP  4/10/2026 12:32:18 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:19 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795539487
+ HTTP  4/10/2026 12:32:19 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:20 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795540490
+ HTTP  4/10/2026 12:32:20 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:22 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795542125
+ HTTP  4/10/2026 12:32:22 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:24 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795543603
+ HTTP  4/10/2026 12:32:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:24 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795544481
+ HTTP  4/10/2026 12:32:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:25 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795545481
+ HTTP  4/10/2026 12:32:25 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:32:26 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795546482
+ HTTP  4/10/2026 12:32:26 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:32:27 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795547480
+ HTTP  4/10/2026 12:32:27 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:28 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795548482
+ HTTP  4/10/2026 12:32:28 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:29 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795549488
+ HTTP  4/10/2026 12:32:29 AM ::1 Returned 200 in 28 ms
+ HTTP  4/10/2026 12:32:30 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795550506
+ HTTP  4/10/2026 12:32:30 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:31 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795551480
+ HTTP  4/10/2026 12:32:31 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:32:32 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795552521
+ HTTP  4/10/2026 12:32:32 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:33 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795553482
+ HTTP  4/10/2026 12:32:33 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:35 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795554551
+ HTTP  4/10/2026 12:32:35 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:35 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795555504
+ HTTP  4/10/2026 12:32:35 AM ::1 Returned 200 in 18 ms
+ HTTP  4/10/2026 12:32:36 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795556796
+ HTTP  4/10/2026 12:32:36 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:37 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795557483
+ HTTP  4/10/2026 12:32:37 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:38 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795558481
+ HTTP  4/10/2026 12:32:38 AM ::1 Returned 200 in 623 ms
+ HTTP  4/10/2026 12:32:39 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795559481
+ HTTP  4/10/2026 12:32:39 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:40 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795560481
+ HTTP  4/10/2026 12:32:40 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:41 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795561481
+ HTTP  4/10/2026 12:32:41 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:42 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795562481
+ HTTP  4/10/2026 12:32:42 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:43 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795563480
+ HTTP  4/10/2026 12:32:43 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:44 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795564480
+ HTTP  4/10/2026 12:32:44 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:45 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795565481
+ HTTP  4/10/2026 12:32:45 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:46 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795566492
+ HTTP  4/10/2026 12:32:46 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:47 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795567480
+ HTTP  4/10/2026 12:32:47 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:48 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795568480
+ HTTP  4/10/2026 12:32:48 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:49 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795569486
+ HTTP  4/10/2026 12:32:49 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:50 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795570481
+ HTTP  4/10/2026 12:32:50 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:51 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795571480
+ HTTP  4/10/2026 12:32:51 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:52 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795572485
+ HTTP  4/10/2026 12:32:52 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:53 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795573483
+ HTTP  4/10/2026 12:32:53 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:54 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795574481
+ HTTP  4/10/2026 12:32:54 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:55 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795575481
+ HTTP  4/10/2026 12:32:55 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:56 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795576486
+ HTTP  4/10/2026 12:32:56 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:57 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795577481
+ HTTP  4/10/2026 12:32:57 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:32:58 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795578481
+ HTTP  4/10/2026 12:32:58 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:32:59 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795579481
+ HTTP  4/10/2026 12:32:59 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 12:33:00 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795580485
+ HTTP  4/10/2026 12:33:00 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:01 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795581489
+ HTTP  4/10/2026 12:33:01 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:02 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795582491
+ HTTP  4/10/2026 12:33:02 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:06 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795586487
+ HTTP  4/10/2026 12:33:06 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:07 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795587480
+ HTTP  4/10/2026 12:33:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:08 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795588481
+ HTTP  4/10/2026 12:33:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:09 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795589481
+ HTTP  4/10/2026 12:33:09 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:10 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795590480
+ HTTP  4/10/2026 12:33:10 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:11 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795591481
+ HTTP  4/10/2026 12:33:11 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:12 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795592482
+ HTTP  4/10/2026 12:33:12 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:13 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795593477
+ HTTP  4/10/2026 12:33:13 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:14 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795594479
+ HTTP  4/10/2026 12:33:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:15 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795595479
+ HTTP  4/10/2026 12:33:15 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:16 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795596477
+ HTTP  4/10/2026 12:33:16 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:17 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795597478
+ HTTP  4/10/2026 12:33:17 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:18 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795598482
+ HTTP  4/10/2026 12:33:18 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:19 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795599486
+ HTTP  4/10/2026 12:33:19 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:20 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795600480
+ HTTP  4/10/2026 12:33:20 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:21 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795601478
+ HTTP  4/10/2026 12:33:21 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:22 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795602481
+ HTTP  4/10/2026 12:33:22 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:23 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795603478
+ HTTP  4/10/2026 12:33:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:24 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795604478
+ HTTP  4/10/2026 12:33:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:25 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795605478
+ HTTP  4/10/2026 12:33:25 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:26 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795606477
+ HTTP  4/10/2026 12:33:26 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:27 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795607477
+ HTTP  4/10/2026 12:33:27 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:28 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795608477
+ HTTP  4/10/2026 12:33:28 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:29 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795609478
+ HTTP  4/10/2026 12:33:29 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:30 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795610486
+ HTTP  4/10/2026 12:33:30 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:31 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795611489
+ HTTP  4/10/2026 12:33:31 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:32 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795612477
+ HTTP  4/10/2026 12:33:32 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:33 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795613482
+ HTTP  4/10/2026 12:33:33 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:34 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795614478
+ HTTP  4/10/2026 12:33:34 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:35 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795615483
+ HTTP  4/10/2026 12:33:35 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:36 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795616480
+ HTTP  4/10/2026 12:33:36 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:37 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795617478
+ HTTP  4/10/2026 12:33:37 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:38 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795618479
+ HTTP  4/10/2026 12:33:38 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:39 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795619481
+ HTTP  4/10/2026 12:33:39 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:40 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795620482
+ HTTP  4/10/2026 12:33:40 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:41 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795621483
+ HTTP  4/10/2026 12:33:41 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:42 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795622482
+ HTTP  4/10/2026 12:33:42 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:44 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795624566
+ HTTP  4/10/2026 12:33:44 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:45 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795625591
+ HTTP  4/10/2026 12:33:45 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:46 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795626901
+ HTTP  4/10/2026 12:33:46 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:47 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795627737
+ HTTP  4/10/2026 12:33:47 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:48 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795628555
+ HTTP  4/10/2026 12:33:48 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:49 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795629525
+ HTTP  4/10/2026 12:33:49 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:50 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795630568
+ HTTP  4/10/2026 12:33:50 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:51 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795631506
+ HTTP  4/10/2026 12:33:51 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:52 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795632520
+ HTTP  4/10/2026 12:33:52 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:53 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795633505
+ HTTP  4/10/2026 12:33:53 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:54 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795634507
+ HTTP  4/10/2026 12:33:54 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:55 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795635510
+ HTTP  4/10/2026 12:33:55 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:56 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795636641
+ HTTP  4/10/2026 12:33:56 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:57 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795637527
+ HTTP  4/10/2026 12:33:57 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 12:33:58 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795638519
+ HTTP  4/10/2026 12:33:58 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:33:59 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795639546
+ HTTP  4/10/2026 12:33:59 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:00 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795640529
+ HTTP  4/10/2026 12:34:00 AM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 12:34:01 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795641510
+ HTTP  4/10/2026 12:34:01 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:02 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795642522
+ HTTP  4/10/2026 12:34:02 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:03 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795643514
+ HTTP  4/10/2026 12:34:03 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:04 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795644519
+ HTTP  4/10/2026 12:34:04 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:05 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795645505
+ HTTP  4/10/2026 12:34:05 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:06 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795646571
+ HTTP  4/10/2026 12:34:06 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:08 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795648023
+ HTTP  4/10/2026 12:34:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:08 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795648507
+ HTTP  4/10/2026 12:34:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:18 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795654330
+ HTTP  4/10/2026 12:34:18 AM ::1 Returned 200 in 161 ms
+ HTTP  4/10/2026 12:34:19 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795654498
+ HTTP  4/10/2026 12:34:19 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795658689
+ HTTP  4/10/2026 12:34:19 AM ::1 Returned 200 in 52 ms
+ HTTP  4/10/2026 12:34:19 AM ::1 Returned 200 in 53 ms
+ HTTP  4/10/2026 12:34:19 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795659633
+ HTTP  4/10/2026 12:34:19 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 12:34:27 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795662522
+ HTTP  4/10/2026 12:34:27 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 12:34:56 AM ::1 GET /.github/copilot-instructions.md?preventCache=1775795696573
+ HTTP  4/10/2026 12:34:56 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scenes/
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scenes
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 45 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 19 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /dist/scenes
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 112 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 116 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 5 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 4 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/log-window.js
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/scripts/log-window.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 2:48:23 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 2:48:23 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:24 AM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/10/2026 2:48:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:24 AM ::1 GET /src/scripts/log-window.js
+ HTTP  4/10/2026 2:48:24 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 2:48:24 AM ::1 GET /favicon.ico
+ HTTP  4/10/2026 2:48:24 AM ::1 Returned 404 in 3 ms
+ HTTP  4/10/2026 2:48:24 AM ::1 GET /favicon.ico
+ HTTP  4/10/2026 2:48:24 AM ::1 GET /favicon.ico
+ HTTP  4/10/2026 2:48:24 AM ::1 Returned 404 in 2 ms
+ HTTP  4/10/2026 2:48:24 AM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 4:22:22 AM ::1 GET /src/scenes/scene-game-rules
+ HTTP  4/10/2026 4:22:22 AM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 4:22:23 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:22:23 AM ::1 GET /src/scripts/scenes.js
+ HTTP  4/10/2026 4:22:23 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:22:23 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/scenes
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 GET /src/scripts/log-window.js
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 4:22:49 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/scenes/scene-generators
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/scripts/scenes.js
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 GET /src/scripts/generators.js
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:06 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 4:23:08 AM ::1 GET /src/scenes/scene-generator-workbench
+ HTTP  4/10/2026 4:23:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:08 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:23:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:08 AM ::1 GET /src/styles/generator-workbench.css
+ HTTP  4/10/2026 4:23:08 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:08 AM ::1 GET /src/scripts/generator-workbench.js
+ HTTP  4/10/2026 4:23:08 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:08 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 4:23:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/scenes/scene-generators
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/scripts/scenes.js
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 9 ms
+ HTTP  4/10/2026 4:23:11 AM ::1 GET /src/scripts/generators.js
+ HTTP  4/10/2026 4:23:11 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:31 AM ::1 GET /src/scenes/scene-generator-workbench
+ HTTP  4/10/2026 4:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:31 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:23:31 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:23:31 AM ::1 GET /src/styles/generator-workbench.css
+ HTTP  4/10/2026 4:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:31 AM ::1 GET /src/scripts/generator-workbench.js
+ HTTP  4/10/2026 4:23:31 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:23:31 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 4:23:31 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 4:23:38 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 4:23:38 AM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 4:38:00 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 4:38:00 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/scenes/scene-perchance-generator.html
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 301 in 1 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/scenes/scene-perchance-generator
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/modules/perchance/perchance-utils.js
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/plugins/perchance/random-flavor-text-plugin.js
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/scripts/run-generator.js
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/game-logic/perchance-logic.js
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 4:43:09 AM ::1 GET /src/scenes/mtg-encounter-generator.pchance
+ HTTP  4/10/2026 4:43:09 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 4:43:43 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 4:43:43 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/scenes/scene-perchance-generator
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/game-logic/perchance-logic.js
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/modules/perchance/perchance-utils.js
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/plugins/perchance/random-flavor-text-plugin.js
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/scripts/run-generator.js
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 4:43:47 AM ::1 GET /src/scenes/mtg-encounter-generator.pchance
+ HTTP  4/10/2026 4:43:47 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 4:43:57 AM ::1 GET /src/scenes/9898-mtg-chaos-rpg-2026.html
+ HTTP  4/10/2026 4:43:57 AM ::1 Returned 301 in 0 ms
+ HTTP  4/10/2026 4:43:57 AM ::1 GET /src/scenes/9898-mtg-chaos-rpg-2026
+ HTTP  4/10/2026 4:43:57 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 4:43:57 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 4:43:57 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:23 AM ::1 GET /
+ HTTP  4/10/2026 7:11:23 AM ::1 Returned 200 in 11 ms
+ HTTP  4/10/2026 7:11:33 AM ::1 GET /src/
+ HTTP  4/10/2026 7:11:33 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:11:34 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 7:11:34 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:36 AM ::1 GET /src/scenes/scene-generators
+ HTTP  4/10/2026 7:11:36 AM ::1 Returned 304 in 37 ms
+ HTTP  4/10/2026 7:11:37 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 7:11:37 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:37 AM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/10/2026 7:11:37 AM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/10/2026 7:11:37 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:11:37 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:37 AM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/10/2026 7:11:37 AM ::1 GET /src/scripts/scenes.js
+ HTTP  4/10/2026 7:11:37 AM ::1 GET /src/scripts/generators.js
+ HTTP  4/10/2026 7:11:37 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:11:37 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:11:37 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:40 AM ::1 GET /src/scenes/scene-generators
+ HTTP  4/10/2026 7:11:40 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:41 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 7:11:41 AM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/10/2026 7:11:41 AM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/10/2026 7:11:41 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:41 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:11:41 AM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/10/2026 7:11:41 AM ::1 GET /src/scripts/scenes.js
+ HTTP  4/10/2026 7:11:41 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 7:11:41 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 7:11:41 AM ::1 GET /src/scripts/generators.js
+ HTTP  4/10/2026 7:11:41 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 7:11:41 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/scenes/scene-generators
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/lib/data-type-taxonomy.js
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/lib/engine-schema.js
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/modules/chaos-plugin-dropin.js
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/scripts/scenes.js
+ HTTP  4/10/2026 7:25:05 AM ::1 GET /src/scripts/generators.js
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:05 AM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 7:25:12 AM ::1 GET /src/scenes/scene-generator-workbench
+ HTTP  4/10/2026 7:25:12 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:12 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 7:25:12 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:12 AM ::1 GET /src/styles/generator-workbench.css
+ HTTP  4/10/2026 7:25:12 AM ::1 GET /src/scripts/generator-workbench.js
+ HTTP  4/10/2026 7:25:12 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:12 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:12 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 7:25:12 AM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 7:25:17 AM ::1 GET /src/lib/generated/code.txt
+ HTTP  4/10/2026 7:25:17 AM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/scenes/scene-perchance-generator
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/game-logic/perchance-logic.js
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/modules/perchance/perchance-utils.js
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/plugins/perchance/random-flavor-text-plugin.js
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/scripts/run-generator.js
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 7:25:21 AM ::1 GET /src/scenes/mtg-encounter-generator.pchance
+ HTTP  4/10/2026 7:25:21 AM ::1 Returned 304 in 0 ms
+ HTTP  4/10/2026 10:49:28 AM ::1 GET /favicon.ico
+ HTTP  4/10/2026 10:49:28 AM ::1 Returned 404 in 34 ms
+ HTTP  4/10/2026 10:49:38 AM ::1 GET /src/scenes/9898-mtg-chaos-rpg-2026
+ HTTP  4/10/2026 10:49:38 AM ::1 Returned 200 in 8 ms
+ HTTP  4/10/2026 12:14:04 PM ::1 GET /
+ HTTP  4/10/2026 12:14:04 PM ::1 Returned 200 in 15 ms
+ HTTP  4/10/2026 12:14:32 PM ::1 GET /.env
+ HTTP  4/10/2026 12:14:32 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:45 PM ::1 GET /src/
+ HTTP  4/10/2026 12:14:45 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:45 PM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 12:14:45 PM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/scenes
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/styles/style.css
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/lib/world-data.js
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/scripts/game.js
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/modules/runtime-bridge.js
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/scripts/log-window.js
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 2 ms
+ HTTP  4/10/2026 12:14:48 PM ::1 Returned 304 in 1 ms
+ HTTP  4/10/2026 1:04:27 PM ::1 GET /dist/scenes
+ HTTP  4/10/2026 1:04:27 PM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 1:04:47 PM ::1 GET /
+ HTTP  4/10/2026 1:04:47 PM ::1 Returned 200 in 9 ms
+ HTTP  4/10/2026 1:05:08 PM ::1 GET /docs/
+ HTTP  4/10/2026 1:05:08 PM ::1 Returned 200 in 12 ms
+ HTTP  4/10/2026 1:05:30 PM ::1 GET /docs/image/
+ HTTP  4/10/2026 1:05:30 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 1:05:33 PM ::1 GET /docs/image/DifferencesBetweenMagicCardDataFormats/
+ HTTP  4/10/2026 1:05:33 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 1:05:35 PM ::1 GET /docs/image/DifferencesBetweenMagicCardDataFormats/1775825750597.png
+ HTTP  4/10/2026 1:05:35 PM ::1 Returned 200 in 6 ms
+ HTTP  4/10/2026 1:05:43 PM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 1:05:43 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 1:05:48 PM ::1 GET /docs/pdf/bgio-tutorial/
+ HTTP  4/10/2026 1:05:48 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 1:05:49 PM ::1 GET /docs/pdf/bgio-tutorial/bgio-tutorial/
+ HTTP  4/10/2026 1:05:49 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 1:05:51 PM ::1 GET /docs/pdf/bgio-tutorial/
+ HTTP  4/10/2026 1:05:51 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 1:05:52 PM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 1:05:52 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 1:05:53 PM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 1:05:53 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 1:05:54 PM ::1 GET /docs/pdf/docs/walkthroughs/
+ HTTP  4/10/2026 1:05:54 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 1:05:56 PM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 1:05:56 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 1:05:58 PM ::1 GET /docs/pdf/docs/guides/
+ HTTP  4/10/2026 1:05:58 PM ::1 Returned 200 in 0 ms
+ HTTP  4/10/2026 1:05:59 PM ::1 GET /docs/pdf/docs/
+ HTTP  4/10/2026 1:05:59 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 1:06:00 PM ::1 GET /docs/pdf/
+ HTTP  4/10/2026 1:06:00 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 1:06:02 PM ::1 GET /docs/pdf/mtgRPG.pdf
+ HTTP  4/10/2026 1:06:02 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 3:37:49 PM ::1 GET /src/scenes/
+ HTTP  4/10/2026 3:37:49 PM ::1 Returned 200 in 3 ms
+ HTTP  4/10/2026 3:38:01 PM ::1 GET /src
+ HTTP  4/10/2026 3:38:01 PM ::1 Returned 200 in 1 ms
+ HTTP  4/10/2026 3:38:02 PM ::1 GET /styles/style.css
+ HTTP  4/10/2026 3:38:02 PM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 3:38:05 PM ::1 GET /scenes/index.html
+ HTTP  4/10/2026 3:38:05 PM ::1 Returned 301 in 1 ms
+ HTTP  4/10/2026 3:38:05 PM ::1 GET /scenes/index
+ HTTP  4/10/2026 3:38:05 PM ::1 Returned 301 in 0 ms
+ HTTP  4/10/2026 3:38:05 PM ::1 GET /scenes
+ HTTP  4/10/2026 3:38:05 PM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 3:38:11 PM ::1 GET /scenes
+ HTTP  4/10/2026 3:38:11 PM ::1 Returned 404 in 0 ms
+ HTTP  4/10/2026 3:38:18 PM ::1 GET /
+ HTTP  4/10/2026 3:38:18 PM ::1 Returned 200 in 9 ms
+ HTTP  4/10/2026 3:38:34 PM ::1 GET /dropdown-options.txt
+ HTTP  4/10/2026 3:38:34 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 3:38:48 PM ::1 GET /BUILD.md
+ HTTP  4/10/2026 3:38:48 PM ::1 Returned 200 in 2 ms
+ HTTP  4/10/2026 3:45:19 PM ::1 GET /src/scenes/ws/ws
+ HTTP  4/10/2026 3:45:19 PM ::1 Returned 404 in 1 ms
+ HTTP  4/10/2026 3:45:19 PM ::1 GET /ws/ws
+ HTTP  4/10/2026 3:45:19 PM ::1 Returned 404 in 0 ms

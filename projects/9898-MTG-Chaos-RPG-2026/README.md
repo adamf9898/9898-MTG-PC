@@ -1,65 +1,67 @@
+
 # 9898-MTG-Chaos-RPG-2026
 
-A web game inspired by Magic: The Gathering, built with HTML, CSS, and JavaScript.
+Browser-first Magic: The Gathering RPG prototype with a modular agent/hook/skill architecture, shared world state, scene-shell pages, generator tooling, and automation scripts for analysis and reporting.
 
-## Project Structure
+---
 
-The project is organized as follows:
+## Quick Start
 
-- `README.md`: Project overview and instructions
-- `src/`: Main source code
-	- `scenes/`: Game HTML files (entry: `index.html`)
-	- `styles/`: Game CSS (`style.css`)
-	- `scripts/`: Game JavaScript (`game.js`)
-	- `lib/`: Game data and JSON (`data.json`)
-	- `docs/`: In-source documentation
-- `docs/`: Project documentation and reports (e.g., `report.html`)
-- `.github/`: GitHub workflows, agents, skills, prompts, instructions, todos, and hooks
+1. `npm install`
+2. `npm start` (serves `src/`)
+	 - Entry: `src/index.html` (redirects to `src/scenes/index.html`)
+3. `npm run phaser` (serves repo root for Phaser/Godot/bridge pages)
 
-## Features
+## Architecture Overview
 
-- Modular structure for easy expansion
-- Inspired by Magic: The Gathering and RPG elements
-- Designed for browser play
-- Automated workflows and documentation
-- Integrated with [Phaser](https://phaser.io/) for advanced game scenes
-- Integrated with [boardgame.io](https://boardgame.io/) for multiplayer and board game logic
-- Modular Node.js utilities for deck/card logic
+- **Gameplay Authority:** `src/scripts/game.js` (owns `window.gameState`, world/quest/combat flow, Scryfall, mtgBot, rendering)
+- **Scene System:**
+	- Main hub: `src/scenes/index.html`
+	- Thin shells: `src/scenes/scene-*.html` with `<main id="scene-container" data-scene="...">`
+	- Bootstrapping: `src/scripts/scenes.js` (runs hooks, marks nav, renders shell)
+	- Example hook-backed design tool: `src/scenes/scene-format-architect.html` + `src/scenes/scene-format-architect.hook.js`
+- **Scene Registry:** `src/lib/scene-registry.js` (keep in sync with `scenes.json`, `gameflow.json`)
+- **Runtime Bridge:** `src/modules/runtime-bridge.js` (connects game state to Phaser, React, Perchance, Godot, etc.)
+- **Agents/Hooks/Skills:** Modular logic for deck builder, Scryfall, scenario flow, and more. See `.github/` for agent/hook/skill files and integration docs.
 
-## How to Play
+## Custom Format Architect
 
+- Scene: `src/scenes/scene-format-architect.html`
+- Hook/UI logic: `src/scenes/scene-format-architect.hook.js`
+- Styles: `src/styles/scene-format-architect.css`
+- Purpose: capture a custom MTG format idea and generate a rules definition JSON, format bible, onboarding guide, playtest matrix, Scryfall research queries, and helper-methods script from one structured draft
+- Behavior: lives inside the shared scene shell, stores drafts in local storage, and renders its own buttons inside the hook outlet instead of relying on `game.js` action bindings
 
-Open `src/scenes/index.html` in your browser. Game logic and features are under active development.
+## Agent Roles & Modular Workflow
 
-### Scenes and Sections
+- **Agents:** Implement core logic (deck builder, Scryfall, scenario, etc.) as `.agent.md` files in `.github/agents/`.
+- **Hooks:** UI/event-driven logic as `.hook.json` in `.github/hooks/`.
+- **Skills:** Reusable logic blocks as `.skill.md` in `.github/skills/`.
+- **Integration:** Register new agents/hooks/skills in the runtime bridge and scene registry. See `docs/modular-logic.md` and onboarding guide.
 
-- **Phaser Demo:** `src/scenes/scene-phaser-demo.html` — Example Phaser-powered scene.
-- **boardgame.io Demo:** `src/scenes/scene-boardgameio-demo.html` — Example boardgame.io-powered scene.
-- All game logic is organized into scenes and sections for modularity and clarity.
+## Automation & Testing
 
-### Node.js & Multiplayer
+- Automation scripts: `scripts/` (see `docs/automation-workflows.md`)
+- Test suite: `npm test` (Jest)
+- Focused checks: `npm run validate-configs`, `npm run test:runtime`, `npm run game-tests`, `npm run boardgame-tests`
+- Build: `npm run build` (copies `src/` to `dist/`, not a bundler)
 
-- To run the boardgame.io server for multiplayer logic:
-	```sh
-	node src/lib/boardgame.js
-	```
-	The server will run at http://localhost:8000
+## Onboarding & Contribution
 
-- To connect a real client, use boardgame.io's React or custom client and point to the server above.
-- All game state logic is modular and can be extended for advanced multiplayer features.
+1. See `docs/guides/onboarding.md` for a contributor checklist and agent/hook/skill integration overview.
+2. See `docs/README.md` for the documentation map and links to all guides, tutorials, and wiki pages.
+3. Update or add docs as you contribute features or agents (see "How to Update Docs" in `docs/README.md`).
+4. Use the modular agent/hook/skill pattern for all new features.
 
-### Utilities
+## Project Map
 
-- Shared logic for shuffling and deck creation is in `src/lib/utils.js`.
+- `src/scenes/` — HTML entrypoints, scene shells, docs fragments
+- `src/scripts/` — Browser runtime, demos, tests
+- `src/modules/` — Runtime bridge, cross-surface modules
+- `src/features/` — Isolated feature slices with local READMEs and tests
+- `docs/` — Guides, onboarding, wiki, generated reports
+- `.github/` — Agent, hook, skill, workflow, and repo-automation metadata
 
-### Adding New Scenes
+---
 
-- To add new game logic, create a new scene HTML file in `src/scenes/` and link it in `index.html`.
-
-## Contributing
-
-See `.github/instructions/contributing.md` for guidelines. Contributions, issues, and suggestions are welcome!
-
-## License
-
-MIT License. See `LICENSE` file for details.
+See `docs/README.md` for the full documentation map and `.github/copilot-instructions.md` for the agent-oriented architecture guide.

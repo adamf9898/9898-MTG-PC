@@ -1,0 +1,419 @@
+
+> 9898-mtg-chaos-rpg-2026@1.0.0 dev
+> npx serve src -l 3000
+
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 GET /
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 Returned 200 in 10 ms
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 GET /scenes/index.html
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 GET /scenes/index
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 GET /scenes
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 GET /styles/style.css
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/25/2026 11:41:04 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /scenes/index.html
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /scenes/index
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /scenes
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 0 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /styles/style.css
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 GET /favicon.ico
+ HTTP  3/25/2026 11:44:36 PM 127.0.0.1 Returned 404 in 2 ms
+ HTTP  3/25/2026 11:44:44 PM 127.0.0.1 GET /scene-phaser-demo.html
+ HTTP  3/25/2026 11:44:44 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/25/2026 11:44:44 PM 127.0.0.1 GET /scene-phaser-demo
+ HTTP  3/25/2026 11:44:44 PM 127.0.0.1 Returned 404 in 0 ms
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 GET /scenes/scene-wiki.html
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 GET /scenes/scene-wiki
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 GET /scenes/scene-boardgameio-demo.html
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 GET /scenes/scene-boardgameio-demo
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 Returned 200 in 0 ms
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 GET /styles/style.css
+ HTTP  3/25/2026 11:47:19 PM 127.0.0.1 Returned 200 in 0 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:20:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /index.html
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /index
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 12:21:45 AM 127.0.0.1 GET /scene-character-creation.html
+ HTTP  3/26/2026 12:21:45 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/26/2026 12:21:45 AM 127.0.0.1 GET /scene-character-creation
+ HTTP  3/26/2026 12:21:45 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 12:21:52 AM 127.0.0.1 GET /scene-quest.html
+ HTTP  3/26/2026 12:21:52 AM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/26/2026 12:21:52 AM 127.0.0.1 GET /scene-quest
+ HTTP  3/26/2026 12:21:52 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 12:21:58 AM 127.0.0.1 GET /scene-phaser-demo
+ HTTP  3/26/2026 12:21:58 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 12:22:04 AM 127.0.0.1 GET /scene-react-demo.html
+ HTTP  3/26/2026 12:22:04 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/26/2026 12:22:04 AM 127.0.0.1 GET /scene-react-demo
+ HTTP  3/26/2026 12:22:04 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 12:22:09 AM 127.0.0.1 GET /scene-generators.html
+ HTTP  3/26/2026 12:22:09 AM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/26/2026 12:22:09 AM 127.0.0.1 GET /scene-generators
+ HTTP  3/26/2026 12:22:09 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 GET /scenes/9898-mtg-chaos-rpg-2026.html
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 GET /scenes/9898-mtg-chaos-rpg-2026
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 GET /scenes/9898-mtg-chaos-commander-booster-pack-generator-2025.html
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 GET /scenes/9898-mtg-chaos-commander-booster-pack-generator-2025
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 GET /scenes/scene-mtgrpg.html
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 GET /scenes/scene-mtgrpg
+ HTTP  3/26/2026 12:25:10 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 1:36:13 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:24 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:33 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 2:38:33 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  3/26/2026 2:38:33 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:38:33 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:34 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:40 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 2:38:40 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:40 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:38:40 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:38:41 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:39:46 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 2:39:46 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  3/26/2026 2:39:46 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:39:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 2:39:49 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:11:08 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:34 AM 127.0.0.1 GET /scene-game-rules.html
+ HTTP  3/26/2026 9:12:34 AM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  3/26/2026 9:12:34 AM 127.0.0.1 GET /scene-game-rules
+ HTTP  3/26/2026 9:12:34 AM 127.0.0.1 Returned 404 in 0 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:12:43 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:12:44 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:45 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:12:46 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:12:47 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:13:04 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 9:13:04 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:13:04 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:13:04 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 9:13:07 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 9:13:12 AM 127.0.0.1 GET /scene-generators
+ HTTP  3/26/2026 9:13:12 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:20 AM 127.0.0.1 GET /scene-character-creation
+ HTTP  3/26/2026 9:13:20 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:24 AM 127.0.0.1 GET /scene-quest
+ HTTP  3/26/2026 9:13:24 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:28 AM 127.0.0.1 GET /scene-mtgBot.html
+ HTTP  3/26/2026 9:13:28 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/26/2026 9:13:28 AM 127.0.0.1 GET /scene-mtgBot
+ HTTP  3/26/2026 9:13:28 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:31 AM 127.0.0.1 GET /scene-generators
+ HTTP  3/26/2026 9:13:31 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:34 AM 127.0.0.1 GET /scene-game-rules
+ HTTP  3/26/2026 9:13:34 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:40 AM 127.0.0.1 GET /scene-quest
+ HTTP  3/26/2026 9:13:40 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:13:51 AM 127.0.0.1 GET /scene-wiki.html
+ HTTP  3/26/2026 9:13:51 AM 127.0.0.1 Returned 301 in 0 ms
+ HTTP  3/26/2026 9:13:51 AM 127.0.0.1 GET /scene-wiki
+ HTTP  3/26/2026 9:13:51 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 9:15:19 AM 127.0.0.1 GET /scene-phaser-demo
+ HTTP  3/26/2026 9:15:19 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  3/26/2026 11:52:28 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:35 AM 127.0.0.1 GET /scene-character-creation
+ HTTP  3/26/2026 11:52:35 AM 127.0.0.1 Returned 404 in 2 ms
+ HTTP  3/26/2026 11:52:45 AM 127.0.0.1 GET /
+ HTTP  3/26/2026 11:52:45 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 11:52:45 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 11:52:45 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /scenes
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /styles/style.css
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /lib/world-data.js
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /modules/phaser-chaos-module.js
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /scripts/game.js
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /modules/runtime-bridge.js
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /scripts/phaser-root-game.js
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 GET /scripts/log-window.js
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  3/26/2026 11:52:48 AM 127.0.0.1 Returned 304 in 0 ms
+ HTTP  3/26/2026 11:52:56 AM 127.0.0.1 GET /scene-generators
+ HTTP  3/26/2026 11:52:56 AM 127.0.0.1 Returned 404 in 1 ms
+ HTTP  3/26/2026 11:53:05 AM 127.0.0.1 GET /scene-react-demo
+ HTTP  3/26/2026 11:53:05 AM 127.0.0.1 Returned 404 in 1 ms

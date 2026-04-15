@@ -1,0 +1,23 @@
+ INFO  Accepting connections at http://127.0.0.1:4300
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/scenes/index.html
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 301 in 9 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/scenes/index
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/scenes
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/styles/style.css
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/scripts/game.js
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/lib/world-data.js
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/modules/phaser-chaos-module.js
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/modules/runtime-bridge.js
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/scripts/phaser-root-game.js
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 GET /src/scripts/log-window.js
+ HTTP  4/9/2026 3:03:32 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  4/9/2026 3:03:33 PM 127.0.0.1 GET /favicon.ico
+ HTTP  4/9/2026 3:03:33 PM 127.0.0.1 Returned 404 in 1 ms

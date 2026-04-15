@@ -1,0 +1,3 @@
+Imagine an ultra-deep-hyper-realistic cinematic scene with a sexy, busty, legendary 32-year-old Latina warrior, her golden-hued skin glistening under the ethereal platinum glow of her own demonic-angelic aura. She stands clad in strategic battle-wear that emphasizes her form. Her powerfully sculpted body is adorned with glowing cybernetic sigils, each mark telling a story of her evolution from mortal to near deity. Her long, wild brunette hair whips violently in the chaotic interdimensional winds, framing a face caught between serene divinity and feral hunger, her holographic bloody-red eyes gazing onto the viewer with unshakable confidence.
+
+Imagine an [styles.selectMany(1,6).joinItems(", ")] scene with a [characteristics.selectMany(1,6).joinItems(", ")]

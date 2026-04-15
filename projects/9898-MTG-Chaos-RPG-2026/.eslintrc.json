@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "script"
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/scripts/mtg-cardname-generator.js",
+        "src/scripts/scene-*.js"
+      ],
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    }
+  ],
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}

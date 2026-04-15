@@ -1,0 +1,15 @@
+models
+gh auth token
+gh auth token
+project: list scripts
+clients: connected (1 clients)
+project: found 6 scripts (86 unlisted)
+run pdE1ald9OcNGqP4zGJoMD: starting Arena Power Cube 3.0
+genaiscript: Arena Power Cube 3.0
+output: C:\9898-MTG-PC\projects\9898-MTG-Chaos-RPG-2026\.genaiscript\runs\Arena Power Cube 3.0\2026-04-01T00-00-43-778Z-pdE1ald9OcNGqP4zGJoMD\readme.md
+gh auth token
+LLM provider not configured or refresh token expired (see https://microsoft.github.io/genaiscript/getting-started/configuration/)
+
+run pdE1ald9OcNGqP4zGJoMD: completed with -8
+run: get pdE1ald9OcNGqP4zGJoMD
+^C
