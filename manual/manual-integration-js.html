@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="last-updated" content="2026-04-18" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Loader Integration — 9898-MTG Manual</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Mono&display=swap');
+    :root { --bg:#0a0a0a; --surface:#141414; --border:#2a0000; --accent:#cc0000; --text:#e8e8e8; --muted:#888; --code-bg:#1a1a1a; }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--bg);color:var(--text);font-family:'Roboto Mono',monospace;min-height:100vh;}
+    header{background:linear-gradient(135deg,#0a0a0a,#1a0000);border-bottom:2px solid var(--accent);padding:2rem;text-align:center;}
+    header h1{font-family:'Cinzel Decorative',cursive;font-size:clamp(1.3rem,3vw,2.2rem);color:var(--accent);}
+    header p{color:var(--muted);font-size:.9rem;margin-top:.5rem;}
+    nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 2rem;display:flex;flex-wrap:wrap;gap:.5rem;}
+    nav a{color:var(--accent);text-decoration:none;font-size:.85rem;padding:.3rem .7rem;border:1px solid transparent;border-radius:4px;transition:border-color .2s,background .2s;}
+    nav a:hover,nav a:focus{border-color:var(--accent);background:#2a0000;outline:none;}
+    .page-wrapper{max-width:960px;margin:0 auto;padding:2.5rem 1.5rem;}
+    h2{color:var(--accent);font-family:'Cinzel Decorative',cursive;font-size:1.05rem;margin:2rem 0 1rem;}
+    .code-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:1.5rem;overflow:hidden;}
+    .code-block-header{background:#1a0000;padding:.7rem 1.2rem;display:flex;justify-content:space-between;align-items:center;}
+    .code-block-header span{color:var(--accent);font-size:.85rem;}
+    .copy-btn{background:transparent;border:1px solid var(--accent);color:var(--accent);padding:.25rem .7rem;border-radius:4px;cursor:pointer;font-size:.75rem;font-family:inherit;transition:background .2s;}
+    .copy-btn:hover{background:var(--accent);color:#fff;}
+    pre{background:var(--code-bg);padding:1.2rem;overflow-x:auto;font-size:.81rem;color:#e8e8e8;margin:0;}
+    .desc{color:var(--muted);font-size:.87rem;line-height:1.7;padding:1rem 1.2rem;border-top:1px solid var(--border);}
+    .note{background:#0d0d0d;border-left:3px solid var(--accent);padding:.8rem 1rem;color:var(--muted);font-size:.83rem;line-height:1.6;margin-bottom:1rem;border-radius:0 4px 4px 0;}
+    footer{border-top:1px solid var(--border);padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.78rem;margin-top:3rem;}
+    footer a{color:var(--accent);text-decoration:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JavaScript Loader Integration</h1>
+    <p>Dynamic fetch patterns to load and display generator results from JavaScript</p>
+  </header>
+  <nav aria-label="Manual navigation">
+    <a href="manual-homepage.html">← Home</a>
+    <a href="manual-plugin-section.html">Plugins</a>
+    <a href="manual-global-vars.html">Global Vars</a>
+    <a href="manual-blocks.html">Blocks</a>
+    <a href="manual-integration-html.html">HTML Embed</a>
+    <a href="manual-integration-js.html" aria-current="page">JS Loader</a>
+    <a href="manual-integration-plugin-ui.html">Plugin UI</a>
+    <a href="manual-integration-advanced.html">Advanced</a>
+  </nav>
+  <main class="page-wrapper" id="main-content">
+
+    <div class="note">
+      Perchance generators run on Perchance.org. The snippets below show how to use 
+      <strong>Scryfall API</strong> directly from JavaScript — the same data source the Lua script uses — 
+      to build a browser-side version of the pack generator.
+    </div>
+
+    <h2>Minimal Fetch — Single Random Card</h2>
+    <div class="code-block">
+      <div class="code-block-header"><span>JavaScript (ES2020+)</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+      <pre><code>async function fetchRandomCard() {
+  const res = await fetch('https://api.scryfall.com/cards/random', {
+    headers: {
+      'Accept': 'application/json',
+      'User-Agent': 'MTG-Manual-Demo/1.0'
+    }
+  });
+  if (!res.ok) throw new Error(`Scryfall ${res.status}`);
+  const card = await res.json();
+  return {
+    name:     card.name,
+    imageUrl: card.image_uris?.normal ?? card.image_uris?.small,
+    cmc:      card.cmc,
+    typeLine: card.type_line
+  };
+}
+
+// Usage
+fetchRandomCard().then(card =&gt; {
+  document.getElementById('card-name').textContent = card.name;
+  document.getElementById('card-img').src = card.imageUrl;
+});</code></pre>
+      <div class="desc">
+        Fetches one random card from Scryfall. The <code>??</code> operator falls back to 
+        <code>small</code> when <code>normal</code> is absent (e.g., tokens). 
+        Mirrors the <code>fetchCard()</code> and <code>onCardFetched()</code> Lua functions.
+      </div>
+    </div>
+
+    <h2>Pack Generator — 15 Cards with Rate Limiting</h2>
+    <div class="code-block">
+      <div class="code-block-header"><span>JavaScript — Pack generator</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+      <pre><code>const MIN_DELAY_MS = 350; // match Lua MIN_DELAY
+
+function sleep(ms) {
+  return new Promise(resolve =&gt; setTimeout(resolve, ms));
+}
+
+async function fetchCard(retries = 3) {
+  for (let attempt = 0; attempt &lt; retries; attempt++) {
+    try {
+      const res = await fetch('https://api.scryfall.com/cards/random', {
+        headers: { 'Accept': 'application/json', 'User-Agent': 'MTG-Pack-JS/1.0' }
+      });
+      if (res.status === 429) {
+        await sleep(500 * Math.pow(2, attempt)); // exponential backoff
+        continue;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!data.image_uris) continue; // skip tokens
+      return data;
+    } catch (e) {
+      if (attempt === retries - 1) return null;
+    }
+  }
+  return null;
+}
+
+async function spawnPack(size = 15, onCard = () =&gt; {}) {
+  const cards = [];
+  for (let i = 0; i &lt; size; i++) {
+    const card = await fetchCard();
+    if (card) { cards.push(card); onCard(card, i); }
+    if (i &lt; size - 1) await sleep(MIN_DELAY_MS);
+  }
+  return cards;
+}
+
+// Usage
+const container = document.getElementById('pack-container');
+spawnPack(15, (card) =&gt; {
+  const img = document.createElement('img');
+  img.src = card.image_uris.normal;
+  img.alt = card.name;
+  img.title = `${card.name} — ${card.type_line}`;
+  img.style.cssText = 'width:120px;border-radius:6px;margin:4px;';
+  container.appendChild(img);
+});</code></pre>
+      <div class="desc">
+        A full browser-side port of the Lua spawn logic: exponential backoff, 
+        rate limiting, and token skipping. The <code>onCard</code> callback lets you 
+        update the UI incrementally as each card arrives.
+      </div>
+    </div>
+
+    <h2>Abort Controller — Cancellable Spawn</h2>
+    <div class="code-block">
+      <div class="code-block-header"><span>JavaScript — Cancellable fetch</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+      <pre><code>let abortController = null;
+
+async function startPack() {
+  abortController = new AbortController();
+  const { signal } = abortController;
+  try {
+    for (let i = 0; i &lt; 15; i++) {
+      if (signal.aborted) break;
+      const res = await fetch('https://api.scryfall.com/cards/random', { signal });
+      const card = await res.json();
+      renderCard(card);
+      await sleep(350);
+    }
+  } catch (e) {
+    if (e.name !== 'AbortError') console.error(e);
+  }
+}
+
+function cancelPack() {
+  abortController?.abort();
+}</code></pre>
+      <div class="desc">
+        Uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/AbortController" target="_blank" rel="noopener noreferrer" style="color:var(--accent)">AbortController API</a> 
+        to cancel an in-progress pack fetch — equivalent to TTS's <code>_isSpawning</code> guard 
+        but with immediate abort capability.
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>9898-MTG Perchance Generator Manual &mdash; <a href="manual-homepage.html">← Back to Home</a></p>
+  </footer>
+  <script>
+    function copy(btn) {
+      const code = btn.closest('.code-block').querySelector('pre').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = 'Copy'; }, 1800);
+      });
+    }
+  </script>
+</body>
+</html>

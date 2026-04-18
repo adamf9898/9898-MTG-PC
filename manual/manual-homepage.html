@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="last-updated" content="2026-04-18" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>9898-MTG Perchance Generator — Manual</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Mono&display=swap');
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --border: #2a0000;
+      --accent: #cc0000;
+      --accent-hover: #ff2222;
+      --text: #e8e8e8;
+      --muted: #888;
+      --code-bg: #1a1a1a;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Roboto Mono', monospace;
+      min-height: 100vh;
+    }
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a0000 100%);
+      border-bottom: 2px solid var(--accent);
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: clamp(1.6rem, 4vw, 2.8rem);
+      color: var(--accent);
+      letter-spacing: 2px;
+      text-shadow: 0 0 24px #cc000088;
+    }
+    header p {
+      margin-top: 0.75rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    /* ── Nav ── */
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.85rem;
+      padding: 0.3rem 0.7rem;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    nav a:hover, nav a:focus {
+      border-color: var(--accent);
+      background: #2a0000;
+      outline: none;
+    }
+    /* ── Main layout ── */
+    .page-wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    /* ── Hero card ── */
+    .hero {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    .hero-badge {
+      flex-shrink: 0;
+      width: 64px;
+      height: 64px;
+      background: var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #fff;
+      box-shadow: 0 0 20px #cc000066;
+    }
+    .hero h2 {
+      color: var(--accent);
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p { color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
+    /* ── Section grid ── */
+    .section-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+    .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.4rem 1.5rem;
+      transition: border-color 0.2s, transform 0.15s;
+      text-decoration: none;
+      display: block;
+    }
+    .section-card:hover, .section-card:focus {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      outline: none;
+    }
+    .section-card h3 {
+      color: var(--accent);
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+    }
+    .section-card p { color: var(--muted); font-size: 0.82rem; line-height: 1.6; }
+    .section-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      padding: 0.15rem 0.45rem;
+      border: 1px solid var(--accent);
+      border-radius: 3px;
+      color: var(--accent);
+      margin-top: 0.6rem;
+    }
+    /* ── TOC ── */
+    .toc-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .toc-block h2 {
+      color: var(--accent);
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 1.05rem;
+      margin-bottom: 1rem;
+    }
+    .toc-block ol {
+      padding-left: 1.4rem;
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 2;
+    }
+    .toc-block a { color: var(--accent); text-decoration: none; }
+    .toc-block a:hover { text-decoration: underline; }
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.78rem;
+      margin-top: 3rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    /* ── Changelog strip ── */
+    .changelog {
+      background: #0d0d0d;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .changelog h2 { color: var(--accent); font-size: 0.9rem; margin-bottom: 0.5rem; }
+    .changelog ul { list-style: none; padding: 0; font-size: 0.8rem; color: var(--muted); }
+    .changelog ul li::before { content: '▸ '; color: var(--accent); }
+    @media (max-width: 600px) {
+      .hero { flex-direction: column; }
+      nav { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>9898-MTG Perchance Generator</h1>
+    <p>Comprehensive Manual &amp; Integration Reference</p>
+  </header>
+
+  <nav aria-label="Manual navigation">
+    <a href="manual-homepage.html">Home</a>
+    <a href="manual-plugin-section.html">Plugins</a>
+    <a href="manual-global-vars.html">Global Vars</a>
+    <a href="manual-blocks.html">Blocks</a>
+    <a href="manual-integration-html.html">HTML Embed</a>
+    <a href="manual-integration-js.html">JS Loader</a>
+    <a href="manual-integration-plugin-ui.html">Plugin UI</a>
+    <a href="manual-integration-advanced.html">Advanced</a>
+  </nav>
+
+  <main class="page-wrapper" id="main-content">
+
+    <!-- Hero -->
+    <div class="hero" role="banner">
+      <div class="hero-badge" aria-hidden="true">⚔</div>
+      <div>
+        <h2>Welcome to the Manual</h2>
+        <p>
+          This wiki documents the <strong>9898-MTG Chaos Commander Booster Pack</strong> Perchance generator — 
+          a Scryfall-powered engine that spawns 15-card chaos packs into Tabletop Simulator with 
+          throttling, retry logic, and CMC/type-line enrichment. Use the navigation above or the 
+          section cards below to explore every aspect of the codebase.
+        </p>
+      </div>
+    </div>
+
+    <!-- Changelog (auto-updated by manual-iterate.js) -->
+    <div class="changelog" id="changelog" aria-label="Recent changes">
+      <h2>📋 Recent Improvements</h2>
+      <ul id="changelog-list">
+        <li>Auto-iteration 2026-04-18: 8 fix(es) applied</li>
+        <li>Manual created — initial structure committed</li>
+      </ul>
+    </div>
+
+    <!-- TOC -->
+    <div class="toc-block" aria-label="Table of contents">
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="manual-plugin-section.html">Plugin Imports</a> — loadable plugins, require paths, version pins</li>
+        <li><a href="manual-global-vars.html">Global Variables</a> — constants, rate-limit params, spawn config</li>
+        <li><a href="manual-blocks.html">Blocks &amp; Functions</a> — every function, block, and event handler</li>
+        <li><a href="manual-integration-html.html">HTML Embed Integration</a> — drop-in iframe &amp; snippet patterns</li>
+        <li><a href="manual-integration-js.html">JavaScript Loader</a> — dynamic fetch-and-inject patterns</li>
+        <li><a href="manual-integration-plugin-ui.html">Plugin UI Widgets</a> — custom controls and overlays</li>
+        <li><a href="manual-integration-advanced.html">Advanced Frameworks</a> — React, Three.js, Phaser bindings</li>
+      </ol>
+    </div>
+
+    <!-- Section cards -->
+    <section aria-label="Manual sections">
+      <div class="section-grid">
+
+        <a href="manual-plugin-section.html" class="section-card" aria-label="Plugin imports section">
+          <h3>🔌 Plugin Imports</h3>
+          <p>Every <code>require()</code> and plugin dependency, with version notes and what breaks without them.</p>
+          <span class="section-tag">Lua / TTS API</span>
+        </a>
+
+        <a href="manual-global-vars.html" class="section-card" aria-label="Global variables section">
+          <h3>🌐 Global Variables</h3>
+          <p>Line-by-line breakdown of <code>SCRY_BASE</code>, <code>MIN_DELAY</code>, <code>MAX_RETRY</code>, spawn locks, and timing constants.</p>
+          <span class="section-tag">Constants</span>
+        </a>
+
+        <a href="manual-blocks.html" class="section-card" aria-label="Blocks and functions section">
+          <h3>⚙ Blocks &amp; Functions</h3>
+          <p>Full annotated breakdown of <code>scryHeaders()</code>, <code>spawnPack()</code>, retry/backoff logic, and button registration.</p>
+          <span class="section-tag">Core Logic</span>
+        </a>
+
+        <a href="manual-integration-html.html" class="section-card" aria-label="HTML embed section">
+          <h3>🌐 HTML Embed</h3>
+          <p>Ready-to-paste iframe snippets for embedding the generator output into any webpage.</p>
+          <span class="section-tag">HTML / CSS</span>
+        </a>
+
+        <a href="manual-integration-js.html" class="section-card" aria-label="JavaScript loader section">
+          <h3>📜 JS Loader</h3>
+          <p>Dynamic <code>fetch()</code> patterns to load, poll, and display generator results from JavaScript.</p>
+          <span class="section-tag">JavaScript / Fetch</span>
+        </a>
+
+        <a href="manual-integration-plugin-ui.html" class="section-card" aria-label="Plugin UI section">
+          <h3>🎛 Plugin UI Widgets</h3>
+          <p>Custom HTML/CSS/JS widgets for controlling pack size, card type filters, and spawn triggers.</p>
+          <span class="section-tag">UI / Controls</span>
+        </a>
+
+        <a href="manual-integration-advanced.html" class="section-card" aria-label="Advanced frameworks section">
+          <h3>🚀 Advanced Frameworks</h3>
+          <p>Integration patterns for React, Three.js, and Phaser — wrap the generator in rich 3D or reactive UIs.</p>
+          <span class="section-tag">React / Three.js / Phaser</span>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>9898-MTG Perchance Generator Manual &mdash; Auto-iterated every 24 hrs via GitHub Actions &middot;
+    <a href="https://github.com/adamf9898/9898-MTG-PC" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+  </footer>
+</body>
+</html>

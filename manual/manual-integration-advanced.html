@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="last-updated" content="2026-04-18" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Frameworks — 9898-MTG Manual</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Mono&display=swap');
+    :root { --bg:#0a0a0a; --surface:#141414; --border:#2a0000; --accent:#cc0000; --text:#e8e8e8; --muted:#888; --code-bg:#1a1a1a; }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--bg);color:var(--text);font-family:'Roboto Mono',monospace;min-height:100vh;}
+    header{background:linear-gradient(135deg,#0a0a0a,#1a0000);border-bottom:2px solid var(--accent);padding:2rem;text-align:center;}
+    header h1{font-family:'Cinzel Decorative',cursive;font-size:clamp(1.3rem,3vw,2.2rem);color:var(--accent);}
+    header p{color:var(--muted);font-size:.9rem;margin-top:.5rem;}
+    nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 2rem;display:flex;flex-wrap:wrap;gap:.5rem;}
+    nav a{color:var(--accent);text-decoration:none;font-size:.85rem;padding:.3rem .7rem;border:1px solid transparent;border-radius:4px;transition:border-color .2s,background .2s;}
+    nav a:hover,nav a:focus{border-color:var(--accent);background:#2a0000;outline:none;}
+    .page-wrapper{max-width:980px;margin:0 auto;padding:2.5rem 1.5rem;}
+    /* Tabs */
+    .tabs{display:flex;gap:0;margin-bottom:0;border-bottom:2px solid var(--border);}
+    .tab-btn{background:transparent;border:none;color:var(--muted);padding:.7rem 1.3rem;cursor:pointer;font-family:inherit;font-size:.85rem;border-bottom:2px solid transparent;margin-bottom:-2px;transition:color .2s,border-color .2s;}
+    .tab-btn:hover{color:var(--accent);}
+    .tab-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
+    .tab-panel{display:none;padding-top:1.5rem;}
+    .tab-panel.active{display:block;}
+    h2{color:var(--accent);font-family:'Cinzel Decorative',cursive;font-size:1rem;margin:1.8rem 0 .9rem;}
+    .code-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:1.5rem;overflow:hidden;}
+    .code-block-header{background:#1a0000;padding:.7rem 1.2rem;display:flex;justify-content:space-between;align-items:center;}
+    .code-block-header span{color:var(--accent);font-size:.85rem;}
+    .copy-btn{background:transparent;border:1px solid var(--accent);color:var(--accent);padding:.25rem .7rem;border-radius:4px;cursor:pointer;font-size:.75rem;font-family:inherit;transition:background .2s;}
+    .copy-btn:hover{background:var(--accent);color:#fff;}
+    pre{background:var(--code-bg);padding:1.2rem;overflow-x:auto;font-size:.81rem;color:#e8e8e8;margin:0;}
+    .desc{color:var(--muted);font-size:.87rem;line-height:1.7;padding:1rem 1.2rem;border-top:1px solid var(--border);}
+    .note{background:#0d0d0d;border-left:3px solid var(--accent);padding:.8rem 1rem;color:var(--muted);font-size:.83rem;line-height:1.6;margin-bottom:1rem;border-radius:0 4px 4px 0;}
+    footer{border-top:1px solid var(--border);padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.78rem;margin-top:3rem;}
+    footer a{color:var(--accent);text-decoration:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advanced Framework Integration</h1>
+    <p>React, Three.js, and Phaser bindings for the Perchance pack generator</p>
+  </header>
+  <nav aria-label="Manual navigation">
+    <a href="manual-homepage.html">← Home</a>
+    <a href="manual-plugin-section.html">Plugins</a>
+    <a href="manual-global-vars.html">Global Vars</a>
+    <a href="manual-blocks.html">Blocks</a>
+    <a href="manual-integration-html.html">HTML Embed</a>
+    <a href="manual-integration-js.html">JS Loader</a>
+    <a href="manual-integration-plugin-ui.html">Plugin UI</a>
+    <a href="manual-integration-advanced.html" aria-current="page">Advanced</a>
+  </nav>
+  <main class="page-wrapper" id="main-content">
+
+    <div class="tabs" role="tablist" aria-label="Framework tabs">
+      <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="tab-react"  onclick="showTab('react')">⚛ React</button>
+      <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-three"  onclick="showTab('three')">🔷 Three.js</button>
+      <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-phaser" onclick="showTab('phaser')">🎮 Phaser</button>
+    </div>
+
+    <!-- React Tab -->
+    <div id="tab-react" class="tab-panel active" role="tabpanel" aria-label="React integration">
+      <div class="note">Requires React 18+ and a bundler (Vite, CRA, Next.js). Install: <code>npm install react react-dom</code></div>
+
+      <h2>usePack — Custom Hook</h2>
+      <div class="code-block">
+        <div class="code-block-header"><span>React — usePack.js</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+        <pre><code>import { useState, useCallback, useRef } from 'react';
+
+const SCRY_RANDOM = 'https://api.scryfall.com/cards/random';
+
+export function usePack() {
+  const [cards, setCards]       = useState([]);
+  const [status, setStatus]     = useState('idle'); // idle | loading | done | error
+  const [message, setMessage]   = useState('');
+  const abortRef                = useRef(null);
+
+  const spawnPack = useCallback(async (size = 15) => {
+    abortRef.current?.abort();
+    abortRef.current = new AbortController();
+    setCards([]);
+    setStatus('loading');
+
+    for (let i = 0; i &lt; size; i++) {
+      if (abortRef.current.signal.aborted) break;
+      setMessage(`Fetching ${i + 1} / ${size}`);
+      try {
+        const res  = await fetch(SCRY_RANDOM, { signal: abortRef.current.signal });
+        const data = await res.json();
+        if (data.image_uris) {
+          setCards(prev =&gt; [...prev, data]);
+        }
+        await new Promise(r =&gt; setTimeout(r, 350));
+      } catch (e) {
+        if (e.name !== 'AbortError') { setStatus('error'); return; }
+        break;
+      }
+    }
+    setStatus('done');
+    setMessage('');
+  }, []);
+
+  const cancel = useCallback(() =&gt; {
+    abortRef.current?.abort();
+    setStatus('idle');
+  }, []);
+
+  return { cards, status, message, spawnPack, cancel };
+}</code></pre>
+        <div class="desc">A reusable hook that encapsulates fetch, abort, and state. Import it into any component.</div>
+      </div>
+
+      <h2>PackGrid Component</h2>
+      <div class="code-block">
+        <div class="code-block-header"><span>React — PackGrid.jsx</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+        <pre><code>import { usePack } from './usePack';
+
+export default function PackGrid() {
+  const { cards, status, message, spawnPack, cancel } = usePack();
+
+  return (
+    &lt;div style={{ background:'#0a0a0a', border:'2px solid #cc0000',
+                  borderRadius:10, padding:'1.2rem', fontFamily:'monospace' }}&gt;
+      &lt;div style={{ display:'flex', gap:8, marginBottom:'0.8rem', alignItems:'center' }}&gt;
+        &lt;input type="number" defaultValue={15} min={1} max={30} id="react-size"
+               style={{ width:60, background:'#1a1a1a', border:'1px solid #2a0000',
+                        color:'#e8e8e8', padding:'4px', borderRadius:4 }} /&gt;
+        &lt;button onClick={() =&gt; spawnPack(+document.getElementById('react-size').value)}
+                disabled={status === 'loading'}
+                style={{ background:'#cc0000', color:'#fff', border:'none',
+                         padding:'6px 14px', borderRadius:4, cursor:'pointer' }}&gt;
+          {status === 'loading' ? 'Loading…' : '⚔ Spawn Pack'}
+        &lt;/button&gt;
+        {status === 'loading' &amp;&amp;
+          &lt;button onClick={cancel}
+                  style={{ background:'transparent', border:'1px solid #cc0000',
+                           color:'#cc0000', padding:'6px 14px', borderRadius:4, cursor:'pointer' }}&gt;
+            Cancel
+          &lt;/button&gt;
+        }
+      &lt;/div&gt;
+      {message &amp;&amp; &lt;p style={{ color:'#888', fontSize:'.8rem', margin:'0 0 .6rem' }}&gt;{message}&lt;/p&gt;}
+      &lt;div style={{ display:'flex', flexWrap:'wrap', gap:6 }}&gt;
+        {cards.map((c, i) =&gt; (
+          &lt;img key={i} src={c.image_uris.normal} alt={c.name}
+               title={`${c.name} — ${c.type_line}`}
+               style={{ width:100, borderRadius:6 }} /&gt;
+        ))}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}</code></pre>
+        <div class="desc">Drop <code>&lt;PackGrid /&gt;</code> anywhere in your React app. Inline styles keep it dependency-free.</div>
+      </div>
+    </div>
+
+    <!-- Three.js Tab -->
+    <div id="tab-three" class="tab-panel" role="tabpanel" aria-label="Three.js integration">
+      <div class="note">Requires Three.js r150+. Install: <code>npm install three</code></div>
+
+      <h2>3D Card Fan Scene</h2>
+      <div class="code-block">
+        <div class="code-block-header"><span>Three.js — card-fan.js</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+        <pre><code>import * as THREE from 'three';
+
+const SCRY_RANDOM = 'https://api.scryfall.com/cards/random';
+const CARD_W = 1.4, CARD_H = 2.0, CARD_D = 0.01;
+
+async function fetchCardImage() {
+  const res  = await fetch(SCRY_RANDOM);
+  const data = await res.json();
+  return data.image_uris?.normal ?? null;
+}
+
+export async function createCardFanScene(canvas, packSize = 5) {
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+  renderer.setClearColor(0x0a0a0a);
+
+  const scene  = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(40, canvas.clientWidth / canvas.clientHeight, 0.1, 100);
+  camera.position.set(0, 0, 6);
+
+  scene.add(new THREE.AmbientLight(0xffffff, 0.8));
+  const dir = new THREE.DirectionalLight(0xffffff, 0.6);
+  dir.position.set(2, 4, 4);
+  scene.add(dir);
+
+  const loader    = new THREE.TextureLoader();
+  const backTex   = loader.load('https://i.imgur.com/yHEAQ88.jpeg');
+  const geo       = new THREE.BoxGeometry(CARD_W, CARD_H, CARD_D);
+  const cards     = [];
+
+  for (let i = 0; i &lt; packSize; i++) {
+    const url    = await fetchCardImage();
+    const faceTex = url ? await new Promise(r =&gt; loader.load(url, r)) : backTex;
+    const mats   = [
+      new THREE.MeshStandardMaterial({ color: 0x111111 }),
+      new THREE.MeshStandardMaterial({ color: 0x111111 }),
+      new THREE.MeshStandardMaterial({ color: 0x111111 }),
+      new THREE.MeshStandardMaterial({ color: 0x111111 }),
+      new THREE.MeshStandardMaterial({ map: faceTex }),
+      new THREE.MeshStandardMaterial({ map: backTex  }),
+    ];
+    const mesh = new THREE.Mesh(geo, mats);
+    const angle = (i / (packSize - 1) - 0.5) * Math.PI * 0.5;
+    mesh.position.set(Math.sin(angle) * 2.5, 0, Math.cos(angle) * -0.5);
+    mesh.rotation.y = -angle;
+    scene.add(mesh);
+    cards.push(mesh);
+    await new Promise(r =&gt; setTimeout(r, 350));
+  }
+
+  let t = 0;
+  function animate() {
+    requestAnimationFrame(animate);
+    t += 0.005;
+    cards.forEach((c, i) =&gt; { c.position.y = Math.sin(t + i * 0.5) * 0.08; });
+    renderer.render(scene, camera);
+  }
+  animate();
+}</code></pre>
+        <div class="desc">
+          Creates a floating fan of card meshes in a Three.js scene. Each card fetches a real Scryfall image 
+          as its face texture. Cards bob gently on a sine wave.
+        </div>
+      </div>
+    </div>
+
+    <!-- Phaser Tab -->
+    <div id="tab-phaser" class="tab-panel" role="tabpanel" aria-label="Phaser integration">
+      <div class="note">Requires Phaser 3.60+. Install: <code>npm install phaser</code></div>
+
+      <h2>Pack Scene</h2>
+      <div class="code-block">
+        <div class="code-block-header"><span>Phaser 3 — PackScene.js</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+        <pre><code>import Phaser from 'phaser';
+
+const SCRY_RANDOM = 'https://api.scryfall.com/cards/random';
+
+export class PackScene extends Phaser.Scene {
+  constructor() { super({ key: 'PackScene' }); }
+
+  async create() {
+    this.cards = [];
+    this.statusText = this.add.text(10, 10, 'Loading pack…', {
+      fontFamily: 'monospace', fontSize: '14px', color: '#cc0000'
+    });
+
+    for (let i = 0; i &lt; 15; i++) {
+      this.statusText.setText(`Fetching card ${i + 1} / 15`);
+      try {
+        const res  = await fetch(SCRY_RANDOM);
+        const data = await res.json();
+        if (data.image_uris?.normal) {
+          const key = `card_${i}`;
+          await this.loadImageAsync(key, data.image_uris.normal);
+          const img = this.add.image(80 + i * 60, 200, key)
+            .setScale(0.18)
+            .setInteractive({ cursor: 'pointer' });
+          img.on('pointerover', () =&gt; img.setScale(0.26));
+          img.on('pointerout',  () =&gt; img.setScale(0.18));
+          img.setData('card', data);
+          this.cards.push(img);
+        }
+        await new Promise(r =&gt; setTimeout(r, 350));
+      } catch (e) { console.warn('Card fetch failed', e); }
+    }
+    this.statusText.setText('Pack ready!');
+  }
+
+  loadImageAsync(key, url) {
+    return new Promise((resolve, reject) =&gt; {
+      if (this.textures.exists(key)) { resolve(); return; }
+      this.load.image(key, url);
+      this.load.once('complete', resolve);
+      this.load.once('loaderror', reject);
+      this.load.start();
+    });
+  }
+}</code></pre>
+        <div class="desc">
+          A Phaser Scene that asynchronously fetches and displays 15 cards. 
+          Cards are interactive — hovering scales them up for inspection. 
+          Integrates directly with the existing 9898-MTG-Chaos-RPG-2026 Phaser setup.
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>9898-MTG Perchance Generator Manual &mdash; <a href="manual-homepage.html">← Back to Home</a></p>
+  </footer>
+  <script>
+    function showTab(id) {
+      document.querySelectorAll('.tab-btn').forEach((b, i) => {
+        const ids = ['react','three','phaser'];
+        b.classList.toggle('active', ids[i] === id);
+        b.setAttribute('aria-selected', ids[i] === id);
+      });
+      document.querySelectorAll('.tab-panel').forEach(p => {
+        p.classList.toggle('active', p.id === `tab-${id}`);
+      });
+    }
+    function copy(btn) {
+      const code = btn.closest('.code-block').querySelector('pre').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = 'Copy'; }, 1800);
+      });
+    }
+  </script>
+</body>
+</html>

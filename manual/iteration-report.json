@@ -1,0 +1,46 @@
+{
+  "runAt": "2026-04-18T23:39:35.251Z",
+  "dryRun": false,
+  "filesChecked": 8,
+  "errors": [],
+  "warnings": [],
+  "appliedFixes": [
+    "manual-homepage.html: updated last-updated meta to 2026-04-18",
+    "manual-plugin-section.html: updated last-updated meta to 2026-04-18",
+    "manual-global-vars.html: updated last-updated meta to 2026-04-18",
+    "manual-blocks.html: updated last-updated meta to 2026-04-18",
+    "manual-integration-html.html: updated last-updated meta to 2026-04-18",
+    "manual-integration-js.html: updated last-updated meta to 2026-04-18",
+    "manual-integration-plugin-ui.html: updated last-updated meta to 2026-04-18",
+    "manual-integration-advanced.html: updated last-updated meta to 2026-04-18"
+  ],
+  "suggestions": [
+    "manual-homepage.html: add <meta name=\"description\"> for SEO",
+    "manual-homepage.html: consider adding <link rel=\"canonical\">",
+    "manual-plugin-section.html: add <meta name=\"description\"> for SEO",
+    "manual-plugin-section.html: consider adding <link rel=\"canonical\">",
+    "manual-global-vars.html: add <meta name=\"description\"> for SEO",
+    "manual-global-vars.html: consider adding <link rel=\"canonical\">",
+    "manual-blocks.html: add <meta name=\"description\"> for SEO",
+    "manual-blocks.html: consider adding <link rel=\"canonical\">",
+    "manual-integration-html.html: add <meta name=\"description\"> for SEO",
+    "manual-integration-html.html: consider adding <link rel=\"canonical\">",
+    "manual-integration-js.html: add <meta name=\"description\"> for SEO",
+    "manual-integration-js.html: consider adding <link rel=\"canonical\">",
+    "manual-integration-plugin-ui.html: add <meta name=\"description\"> for SEO",
+    "manual-integration-plugin-ui.html: consider adding <link rel=\"canonical\">",
+    "manual-integration-advanced.html: add <meta name=\"description\"> for SEO",
+    "manual-integration-advanced.html: consider adding <link rel=\"canonical\">"
+  ],
+  "log": [
+    "Updated: manual/manual-homepage.html",
+    "Updated: manual/manual-plugin-section.html",
+    "Updated: manual/manual-global-vars.html",
+    "Updated: manual/manual-blocks.html",
+    "Updated: manual/manual-integration-html.html",
+    "Updated: manual/manual-integration-js.html",
+    "Updated: manual/manual-integration-plugin-ui.html",
+    "Updated: manual/manual-integration-advanced.html",
+    "Updated: manual/manual-homepage.html"
+  ]
+}

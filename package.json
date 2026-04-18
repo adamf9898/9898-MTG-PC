@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "manual:validate": "node scripts/manual-validate.js",
+    "manual:iterate": "node scripts/manual-iterate.js",
+    "manual:iterate:dry": "node scripts/manual-iterate.js --dry-run"
+  },
   "dependencies": {
     "phaser": "^3.90.0",
     "stream-json": "^1.9.1"

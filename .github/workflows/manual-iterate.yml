@@ -1,0 +1,80 @@
+name: Manual Auto-Iterate
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Runs every 24 hours (02:00 UTC) to automatically validate and improve all
+# HTML files in the manual/ directory.
+#
+# Can also be triggered manually from the GitHub Actions tab.
+# ──────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    # Every day at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no file writes, report only)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
+
+jobs:
+  iterate:
+    name: Validate & Iterate Manual
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install root dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Validate manual files
+        run: node scripts/manual-validate.js
+
+      - name: Run manual iteration
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            node scripts/manual-iterate.js --dry-run
+          else
+            node scripts/manual-iterate.js
+          fi
+
+      - name: Upload iteration report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manual-iteration-report-${{ github.run_number }}
+          path: manual/iteration-report.json
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit improvements
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manual/
+          # Only commit if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(manual): auto-iterate improvements [$(date -u '+%Y-%m-%d')]"
+            git push
+          fi
