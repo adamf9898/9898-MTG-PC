@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="last-updated" content="2026-04-18" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Variables — 9898-MTG Manual</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Mono&display=swap');
+    :root { --bg:#0a0a0a; --surface:#141414; --border:#2a0000; --accent:#cc0000; --text:#e8e8e8; --muted:#888; --code-bg:#1a1a1a; }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--bg);color:var(--text);font-family:'Roboto Mono',monospace;min-height:100vh;}
+    header{background:linear-gradient(135deg,#0a0a0a,#1a0000);border-bottom:2px solid var(--accent);padding:2rem;text-align:center;}
+    header h1{font-family:'Cinzel Decorative',cursive;font-size:clamp(1.3rem,3vw,2.2rem);color:var(--accent);}
+    header p{color:var(--muted);font-size:0.9rem;margin-top:0.5rem;}
+    nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;flex-wrap:wrap;gap:0.5rem;}
+    nav a{color:var(--accent);text-decoration:none;font-size:0.85rem;padding:0.3rem 0.7rem;border:1px solid transparent;border-radius:4px;transition:border-color .2s,background .2s;}
+    nav a:hover,nav a:focus{border-color:var(--accent);background:#2a0000;outline:none;}
+    .page-wrapper{max-width:900px;margin:0 auto;padding:2.5rem 1.5rem;}
+    h2{color:var(--accent);font-family:'Cinzel Decorative',cursive;font-size:1.05rem;margin:2rem 0 1rem;}
+    .var-table{width:100%;border-collapse:collapse;margin-bottom:2rem;font-size:0.83rem;}
+    .var-table th{background:#1a0000;color:var(--accent);padding:0.6rem 0.8rem;text-align:left;border:1px solid var(--border);}
+    .var-table td{padding:0.55rem 0.8rem;border:1px solid var(--border);color:var(--text);vertical-align:top;}
+    .var-table tr:hover td{background:#1a1a1a;}
+    .var-table code{color:#ff9999;}
+    .doc-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;}
+    .doc-block h3{color:var(--accent);font-size:0.95rem;margin-bottom:0.5rem;}
+    .doc-block p{color:var(--muted);font-size:0.87rem;line-height:1.7;margin-bottom:0.4rem;}
+    pre{background:var(--code-bg);border:1px solid var(--border);border-radius:6px;padding:1rem;overflow-x:auto;font-size:0.82rem;color:#e8e8e8;margin:.7rem 0;}
+    .line-ref{display:inline-block;background:var(--accent);color:#fff;font-size:0.7rem;padding:.1rem .4rem;border-radius:3px;margin-right:.4rem;vertical-align:middle;}
+    .note{border-left:3px solid var(--accent);padding-left:.9rem;color:var(--muted);font-size:0.83rem;line-height:1.6;margin-top:.5rem;}
+    footer{border-top:1px solid var(--border);padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.78rem;margin-top:3rem;}
+    footer a{color:var(--accent);text-decoration:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Global Variables</h1>
+    <p>Every constant and module-level variable — what it does and why it exists</p>
+  </header>
+  <nav aria-label="Manual navigation">
+    <a href="manual-homepage.html">← Home</a>
+    <a href="manual-plugin-section.html">Plugins</a>
+    <a href="manual-global-vars.html" aria-current="page">Global Vars</a>
+    <a href="manual-blocks.html">Blocks</a>
+    <a href="manual-integration-html.html">HTML Embed</a>
+    <a href="manual-integration-js.html">JS Loader</a>
+    <a href="manual-integration-plugin-ui.html">Plugin UI</a>
+    <a href="manual-integration-advanced.html">Advanced</a>
+  </nav>
+  <main class="page-wrapper" id="main-content">
+
+    <h2>Quick Reference</h2>
+    <table class="var-table" aria-label="Global variables quick reference">
+      <thead>
+        <tr><th>Variable</th><th>Default</th><th>Type</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>SCRY_BASE</code></td><td><code>"https://api.scryfall.com"</code></td><td>string</td><td>Scryfall API root URL</td></tr>
+        <tr><td><code>BACK_URL</code></td><td>imgur link</td><td>string</td><td>Card back texture URL</td></tr>
+        <tr><td><code>MIN_DELAY</code></td><td><code>0.35</code></td><td>number (s)</td><td>Min seconds between API requests</td></tr>
+        <tr><td><code>MAX_RETRY</code></td><td><code>3</code></td><td>number</td><td>Max retry attempts on failure</td></tr>
+        <tr><td><code>MAX_PACK_SIZE</code></td><td><code>30</code></td><td>number</td><td>Hard cap on cards per pack</td></tr>
+        <tr><td><code>COOLDOWN_SECONDS</code></td><td><code>15</code></td><td>number (s)</td><td>Wait between pack spawns</td></tr>
+        <tr><td><code>SPAWN_TIMEOUT_SECONDS</code></td><td><code>90</code></td><td>number (s)</td><td>Abort stuck spawn after this</td></tr>
+        <tr><td><code>_cooldownUntil</code></td><td><code>0</code></td><td>number (os.time)</td><td>Timestamp — cooldown end</td></tr>
+        <tr><td><code>_isSpawning</code></td><td><code>false</code></td><td>boolean</td><td>Spawn lock flag</td></tr>
+        <tr><td><code>_spawnEndsAt</code></td><td><code>0</code></td><td>number (os.time)</td><td>Timeout deadline</td></tr>
+        <tr><td><code>BTN_Y</code></td><td><code>0.35</code></td><td>number</td><td>Button height offset</td></tr>
+        <tr><td><code>STACK_POS</code></td><td><code>{x=0,z=-5}</code></td><td>table</td><td>Stack spawn position</td></tr>
+        <tr><td><code>BASE_LIFT</code></td><td><code>7.0</code></td><td>number</td><td>Y height for first card</td></tr>
+        <tr><td><code>CARD_LIFT</code></td><td><code>0.20</code></td><td>number</td><td>Y increment per stacked card</td></tr>
+        <tr><td><code>_stackIndex</code></td><td><code>0</code></td><td>number</td><td>Current stack depth counter</td></tr>
+        <tr><td><code>_deckIdCounter</code></td><td><code>1</code></td><td>number</td><td>Unique ID for each spawned card</td></tr>
+        <tr><td><code>_nextTime</code></td><td><code>0</code></td><td>number (os.time)</td><td>Next allowed API request time</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Detailed Annotations</h2>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L14–15</span>API Configuration</h3>
+      <pre><code>local SCRY_BASE = "https://api.scryfall.com"
+local BACK_URL  = "https://i.imgur.com/yHEAQ88.jpeg"</code></pre>
+      <p><strong>SCRY_BASE</strong>: The only place the Scryfall domain appears. Changing this to a CORS proxy or 
+      local mock server redirects all traffic. Must not have a trailing slash.</p>
+      <p><strong>BACK_URL</strong>: A static Imgur-hosted card back. Scryfall does not serve card backs. 
+      If Imgur removes the image, replace with any 745×1040-px JPEG URL.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L18–19</span>Rate Limiting</h3>
+      <pre><code>local MIN_DELAY = 0.35
+local MAX_RETRY = 3</code></pre>
+      <p><strong>MIN_DELAY</strong>: Scryfall asks for at most ~10 req/sec. 0.35 s ≈ 2.9 req/sec — 
+      conservative enough to avoid 429s while keeping spawn time reasonable for 15 cards (~5 s total).</p>
+      <p><strong>MAX_RETRY</strong>: On HTTP errors or empty responses the script retries up to 3 times 
+      with exponential backoff before skipping the card slot.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L22</span>Pack Size Cap</h3>
+      <pre><code>local MAX_PACK_SIZE = 30</code></pre>
+      <p>Guards against accidentally spawning enormous stacks that can crash TTS. 
+      Default pack size is 15 (a standard booster); this cap allows up to 30 for 
+      double-booster variants but blocks anything larger.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L25–30</span>Spawn Safety Guards</h3>
+      <pre><code>local COOLDOWN_SECONDS       = 15
+local SPAWN_TIMEOUT_SECONDS  = 90
+local _cooldownUntil         = 0
+local _isSpawning            = false
+local _spawnEndsAt           = 0</code></pre>
+      <p><strong>COOLDOWN_SECONDS</strong>: After a pack finishes spawning, the button is locked for 15 s. 
+      Prevents players from double-clicking and flooding the API.</p>
+      <p><strong>SPAWN_TIMEOUT_SECONDS</strong>: If a spawn takes longer than 90 s (e.g., network stall), 
+      <code>_isSpawning</code> is force-reset so the script is not permanently locked.</p>
+      <p><strong>_cooldownUntil / _isSpawning / _spawnEndsAt</strong>: Runtime state — 
+      never set these at file level after initialisation; they are managed exclusively by the spawn and cooldown logic.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L33–39</span>Spawn Layout</h3>
+      <pre><code>local BTN_Y       = 0.35
+local STACK_POS   = { x = 0, z = -5 }
+local BASE_LIFT   = 7.0
+local CARD_LIFT   = 0.20
+local _stackIndex     = 0
+local _deckIdCounter  = 1
+local _nextTime       = 0</code></pre>
+      <p><strong>STACK_POS</strong>: World-space XZ for the card stack. <code>z = -5</code> places it slightly 
+      in front of the button object on most TTS table layouts.</p>
+      <p><strong>BASE_LIFT / CARD_LIFT</strong>: Card <em>i</em> spawns at <code>y = BASE_LIFT + i * CARD_LIFT</code>. 
+      The high <code>BASE_LIFT</code> means cards fall onto the table naturally and stack in order.</p>
+      <p><strong>_stackIndex / _deckIdCounter</strong>: Incremented with each spawned card. 
+      Reset to 0/1 at the start of each pack to keep stacks clean.</p>
+    </div>
+
+  </main>
+  <footer>
+    <p>9898-MTG Perchance Generator Manual &mdash; <a href="manual-homepage.html">← Back to Home</a></p>
+  </footer>
+</body>
+</html>

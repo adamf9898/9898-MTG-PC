@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="last-updated" content="2026-04-18" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plugin Imports — 9898-MTG Manual</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Mono&display=swap');
+    :root {
+      --bg: #0a0a0a; --surface: #141414; --border: #2a0000;
+      --accent: #cc0000; --accent-hover: #ff2222;
+      --text: #e8e8e8; --muted: #888; --code-bg: #1a1a1a;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Roboto Mono', monospace; min-height: 100vh; }
+    header { background: linear-gradient(135deg,#0a0a0a,#1a0000); border-bottom: 2px solid var(--accent); padding: 2rem; text-align: center; }
+    header h1 { font-family: 'Cinzel Decorative', cursive; font-size: clamp(1.3rem,3vw,2.2rem); color: var(--accent); }
+    header p { color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem; }
+    nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    nav a { color: var(--accent); text-decoration: none; font-size: 0.85rem; padding: 0.3rem 0.7rem; border: 1px solid transparent; border-radius: 4px; transition: border-color 0.2s,background 0.2s; }
+    nav a:hover, nav a:focus { border-color: var(--accent); background: #2a0000; outline: none; }
+    .page-wrapper { max-width: 900px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    h2 { color: var(--accent); font-family: 'Cinzel Decorative', cursive; font-size: 1.1rem; margin: 2rem 0 1rem; }
+    .doc-block { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .doc-block h3 { color: var(--accent); font-size: 1rem; margin-bottom: 0.6rem; }
+    .doc-block p { color: var(--muted); font-size: 0.88rem; line-height: 1.7; margin-bottom: 0.5rem; }
+    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 6px; padding: 1rem; overflow-x: auto; font-size: 0.82rem; color: #e8e8e8; margin: 0.8rem 0; }
+    code { font-family: 'Roboto Mono', monospace; }
+    .line-ref { display: inline-block; background: var(--accent); color: #fff; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.4rem; vertical-align: middle; }
+    .note { border-left: 3px solid var(--accent); padding-left: 0.9rem; color: var(--muted); font-size: 0.83rem; line-height: 1.6; margin-top: 0.5rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; color: var(--muted); font-size: 0.78rem; margin-top: 3rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Plugin Imports</h1>
+    <p>All external dependencies and plugin declarations used by the Perchance generator</p>
+  </header>
+  <nav aria-label="Manual navigation">
+    <a href="manual-homepage.html">← Home</a>
+    <a href="manual-plugin-section.html" aria-current="page">Plugins</a>
+    <a href="manual-global-vars.html">Global Vars</a>
+    <a href="manual-blocks.html">Blocks</a>
+    <a href="manual-integration-html.html">HTML Embed</a>
+    <a href="manual-integration-js.html">JS Loader</a>
+    <a href="manual-integration-plugin-ui.html">Plugin UI</a>
+    <a href="manual-integration-advanced.html">Advanced</a>
+  </nav>
+  <main class="page-wrapper" id="main-content">
+
+    <h2>Overview</h2>
+    <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1.5rem;">
+      The generator runs as a Lua script inside Tabletop Simulator (TTS). It uses the TTS built-in HTTP client 
+      and does <em>not</em> require external Lua packages — all dependencies are part of the TTS scripting environment.
+      This section documents every API surface the script depends on.
+    </p>
+
+    <h2>TTS Built-in APIs</h2>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L14</span><code>SCRY_BASE</code> — Scryfall API Base URL</h3>
+      <pre><code>local SCRY_BASE = "https://api.scryfall.com"</code></pre>
+      <p>Root URL for all Scryfall REST endpoints. The script appends paths such as <code>/cards/random</code> or 
+      <code>/cards/search?q=...</code> to this base. Changing this value to a proxy is the <em>only</em> change needed 
+      to redirect all API traffic.</p>
+      <div class="note">
+        Scryfall requires a descriptive <code>User-Agent</code> header. See <a href="manual-global-vars.html" style="color:var(--accent)">Global Vars</a> 
+        for the <code>scryHeaders()</code> helper.
+      </div>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">L47</span><code>WebRequest</code> — TTS HTTP Client</h3>
+      <pre><code>WebRequest.get(url, headers, callback)
+WebRequest.custom(url, method, headers, body, callback)</code></pre>
+      <p>The Tabletop Simulator built-in HTTP client. It is available globally in the TTS Lua sandbox. 
+      The script uses <code>WebRequest.get()</code> for all Scryfall calls. 
+      Callbacks receive a <code>request</code> object with <code>.text</code>, <code>.responseCode</code>, and <code>.error</code>.</p>
+      <div class="note">
+        Not a standard Lua library — only available inside Tabletop Simulator scripts.
+      </div>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">Built-in</span><code>JSON.decode()</code> — TTS JSON Parser</h3>
+      <pre><code>local data = JSON.decode(request.text)</code></pre>
+      <p>Another TTS global. Parses the JSON string returned by Scryfall into a Lua table. 
+      Used immediately after a successful <code>WebRequest</code> callback to access card fields like 
+      <code>data.name</code>, <code>data.image_uris.normal</code>, and <code>data.cmc</code>.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">Built-in</span><code>spawnObject()</code> — TTS Object Spawner</h3>
+      <pre><code>spawnObject({
+  type   = "CardCustom",
+  position = pos,
+  rotation = {x=0,y=180,z=0},
+  scale  = {x=1,y=1,z=1},
+  callback_function = function(obj) ... end,
+  sound  = false,
+  parameters = { ... }
+})</code></pre>
+      <p>Core TTS API for creating objects on the table. The script spawns each card as a <code>CardCustom</code> 
+      with the Scryfall image URL assigned as the face texture and the back URL for the card reverse. 
+      The <code>callback_function</code> is used to set the card Nickname after spawn.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">Built-in</span><code>Wait.time()</code> — TTS Coroutine Timer</h3>
+      <pre><code>Wait.time(function() spawnNextCard() end, delay)</code></pre>
+      <p>Used to implement the <code>MIN_DELAY</code> throttle between Scryfall API calls. 
+      Prevents rate-limit 429 responses by spacing requests 350 ms apart.</p>
+    </div>
+
+    <div class="doc-block">
+      <h3><span class="line-ref">Built-in</span><code>self:createButton()</code> — TTS UI Button</h3>
+      <pre><code>self:createButton({
+  label="Spawn Pack", click_function="onSpawnClick",
+  function_owner=self, position={0,BTN_Y,0},
+  rotation={0,0,0}, scale={1,1,1},
+  width=1600, height=300, font_size=160
+})</code></pre>
+      <p>Registers a 3D button on the object that hosts the script. Clicking it calls <code>onSpawnClick()</code>, 
+      the main entry point for pack generation. <code>BTN_Y</code> controls the vertical offset above the surface.</p>
+    </div>
+
+  </main>
+  <footer>
+    <p>9898-MTG Perchance Generator Manual &mdash; <a href="manual-homepage.html">← Back to Home</a></p>
+  </footer>
+</body>
+</html>

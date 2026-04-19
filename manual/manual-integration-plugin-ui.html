@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="last-updated" content="2026-04-18" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plugin UI Widgets — 9898-MTG Manual</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Mono&display=swap');
+    :root { --bg:#0a0a0a; --surface:#141414; --border:#2a0000; --accent:#cc0000; --text:#e8e8e8; --muted:#888; --code-bg:#1a1a1a; }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--bg);color:var(--text);font-family:'Roboto Mono',monospace;min-height:100vh;}
+    header{background:linear-gradient(135deg,#0a0a0a,#1a0000);border-bottom:2px solid var(--accent);padding:2rem;text-align:center;}
+    header h1{font-family:'Cinzel Decorative',cursive;font-size:clamp(1.3rem,3vw,2.2rem);color:var(--accent);}
+    header p{color:var(--muted);font-size:.9rem;margin-top:.5rem;}
+    nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 2rem;display:flex;flex-wrap:wrap;gap:.5rem;}
+    nav a{color:var(--accent);text-decoration:none;font-size:.85rem;padding:.3rem .7rem;border:1px solid transparent;border-radius:4px;transition:border-color .2s,background .2s;}
+    nav a:hover,nav a:focus{border-color:var(--accent);background:#2a0000;outline:none;}
+    .page-wrapper{max-width:960px;margin:0 auto;padding:2.5rem 1.5rem;}
+    h2{color:var(--accent);font-family:'Cinzel Decorative',cursive;font-size:1.05rem;margin:2rem 0 1rem;}
+    .code-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:1.5rem;overflow:hidden;}
+    .code-block-header{background:#1a0000;padding:.7rem 1.2rem;display:flex;justify-content:space-between;align-items:center;}
+    .code-block-header span{color:var(--accent);font-size:.85rem;}
+    .copy-btn{background:transparent;border:1px solid var(--accent);color:var(--accent);padding:.25rem .7rem;border-radius:4px;cursor:pointer;font-size:.75rem;font-family:inherit;transition:background .2s;}
+    .copy-btn:hover{background:var(--accent);color:#fff;}
+    pre{background:var(--code-bg);padding:1.2rem;overflow-x:auto;font-size:.81rem;color:#e8e8e8;margin:0;}
+    .desc{color:var(--muted);font-size:.87rem;line-height:1.7;padding:1rem 1.2rem;border-top:1px solid var(--border);}
+    /* Live demo */
+    .demo-area{background:#0d0d0d;border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;}
+    .demo-area h3{color:var(--accent);font-size:.9rem;margin-bottom:1rem;}
+    .mtg-ctrl{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;}
+    .mtg-ctrl label{color:var(--muted);font-size:.83rem;}
+    .mtg-ctrl input[type=number]{background:#1a1a1a;border:1px solid var(--border);color:var(--text);padding:.3rem .5rem;border-radius:4px;width:70px;font-family:inherit;font-size:.83rem;}
+    .mtg-ctrl button{background:var(--accent);color:#fff;border:none;padding:.4rem 1rem;border-radius:4px;cursor:pointer;font-family:inherit;font-size:.83rem;transition:background .2s;}
+    .mtg-ctrl button:hover{background:#ff2222;}
+    .mtg-ctrl button:disabled{background:#555;cursor:not-allowed;}
+    #demo-output{margin-top:1rem;min-height:40px;color:var(--muted);font-size:.82rem;}
+    #demo-cards{display:flex;flex-wrap:wrap;gap:6px;margin-top:.75rem;}
+    #demo-cards img{width:90px;border-radius:6px;border:1px solid var(--border);}
+    footer{border-top:1px solid var(--border);padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.78rem;margin-top:3rem;}
+    footer a{color:var(--accent);text-decoration:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Plugin UI Widgets</h1>
+    <p>HTML/CSS/JS controls for pack size, card filters, and spawn triggers</p>
+  </header>
+  <nav aria-label="Manual navigation">
+    <a href="manual-homepage.html">← Home</a>
+    <a href="manual-plugin-section.html">Plugins</a>
+    <a href="manual-global-vars.html">Global Vars</a>
+    <a href="manual-blocks.html">Blocks</a>
+    <a href="manual-integration-html.html">HTML Embed</a>
+    <a href="manual-integration-js.html">JS Loader</a>
+    <a href="manual-integration-plugin-ui.html" aria-current="page">Plugin UI</a>
+    <a href="manual-integration-advanced.html">Advanced</a>
+  </nav>
+  <main class="page-wrapper" id="main-content">
+
+    <!-- Live Demo -->
+    <h2>Live Demo</h2>
+    <div class="demo-area" role="region" aria-label="Live pack generator demo">
+      <h3>⚔ Pack Generator Widget</h3>
+      <div class="mtg-ctrl">
+        <label for="pack-size">Pack size:</label>
+        <input type="number" id="pack-size" min="1" max="30" value="5" aria-label="Number of cards" />
+        <button id="spawn-btn" onclick="demoSpawn()">Spawn Pack</button>
+        <button id="cancel-btn" onclick="demoCancel()" disabled>Cancel</button>
+      </div>
+      <div id="demo-output" aria-live="polite">Click "Spawn Pack" to fetch random cards.</div>
+      <div id="demo-cards" aria-label="Generated cards"></div>
+    </div>
+
+    <h2>Pack Control Widget — Source</h2>
+    <div class="code-block">
+      <div class="code-block-header"><span>HTML + CSS + JS — Full widget</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
+      <pre><code>&lt;!-- Pack Size Control Widget --&gt;
+&lt;div class="mtg-pack-ctrl" role="region" aria-label="Pack generator controls"&gt;
+  &lt;label for="pack-size"&gt;Pack size:&lt;/label&gt;
+  &lt;input type="number" id="pack-size" min="1" max="30" value="15"
+         aria-label="Number of cards in pack" /&gt;
+  &lt;button id="spawn-btn" onclick="spawnPack()"&gt;⚔ Spawn Pack&lt;/button&gt;
+  &lt;button id="cancel-btn" onclick="cancelPack()" disabled&gt;✕ Cancel&lt;/button&gt;
+  &lt;div id="status" aria-live="polite" aria-atomic="true"&gt;&lt;/div&gt;
+  &lt;div id="card-grid"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .mtg-pack-ctrl {
+    background: #0a0a0a;
+    border: 2px solid #cc0000;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    font-family: monospace;
+    color: #e8e8e8;
+    max-width: 640px;
+  }
+  .mtg-pack-ctrl label { color: #888; font-size: .85rem; }
+  .mtg-pack-ctrl input[type=number] {
+    background: #1a1a1a; border: 1px solid #2a0000;
+    color: #e8e8e8; padding: .3rem .5rem;
+    border-radius: 4px; width: 70px; font-family: inherit;
+  }
+  .mtg-pack-ctrl button {
+    background: #cc0000; color: #fff; border: none;
+    padding: .4rem 1rem; border-radius: 4px;
+    cursor: pointer; font-family: inherit; font-size: .85rem;
+    margin-left: .5rem; transition: background .2s;
+  }
+  .mtg-pack-ctrl button:hover  { background: #ff2222; }
+  .mtg-pack-ctrl button:disabled { background: #555; cursor: not-allowed; }
+  #status { margin-top: .6rem; font-size: .8rem; color: #888; min-height: 1.2em; }
+  #card-grid { display: flex; flex-wrap: wrap; gap: 6px; margin-top: .8rem; }
+  #card-grid img { width: 110px; border-radius: 6px; }
+&lt;/style&gt;
+
+&lt;script&gt;
+  let _abort = null;
+
+  async function spawnPack() {
+    const size = Math.min(+document.getElementById('pack-size').value, 30);
+    const status = document.getElementById('status');
+    const grid   = document.getElementById('card-grid');
+    const spawnBtn = document.getElementById('spawn-btn');
+    const cancelBtn = document.getElementById('cancel-btn');
+
+    grid.innerHTML = '';
+    spawnBtn.disabled = true;
+    cancelBtn.disabled = false;
+    _abort = new AbortController();
+
+    for (let i = 0; i &lt; size; i++) {
+      if (_abort.signal.aborted) break;
+      status.textContent = `Fetching card ${i + 1} of ${size}…`;
+      try {
+        const res = await fetch('https://api.scryfall.com/cards/random',
+          { signal: _abort.signal, headers: { 'Accept': 'application/json' } });
+        const card = await res.json();
+        if (card.image_uris) {
+          const img = document.createElement('img');
+          img.src = card.image_uris.normal || card.image_uris.small;
+          img.alt = card.name;
+          img.title = `${card.name} — ${card.type_line}`;
+          grid.appendChild(img);
+        }
+        await new Promise(r =&gt; setTimeout(r, 350));
+      } catch (e) {
+        if (e.name !== 'AbortError') status.textContent = `Error: ${e.message}`;
+        break;
+      }
+    }
+
+    spawnBtn.disabled = false;
+    cancelBtn.disabled = true;
+    if (!_abort.signal.aborted) status.textContent = 'Pack complete!';
+    _abort = null;
+  }
+
+  function cancelPack() {
+    _abort?.abort();
+    document.getElementById('status').textContent = 'Cancelled.';
+    document.getElementById('spawn-btn').disabled = false;
+    document.getElementById('cancel-btn').disabled = true;
+  }
+&lt;/script&gt;</code></pre>
+      <div class="desc">
+        A self-contained widget. Copy-paste into any HTML page. Uses <code>AbortController</code> 
+        for cancellation and <code>aria-live</code> for screen-reader announcements during fetch.
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>9898-MTG Perchance Generator Manual &mdash; <a href="manual-homepage.html">← Back to Home</a></p>
+  </footer>
+  <script>
+    function copy(btn) {
+      const code = btn.closest('.code-block').querySelector('pre').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = 'Copy'; }, 1800);
+      });
+    }
+
+    // ── Live demo ──────────────────────────────────────────────
+    let _demoAbort = null;
+
+    async function demoSpawn() {
+      const parsed = parseInt(document.getElementById('pack-size').value, 10);
+      const size = Math.min(isNaN(parsed) ? 5 : parsed, 30);
+      const output = document.getElementById('demo-output');
+      const cards  = document.getElementById('demo-cards');
+      const spawnBtn  = document.getElementById('spawn-btn');
+      const cancelBtn = document.getElementById('cancel-btn');
+
+      cards.innerHTML = '';
+      spawnBtn.disabled = true;
+      cancelBtn.disabled = false;
+      _demoAbort = new AbortController();
+
+      for (let i = 0; i < size; i++) {
+        if (_demoAbort.signal.aborted) break;
+        output.textContent = `Fetching card ${i + 1} of ${size}…`;
+        try {
+          const res = await fetch('https://api.scryfall.com/cards/random', {
+            signal: _demoAbort.signal,
+            headers: { 'Accept': 'application/json' }
+          });
+          const card = await res.json();
+          if (card.image_uris) {
+            const img = document.createElement('img');
+            img.src = card.image_uris.normal || card.image_uris.small;
+            img.alt = card.name;
+            img.title = `${card.name} — ${card.type_line}`;
+            cards.appendChild(img);
+          }
+          await new Promise(r => setTimeout(r, 350));
+        } catch (e) {
+          if (e.name !== 'AbortError') output.textContent = `Error: ${e.message}`;
+          break;
+        }
+      }
+
+      spawnBtn.disabled = false;
+      cancelBtn.disabled = true;
+      if (!_demoAbort.signal.aborted) output.textContent = 'Pack complete!';
+      _demoAbort = null;
+    }
+
+    function demoCancel() {
+      _demoAbort?.abort();
+      document.getElementById('demo-output').textContent = 'Cancelled.';
+      document.getElementById('spawn-btn').disabled = false;
+      document.getElementById('cancel-btn').disabled = true;
+    }
+  </script>
+</body>
+</html>
