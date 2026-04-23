@@ -1,19 +1,10 @@
 {
-  "runAt": "2026-04-23T03:07:14.917Z",
+  "runAt": "2026-04-23T03:56:26.587Z",
   "dryRun": false,
   "filesChecked": 8,
   "errors": [],
   "warnings": [],
-  "appliedFixes": [
-    "manual-homepage.html: updated last-updated meta to 2026-04-23",
-    "manual-plugin-section.html: updated last-updated meta to 2026-04-23",
-    "manual-global-vars.html: updated last-updated meta to 2026-04-23",
-    "manual-blocks.html: updated last-updated meta to 2026-04-23",
-    "manual-integration-html.html: updated last-updated meta to 2026-04-23",
-    "manual-integration-js.html: updated last-updated meta to 2026-04-23",
-    "manual-integration-plugin-ui.html: updated last-updated meta to 2026-04-23",
-    "manual-integration-advanced.html: updated last-updated meta to 2026-04-23"
-  ],
+  "appliedFixes": [],
   "suggestions": [
     "manual-homepage.html: add <meta name=\"description\"> for SEO",
     "manual-homepage.html: consider adding <link rel=\"canonical\">",
@@ -33,14 +24,6 @@
     "manual-integration-advanced.html: consider adding <link rel=\"canonical\">"
   ],
   "log": [
-    "Updated: manual/manual-homepage.html",
-    "Updated: manual/manual-plugin-section.html",
-    "Updated: manual/manual-global-vars.html",
-    "Updated: manual/manual-blocks.html",
-    "Updated: manual/manual-integration-html.html",
-    "Updated: manual/manual-integration-js.html",
-    "Updated: manual/manual-integration-plugin-ui.html",
-    "Updated: manual/manual-integration-advanced.html",
     "Updated: manual/manual-homepage.html"
   ]
 }
