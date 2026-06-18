@@ -94,7 +94,7 @@
     "esprima": "^4.0.1",
     "express": "^4.22.2",
     "htmlhint": "^1.9.2",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.2.0",
     "phaser": "^4.0.0"
   },
   "devDependencies": {
