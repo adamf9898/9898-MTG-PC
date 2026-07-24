@@ -70,6 +70,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Create pull request for improvements
+        continue-on-error: true
         uses: peter-evans/create-pull-request@v7
         with:
           branch: automation/daily-repo-iteration
