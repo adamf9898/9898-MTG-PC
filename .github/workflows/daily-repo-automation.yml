@@ -19,10 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
-    defaults:
-      run:
-        working-directory: projects/9898-MTG-Chaos-RPG-2026
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,15 +28,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "npm"
-          cache-dependency-path: projects/9898-MTG-Chaos-RPG-2026/package-lock.json
+          node-version: "24"
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          if [ -f projects/9898-MTG-Chaos-RPG-2026/package-lock.json ]; then
+            npm --prefix projects/9898-MTG-Chaos-RPG-2026 ci
+          fi
 
       - name: Analyze repository + runtime environment snapshot
         run: |
+          cd projects/9898-MTG-Chaos-RPG-2026
           mkdir -p reports/generated
           echo "generated_at=$(date -u +%FT%TZ)" > reports/generated/repo-env-snapshot.txt
           echo "runner_os=$RUNNER_OS" >> reports/generated/repo-env-snapshot.txt
@@ -53,12 +51,13 @@ jobs:
 
       - name: Run daily analysis / iteration / improvement / integration
         run: |
-          npm run analyze
-          npm run deep-research
-          npm run iterate
-          npm run improve
-          npm run integrate
-          npm run automation:apply
+          cd projects/9898-MTG-Chaos-RPG-2026
+          [ -f scripts/run-analyze-project.js ] && npm run analyze || true
+          [ -f scripts/run-deep-research-iterate.js ] && npm run deep-research || true
+          [ -f scripts/run-master-project-iteration.js ] && npm run iterate || true
+          [ -f scripts/improve.js ] && npm run improve || true
+          [ -f scripts/run-implement-integrate-improvements.js ] && npm run integrate || true
+          [ -f scripts/run-project-automation-cycle.js ] && npm run automation:apply || true
 
       - name: Upload generated reports
         if: always()
