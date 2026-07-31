@@ -1,18 +1,18 @@
 {
-  "runAt": "2026-07-30T03:04:20.784Z",
+  "runAt": "2026-07-31T03:05:33.122Z",
   "dryRun": false,
   "filesChecked": 8,
   "errors": [],
   "warnings": [],
   "appliedFixes": [
-    "manual-homepage.html: updated last-updated meta to 2026-07-30",
-    "manual-plugin-section.html: updated last-updated meta to 2026-07-30",
-    "manual-global-vars.html: updated last-updated meta to 2026-07-30",
-    "manual-blocks.html: updated last-updated meta to 2026-07-30",
-    "manual-integration-html.html: updated last-updated meta to 2026-07-30",
-    "manual-integration-js.html: updated last-updated meta to 2026-07-30",
-    "manual-integration-plugin-ui.html: updated last-updated meta to 2026-07-30",
-    "manual-integration-advanced.html: updated last-updated meta to 2026-07-30"
+    "manual-homepage.html: updated last-updated meta to 2026-07-31",
+    "manual-plugin-section.html: updated last-updated meta to 2026-07-31",
+    "manual-global-vars.html: updated last-updated meta to 2026-07-31",
+    "manual-blocks.html: updated last-updated meta to 2026-07-31",
+    "manual-integration-html.html: updated last-updated meta to 2026-07-31",
+    "manual-integration-js.html: updated last-updated meta to 2026-07-31",
+    "manual-integration-plugin-ui.html: updated last-updated meta to 2026-07-31",
+    "manual-integration-advanced.html: updated last-updated meta to 2026-07-31"
   ],
   "suggestions": [
     "manual-homepage.html: add <meta name=\"description\"> for SEO",
