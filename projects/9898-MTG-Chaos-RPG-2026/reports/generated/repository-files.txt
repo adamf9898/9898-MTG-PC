@@ -1,0 +1,1547 @@
+.env
+.gitattributes
+.github/agents/newAgent.agent.md
+.github/copilot-instructions.html
+.github/copilot-instructions.md
+.github/file%3A/C%3A/9898-MTG-PC/.github/copilot-instructions.html
+.github/scripts/Quick Importer.lua
+.github/workflows/daily-repo-automation.yml
+.github/workflows/github-workflow.json
+.github/workflows/jekyll-gh-pages.yml
+.github/workflows/manual-iterate.yml
+.github/workflows/node.js.yml
+.gitignore
+.vscode/extensions.json
+.vscode/settings.json
+9898-MTG-Chaos-RPG-Wiki.canvas
+9898-MTG-PC.code-workspace
+9898-mtg-chaos-rpg-2024.html
+AGENT.md
+AGENTS.md
+All.base
+README.md
+Wait-for-itNow-you-can-go.mp4
+Web Game Development.pptx
+copilot-instructions.md
+manual/iteration-report.json
+manual/manual-blocks.html
+manual/manual-global-vars.html
+manual/manual-homepage.html
+manual/manual-integration-advanced.html
+manual/manual-integration-html.html
+manual/manual-integration-js.html
+manual/manual-integration-plugin-ui.html
+manual/manual-plugin-section.html
+package-lock.json
+package.json
+projects/9898-MTG-Chaos-RPG-2026/.editorconfig
+projects/9898-MTG-Chaos-RPG-2026/.env
+projects/9898-MTG-Chaos-RPG-2026/.eslintrc.json
+projects/9898-MTG-Chaos-RPG-2026/.genaiscript-serve.err
+projects/9898-MTG-Chaos-RPG-2026/.genaiscript-serve.log
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/README.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/analyze-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/analyze.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/debug-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/debug.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/deep-research-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/deep-research.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/document.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/feature-integration.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/fix-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/fix-all-problems.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/fix.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/game-hub.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/implement-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/implement.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/improve-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/improve.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/integrate-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/integrate.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/iterate-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/iterate.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/log.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/mtg-game-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/perchance-plugins.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/plan-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/plan.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/report-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/report.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/scaffold-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/scaffold.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/specialized-maintenance.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/test-agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/test.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/ultra-iterate.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/agents/update.agent.md
+projects/9898-MTG-Chaos-RPG-2026/.github/docs/ISSUE_TEMPLATE.md
+projects/9898-MTG-Chaos-RPG-2026/.github/docs/PULL_REQUEST_TEMPLATE.md
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/README.md
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/analyze.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/debug.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/deep-research.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/document.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/fix.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/fixmes.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/hooks-logging.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/hooks-maintenance.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/implement.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/improve.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/integrate.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/iterate.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/log.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/plan.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/post-merge
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/pre-commit
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/project-growth-automation.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/readmes.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/report.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/scaffold.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/test.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/todos.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/update.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/hooks/workflows.hook.json
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/README.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/analyze.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/analyze.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/build.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/contributing.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/create.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/debug.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/deep-research.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/deep-research.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/deploy.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/fix.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/fixmes.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/generate.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/implement.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/improve.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/instructions-maintenance.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/instructions-review.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/integrate.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/iterate.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/logs.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/logs.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/plan.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/readmes.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/readmes.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/report.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/run.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/scaffold.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/test.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/todos.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/todos.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/update.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/workflows.instruction.md
+projects/9898-MTG-Chaos-RPG-2026/.github/instructions/workflows.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/README.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/analyze-iterate-improve-all.prompt.html
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/analyze-iterate-improve-all.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/analyze.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/deep-research.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/fixmes.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/game-event-prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/generate-multi-assets.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/logs.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/readmes.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/todos.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/prompts/workflows.prompt.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/README.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/agent-review/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/analyze-update-readmes.SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/analyze.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/deep-research.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/documentation-update/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/feature-integration/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/fixmes.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/logs.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/maintenance-checklist/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/project-auto-iterate-skill/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/project-flowchart/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/project-iterate-improvements/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/randomizer.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/readmes.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/scaffold-and-connect-skill/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/test-enhancement/SKILL.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/todos.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/skills/workflows.skill.md
+projects/9898-MTG-Chaos-RPG-2026/.github/tasks/todo-maintenance.md
+projects/9898-MTG-Chaos-RPG-2026/.github/todos/README.md
+projects/9898-MTG-Chaos-RPG-2026/.github/todos/initial-tasks.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/This dir is for all .github workflows.txt
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/agent-ci.yml
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/analyze.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/automated-project-maintenance.json
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/deep-research.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/fixmes.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/logs.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/main.yml
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/readmes.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/todos.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/workflow-automate-improvements.md
+projects/9898-MTG-Chaos-RPG-2026/.github/workflows/workflows.workflow.md
+projects/9898-MTG-Chaos-RPG-2026/.gitignore
+projects/9898-MTG-Chaos-RPG-2026/.prettierrc
+projects/9898-MTG-Chaos-RPG-2026/.serve-dev.err
+projects/9898-MTG-Chaos-RPG-2026/.serve-dev.log
+projects/9898-MTG-Chaos-RPG-2026/.serve-phaser.err
+projects/9898-MTG-Chaos-RPG-2026/.serve-phaser.log
+projects/9898-MTG-Chaos-RPG-2026/.vscode/9898-MTG-Chaos-RPG-2026.code-workspace
+projects/9898-MTG-Chaos-RPG-2026/.vscode/tasks.json
+projects/9898-MTG-Chaos-RPG-2026/9898-mtg-chaos-commander-booster-pack.lua
+projects/9898-MTG-Chaos-RPG-2026/9898-mtg-chaos-commander-booster-pack.lua.backup
+projects/9898-MTG-Chaos-RPG-2026/9898-mtg-chaos-rpg-2026.html
+projects/9898-MTG-Chaos-RPG-2026/BUILD.md
+projects/9898-MTG-Chaos-RPG-2026/GOAL.md
+projects/9898-MTG-Chaos-RPG-2026/Imagine-mtgBot.txt
+projects/9898-MTG-Chaos-RPG-2026/PROJECT_TASKS.md
+projects/9898-MTG-Chaos-RPG-2026/README.html
+projects/9898-MTG-Chaos-RPG-2026/README.md
+projects/9898-MTG-Chaos-RPG-2026/auto-advance.config.json
+projects/9898-MTG-Chaos-RPG-2026/copilot-instructions.md
+projects/9898-MTG-Chaos-RPG-2026/dropdown-options.txt
+projects/9898-MTG-Chaos-RPG-2026/electron-main.js
+projects/9898-MTG-Chaos-RPG-2026/intro.html
+projects/9898-MTG-Chaos-RPG-2026/jest.config.js
+projects/9898-MTG-Chaos-RPG-2026/package-lock.json
+projects/9898-MTG-Chaos-RPG-2026/package.json
+projects/9898-MTG-Chaos-RPG-2026/project.html
+projects/9898-MTG-Chaos-RPG-2026/project.md
+projects/9898-MTG-Chaos-RPG-2026/project.txt
+projects/9898-MTG-Chaos-RPG-2026/search.htm
+projects/9898-MTG-Chaos-RPG-2026/test.txt
+projects/9898-MTG-Chaos-RPG-2026/tests/jest.setup.js
+projects/9898-MTG-Chaos-RPG-2026/tmp-jest-err.txt
+projects/9898-MTG-Chaos-RPG-2026/tmp-jest-out.txt
+projects/9898-MTG-Chaos-RPG-2026/tmp-serve-err.log
+projects/9898-MTG-Chaos-RPG-2026/tmp-serve-out.log
+projects/9898-MTG-Chaos-RPG-2026/tsconfig.json
+projects/Copilot Instructions Generator/.github/agents/AdamFirstProgramAgent.md
+projects/Copilot Instructions Generator/.github/agents/ContentAgent-copilot-agent.md
+projects/Copilot Instructions Generator/.github/agents/DataAgent-copilot-agent.md
+projects/Copilot Instructions Generator/.github/agents/GameplayAgentcopilot-agent.md
+projects/Copilot Instructions Generator/.github/agents/mtgDeveloper.agent.md
+projects/Copilot Instructions Generator/.github/agents/mtgRPG.agent.html
+projects/Copilot Instructions Generator/.github/agents/mtgRPG.agent.md
+projects/Copilot Instructions Generator/.github/agents/webGame.agent.md
+projects/Copilot Instructions Generator/.github/agents/web_game.agent.md
+projects/Copilot Instructions Generator/.github/chatmodes/4.1-Beast.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/Thinking-Beast-Mode.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/Ultimate-Transparent-Thinking-Beast-Mode.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/accesibility.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/address-comments.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/api-architect.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/azure-logic-apps-expert.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/azure-principal-architect.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/azure-saas-architect.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/azure-verified-modules-bicep.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/azure-verified-modules-terraform.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/bicep-implement.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/bicep-plan.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/blueprint-mode.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/clojure-interactive-programming.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/critical-thinking.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/csharp-dotnet-janitor.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/debug.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/declarative-agents-architect.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/demonstrate-understanding.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/electron-angular-native.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/expert-dotnet-software-engineer.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/expert-react-frontend-engineer.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/gilfoyle.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/implementation-plan.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/janitor.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/kusto-assistant.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/mentor.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/meta-agentic-project-scaffold.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/microsoft-study-mode.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/microsoft_learn_contributor.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/ms-sql-dba.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/plan.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/planner.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/playwright-tester.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/postgresql-dba.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/prd.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/principal-software-engineer.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/prompt-builder.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/prompt-engineer.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/refine-issue.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/research-technical-spike.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/rust-gpt-4.1-beast-mode.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/semantic-kernel-dotnet.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/semantic-kernel-python.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/simple-app-idea-generator.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/software-engineer-agent-v1.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/specification.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/task-planner.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/task-researcher.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/tdd-green.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/tdd-red.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/tdd-refactor.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/tech-debt-remediation-plan.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/voidbeast-gpt41enhanced.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/wg-code-alchemist.chatmode.md
+projects/Copilot Instructions Generator/.github/chatmodes/wg-code-sentinel.chatmode.md
+projects/Copilot Instructions Generator/.github/collections/TEMPLATE.md
+projects/Copilot Instructions Generator/.github/collections/azure-cloud-development.collection.yml
+projects/Copilot Instructions Generator/.github/collections/azure-cloud-development.md
+projects/Copilot Instructions Generator/.github/collections/csharp-dotnet-development.collection.yml
+projects/Copilot Instructions Generator/.github/collections/csharp-dotnet-development.md
+projects/Copilot Instructions Generator/.github/collections/database-data-management.collection.yml
+projects/Copilot Instructions Generator/.github/collections/database-data-management.md
+projects/Copilot Instructions Generator/.github/collections/devops-oncall.collection.yml
+projects/Copilot Instructions Generator/.github/collections/devops-oncall.md
+projects/Copilot Instructions Generator/.github/collections/frontend-web-dev.collection.yml
+projects/Copilot Instructions Generator/.github/collections/frontend-web-dev.md
+projects/Copilot Instructions Generator/.github/collections/project-planning.collection.yml
+projects/Copilot Instructions Generator/.github/collections/project-planning.md
+projects/Copilot Instructions Generator/.github/collections/security-best-practices.collection.yml
+projects/Copilot Instructions Generator/.github/collections/security-best-practices.md
+projects/Copilot Instructions Generator/.github/collections/technical-spike.collection.yml
+projects/Copilot Instructions Generator/.github/collections/technical-spike.md
+projects/Copilot Instructions Generator/.github/collections/testing-automation.collection.yml
+projects/Copilot Instructions Generator/.github/collections/testing-automation.md
+projects/Copilot Instructions Generator/.github/copilot-actions-runner.md
+projects/Copilot Instructions Generator/.github/copilot-instructions.md
+projects/Copilot Instructions Generator/.github/dependabot.yml
+projects/Copilot Instructions Generator/.github/instructions/a11y.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/ai-prompt-engineering-safety-best-practices.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/angular.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/aspnet-rest-apis.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/azure-devops-pipelines.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/azure-functions-typescript.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/azure-logic-apps-power-automate.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/azure-verified-modules-terraform.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/bicep-code-best-practices.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/blazor.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/clojure-memory.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/cmake-vcpkg.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/coldfusion-cfc.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/coldfusion-cfm.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/collections.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/containerization-docker-best-practices.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/conventional-commit.prompt.md
+projects/Copilot Instructions Generator/.github/instructions/convert-jpa-to-spring-data-cosmos.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/copilot-thought-logging.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/csharp-ja.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/csharp-ko.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/csharp.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/dart-n-flutter.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/declarative-agents-microsoft365.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/devbox-image-definition.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/devops-core-principles.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/dotnet-architecture-good-practices.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/dotnet-framework.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/dotnet-maui.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/dotnet-wpf.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/genaiscript.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/generate-modern-terraform-code-for-azure.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/gilfoyle-code-review.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/github-actions-ci-cd-best-practices.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/go.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/java.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/joyride-user-project.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/joyride-workspace-automation.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/kubernetes-deployment-best-practices.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/localization.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/markdown.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/memory-bank.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/ms-sql-dba.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/nestjs.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/nextjs-tailwind.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/nextjs.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/nodejs-javascript-vitest.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/object-calisthenics.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/oqtane.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/performance-optimization.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/playwright-python.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/playwright-typescript.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/power-apps-canvas-yaml.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/power-platform-connector.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/powershell-pester-5.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/powershell.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/python.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/quarkus-mcp-server-sse.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/quarkus.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/reactjs.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/ruby-on-rails.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/rust.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/security-and-owasp.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/self-explanatory-code-commenting.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/spec-driven-workflow-v1.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/springboot.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/sql-sp-generation.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/taming-copilot.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/tanstack-start-shadcn-tailwind.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/task-implementation.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/tasksync.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/terraform.instructions.md
+projects/Copilot Instructions Generator/.github/instructions/vuejs3.instructions.md
+projects/Copilot Instructions Generator/.github/prompts.yml
+projects/Copilot Instructions Generator/.github/prompts/ai-prompt-engineering-safety-review.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/architecture-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/aspnet-minimal-api-openapi.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/az-cost-optimize.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/azure-resource-health-diagnose.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/boost-prompt.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/breakdown-epic-arch.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/breakdown-epic-pm.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/breakdown-feature-implementation.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/breakdown-feature-prd.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/breakdown-plan.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/breakdown-test.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/clojure-add-to-memory.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/code-exemplars-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/comment-code-generate-a-tutorial.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/containerize-aspnet-framework.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/containerize-aspnetcore.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/copilot-instructions-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-agentsmd.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-architectural-decision-record.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-github-action-workflow-specification.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-github-issue-feature-from-specification.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-github-issues-feature-from-implementation-plan.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-github-issues-for-unmet-specification-requirements.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-github-pull-request-from-specification.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-implementation-plan.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-llms.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-oo-component-documentation.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-readme.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-specification.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-spring-boot-java-project.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-spring-boot-kotlin-project.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/create-technical-spike.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/csharp-async.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/csharp-docs.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/csharp-mstest.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/csharp-nunit.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/csharp-tunit.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/csharp-xunit.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/declarative-agents.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/documentation-writer.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/dotnet-best-practices.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/dotnet-design-pattern-review.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/editorconfig.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/ef-core.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/first-ask.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/folder-structure-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/gen-specs-as-issues.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/generate-custom-instructions-from-codebase.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/git-flow-branch-creator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/java-docs.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/java-junit.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/java-springboot.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/javascript-typescript-jest.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/kotlin-springboot.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/mkdocs-translations.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/multi-stage-dockerfile.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/my-issues.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/my-pull-requests.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/next-intl-add-language.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/plan-gameIdeaGeneratorExploration.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/playwright-automation-fill-in-form.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/playwright-explore-website.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/playwright-generate-test.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/postgresql-code-review.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/postgresql-optimization.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/project-workflow-analysis-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/prompt-builder.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/readme-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/remember-interactive-programming.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/remember.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/repo-story-time.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/review-and-refactor.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/sql-code-review.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/sql-optimization.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/suggest-awesome-github-copilot-chatmodes.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/suggest-awesome-github-copilot-prompts.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/technology-stack-blueprint-generator.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/update-avm-modules-in-bicep.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/update-implementation-plan.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/update-llms.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/update-markdown-file-index.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/update-oo-component-documentation.prompt.md
+projects/Copilot Instructions Generator/.github/prompts/update-specification.prompt.md
+projects/Copilot Instructions Generator/.github/pull_request_template.md
+projects/Copilot Instructions Generator/.github/scripts/fix-line-endings.sh
+projects/Copilot Instructions Generator/.github/workspaces/9898-MTG-Generators.code-workspace
+projects/Copilot Instructions Generator/README.md
+projects/Copilot Instructions Generator/docs/AGENTS.md
+projects/Copilot Instructions Generator/docs/ARCHITECTURE.md
+projects/Copilot Instructions Generator/docs/CHANGELOG.md
+projects/Copilot Instructions Generator/docs/CHECKLIST.md
+projects/Copilot Instructions Generator/docs/CODE_OF_CONDUCT.md
+projects/Copilot Instructions Generator/docs/COMMUNITY.md
+projects/Copilot Instructions Generator/docs/CONTRIBUTING.md
+projects/Copilot Instructions Generator/docs/DEPLOYMENT.md
+projects/Copilot Instructions Generator/docs/DISCUSSIONS.md
+projects/Copilot Instructions Generator/docs/FAQ.md
+projects/Copilot Instructions Generator/docs/FLOWCHARTS.md
+projects/Copilot Instructions Generator/docs/FORMS.md
+projects/Copilot Instructions Generator/docs/GENERATORS.md
+projects/Copilot Instructions Generator/docs/GOVERNANCE.md
+projects/Copilot Instructions Generator/docs/GUIDES.md
+projects/Copilot Instructions Generator/docs/GitHub Repository Markdown Files Checklist.md
+projects/Copilot Instructions Generator/docs/INSTRUCTIONS.md
+projects/Copilot Instructions Generator/docs/ISSUE_TEMPLATE.md
+projects/Copilot Instructions Generator/docs/LICENSE.md
+projects/Copilot Instructions Generator/docs/MAINTAINERS.md
+projects/Copilot Instructions Generator/docs/NOTEBOOKS.md
+projects/Copilot Instructions Generator/docs/PROJECTS.md
+projects/Copilot Instructions Generator/docs/PROMPTS.md
+projects/Copilot Instructions Generator/docs/PULL_REQUEST_TEMPLATE.md
+projects/Copilot Instructions Generator/docs/README.md
+projects/Copilot Instructions Generator/docs/REFERENCES.md
+projects/Copilot Instructions Generator/docs/ROADMAP.md
+projects/Copilot Instructions Generator/docs/RULES.md
+projects/Copilot Instructions Generator/docs/SCRIPTS.md
+projects/Copilot Instructions Generator/docs/SECURITY.md
+projects/Copilot Instructions Generator/docs/SOURCES.md
+projects/Copilot Instructions Generator/docs/SUPPLEMENTARY.md
+projects/Copilot Instructions Generator/docs/SUPPORT.md
+projects/Copilot Instructions Generator/docs/TESTING.md
+projects/Copilot Instructions Generator/docs/TODO.md
+projects/Copilot Instructions Generator/docs/TUTORIALS.md
+projects/Copilot Instructions Generator/docs/WEB_APPS.md
+projects/Copilot Instructions Generator/docs/WIKI.md
+projects/Copilot Instructions Generator/docs/WORKBOOKS.md
+projects/Copilot Instructions Generator/docs/WORKFLOWS.md
+projects/Dynamic AI Game Assets Generator/dynamic-ai-game-assets-generator (2).yaml
+projects/Dynamic AI Game Assets Generator/dynamic-ai-game-assets-generator-v1.yaml
+projects/Dynamic AI Game Assets Generator/dynamic-ai-game-assets-generator.yaml
+projects/TTS/UI/Custom Instructions.html
+projects/TTS/UI/Custom Instructions.md
+projects/TTS/local starter16x16bagGUID.lua
+projects/awesome-copilot-main/.all-contributorsrc
+projects/awesome-copilot-main/.editorconfig
+projects/awesome-copilot-main/.gitattributes
+projects/awesome-copilot-main/.github/copilot-instructions.md
+projects/awesome-copilot-main/.github/pull_request_template.md
+projects/awesome-copilot-main/.github/workflows/check-line-endings.yml
+projects/awesome-copilot-main/.github/workflows/contributors.yml
+projects/awesome-copilot-main/.github/workflows/traffic-reporting.yml
+projects/awesome-copilot-main/.github/workflows/validate-readme.yml
+projects/awesome-copilot-main/.github/workflows/webhook-caller.yml
+projects/awesome-copilot-main/.gitignore
+projects/awesome-copilot-main/.schemas/collection.schema.json
+projects/awesome-copilot-main/.vscode/extensions.json
+projects/awesome-copilot-main/.vscode/settings.json
+projects/awesome-copilot-main/.vscode/tasks.json
+projects/awesome-copilot-main/AGENTS.md
+projects/awesome-copilot-main/CODE_OF_CONDUCT.md
+projects/awesome-copilot-main/CONTRIBUTING.md
+projects/awesome-copilot-main/LICENSE
+projects/awesome-copilot-main/README.md
+projects/awesome-copilot-main/SECURITY.md
+projects/awesome-copilot-main/SUPPORT.md
+projects/awesome-copilot-main/agents/4.1-Beast.agent.md
+projects/awesome-copilot-main/agents/CSharpExpert.agent.md
+projects/awesome-copilot-main/agents/Thinking-Beast-Mode.agent.md
+projects/awesome-copilot-main/agents/Ultimate-Transparent-Thinking-Beast-Mode.agent.md
+projects/awesome-copilot-main/agents/WinFormsExpert.agent.md
+projects/awesome-copilot-main/agents/accessibility.agent.md
+projects/awesome-copilot-main/agents/address-comments.agent.md
+projects/awesome-copilot-main/agents/adr-generator.agent.md
+projects/awesome-copilot-main/agents/aem-frontend-specialist.agent.md
+projects/awesome-copilot-main/agents/amplitude-experiment-implementation.agent.md
+projects/awesome-copilot-main/agents/api-architect.agent.md
+projects/awesome-copilot-main/agents/apify-integration-expert.agent.md
+projects/awesome-copilot-main/agents/arch.agent.md
+projects/awesome-copilot-main/agents/arm-migration.agent.md
+projects/awesome-copilot-main/agents/atlassian-requirements-to-jira.agent.md
+projects/awesome-copilot-main/agents/azure-logic-apps-expert.agent.md
+projects/awesome-copilot-main/agents/azure-principal-architect.agent.md
+projects/awesome-copilot-main/agents/azure-saas-architect.agent.md
+projects/awesome-copilot-main/agents/azure-verified-modules-bicep.agent.md
+projects/awesome-copilot-main/agents/azure-verified-modules-terraform.agent.md
+projects/awesome-copilot-main/agents/bicep-implement.agent.md
+projects/awesome-copilot-main/agents/bicep-plan.agent.md
+projects/awesome-copilot-main/agents/blueprint-mode-codex.agent.md
+projects/awesome-copilot-main/agents/blueprint-mode.agent.md
+projects/awesome-copilot-main/agents/clojure-interactive-programming.agent.md
+projects/awesome-copilot-main/agents/code-tour.agent.md
+projects/awesome-copilot-main/agents/comet-opik.agent.md
+projects/awesome-copilot-main/agents/context7.agent.md
+projects/awesome-copilot-main/agents/critical-thinking.agent.md
+projects/awesome-copilot-main/agents/csharp-dotnet-janitor.agent.md
+projects/awesome-copilot-main/agents/csharp-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/custom-agent-foundry.agent.md
+projects/awesome-copilot-main/agents/debug.agent.md
+projects/awesome-copilot-main/agents/declarative-agents-architect.agent.md
+projects/awesome-copilot-main/agents/demonstrate-understanding.agent.md
+projects/awesome-copilot-main/agents/diffblue-cover.agent.md
+projects/awesome-copilot-main/agents/dotnet-maui.agent.md
+projects/awesome-copilot-main/agents/dotnet-upgrade.agent.md
+projects/awesome-copilot-main/agents/droid.agent.md
+projects/awesome-copilot-main/agents/drupal-expert.agent.md
+projects/awesome-copilot-main/agents/dynatrace-expert.agent.md
+projects/awesome-copilot-main/agents/elasticsearch-observability.agent.md
+projects/awesome-copilot-main/agents/electron-angular-native.agent.md
+projects/awesome-copilot-main/agents/expert-cpp-software-engineer.agent.md
+projects/awesome-copilot-main/agents/expert-dotnet-software-engineer.agent.md
+projects/awesome-copilot-main/agents/expert-nextjs-developer.agent.md
+projects/awesome-copilot-main/agents/expert-react-frontend-engineer.agent.md
+projects/awesome-copilot-main/agents/gilfoyle.agent.md
+projects/awesome-copilot-main/agents/go-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/gpt-5-beast-mode.agent.md
+projects/awesome-copilot-main/agents/hlbpa.agent.md
+projects/awesome-copilot-main/agents/implementation-plan.agent.md
+projects/awesome-copilot-main/agents/janitor.agent.md
+projects/awesome-copilot-main/agents/java-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/jfrog-sec.agent.md
+projects/awesome-copilot-main/agents/kotlin-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/kusto-assistant.agent.md
+projects/awesome-copilot-main/agents/laravel-expert-agent.agent.md
+projects/awesome-copilot-main/agents/launchdarkly-flag-cleanup.agent.md
+projects/awesome-copilot-main/agents/lingodotdev-i18n.agent.md
+projects/awesome-copilot-main/agents/mentor.agent.md
+projects/awesome-copilot-main/agents/meta-agentic-project-scaffold.agent.md
+projects/awesome-copilot-main/agents/microsoft-agent-framework-dotnet.agent.md
+projects/awesome-copilot-main/agents/microsoft-agent-framework-python.agent.md
+projects/awesome-copilot-main/agents/microsoft-study-mode.agent.md
+projects/awesome-copilot-main/agents/microsoft_learn_contributor.agent.md
+projects/awesome-copilot-main/agents/modernization.agent.md
+projects/awesome-copilot-main/agents/monday-bug-fixer.agent.md
+projects/awesome-copilot-main/agents/mongodb-performance-advisor.agent.md
+projects/awesome-copilot-main/agents/ms-sql-dba.agent.md
+projects/awesome-copilot-main/agents/neo4j-docker-client-generator.agent.md
+projects/awesome-copilot-main/agents/neon-migration-specialist.agent.md
+projects/awesome-copilot-main/agents/neon-optimization-analyzer.agent.md
+projects/awesome-copilot-main/agents/octopus-deploy-release-notes-mcp.agent.md
+projects/awesome-copilot-main/agents/pagerduty-incident-responder.agent.md
+projects/awesome-copilot-main/agents/php-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/pimcore-expert.agent.md
+projects/awesome-copilot-main/agents/plan.agent.md
+projects/awesome-copilot-main/agents/planner.agent.md
+projects/awesome-copilot-main/agents/playwright-tester.agent.md
+projects/awesome-copilot-main/agents/postgresql-dba.agent.md
+projects/awesome-copilot-main/agents/power-bi-data-modeling-expert.agent.md
+projects/awesome-copilot-main/agents/power-bi-dax-expert.agent.md
+projects/awesome-copilot-main/agents/power-bi-performance-expert.agent.md
+projects/awesome-copilot-main/agents/power-bi-visualization-expert.agent.md
+projects/awesome-copilot-main/agents/power-platform-expert.agent.md
+projects/awesome-copilot-main/agents/power-platform-mcp-integration-expert.agent.md
+projects/awesome-copilot-main/agents/prd.agent.md
+projects/awesome-copilot-main/agents/principal-software-engineer.agent.md
+projects/awesome-copilot-main/agents/prompt-builder.agent.md
+projects/awesome-copilot-main/agents/prompt-engineer.agent.md
+projects/awesome-copilot-main/agents/python-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/refine-issue.agent.md
+projects/awesome-copilot-main/agents/research-technical-spike.agent.md
+projects/awesome-copilot-main/agents/ruby-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/rust-gpt-4.1-beast-mode.agent.md
+projects/awesome-copilot-main/agents/rust-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/se-gitops-ci-specialist.agent.md
+projects/awesome-copilot-main/agents/se-product-manager-advisor.agent.md
+projects/awesome-copilot-main/agents/se-responsible-ai-code.agent.md
+projects/awesome-copilot-main/agents/se-security-reviewer.agent.md
+projects/awesome-copilot-main/agents/se-system-architecture-reviewer.agent.md
+projects/awesome-copilot-main/agents/se-technical-writer.agent.md
+projects/awesome-copilot-main/agents/se-ux-ui-designer.agent.md
+projects/awesome-copilot-main/agents/search-ai-optimization-expert.agent.md
+projects/awesome-copilot-main/agents/semantic-kernel-dotnet.agent.md
+projects/awesome-copilot-main/agents/semantic-kernel-python.agent.md
+projects/awesome-copilot-main/agents/shopify-expert.agent.md
+projects/awesome-copilot-main/agents/simple-app-idea-generator.agent.md
+projects/awesome-copilot-main/agents/software-engineer-agent-v1.agent.md
+projects/awesome-copilot-main/agents/specification.agent.md
+projects/awesome-copilot-main/agents/stackhawk-security-onboarding.agent.md
+projects/awesome-copilot-main/agents/swift-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/task-planner.agent.md
+projects/awesome-copilot-main/agents/task-researcher.agent.md
+projects/awesome-copilot-main/agents/tdd-green.agent.md
+projects/awesome-copilot-main/agents/tdd-red.agent.md
+projects/awesome-copilot-main/agents/tdd-refactor.agent.md
+projects/awesome-copilot-main/agents/tech-debt-remediation-plan.agent.md
+projects/awesome-copilot-main/agents/technical-content-evaluator.agent.md
+projects/awesome-copilot-main/agents/terraform-azure-implement.agent.md
+projects/awesome-copilot-main/agents/terraform-azure-planning.agent.md
+projects/awesome-copilot-main/agents/terraform.agent.md
+projects/awesome-copilot-main/agents/typescript-mcp-expert.agent.md
+projects/awesome-copilot-main/agents/voidbeast-gpt41enhanced.agent.md
+projects/awesome-copilot-main/agents/wg-code-alchemist.agent.md
+projects/awesome-copilot-main/agents/wg-code-sentinel.agent.md
+projects/awesome-copilot-main/collections/TEMPLATE.md
+projects/awesome-copilot-main/collections/awesome-copilot.collection.yml
+projects/awesome-copilot-main/collections/awesome-copilot.md
+projects/awesome-copilot-main/collections/azure-cloud-development.collection.yml
+projects/awesome-copilot-main/collections/azure-cloud-development.md
+projects/awesome-copilot-main/collections/clojure-interactive-programming.collection.yml
+projects/awesome-copilot-main/collections/clojure-interactive-programming.md
+projects/awesome-copilot-main/collections/csharp-dotnet-development.collection.yml
+projects/awesome-copilot-main/collections/csharp-dotnet-development.md
+projects/awesome-copilot-main/collections/csharp-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/csharp-mcp-development.md
+projects/awesome-copilot-main/collections/database-data-management.collection.yml
+projects/awesome-copilot-main/collections/database-data-management.md
+projects/awesome-copilot-main/collections/dataverse-sdk-for-python.collection.yml
+projects/awesome-copilot-main/collections/dataverse-sdk-for-python.md
+projects/awesome-copilot-main/collections/devops-oncall.collection.yml
+projects/awesome-copilot-main/collections/devops-oncall.md
+projects/awesome-copilot-main/collections/edge-ai-tasks.collection.yml
+projects/awesome-copilot-main/collections/edge-ai-tasks.md
+projects/awesome-copilot-main/collections/frontend-web-dev.collection.yml
+projects/awesome-copilot-main/collections/frontend-web-dev.md
+projects/awesome-copilot-main/collections/go-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/go-mcp-development.md
+projects/awesome-copilot-main/collections/java-development.collection.yml
+projects/awesome-copilot-main/collections/java-development.md
+projects/awesome-copilot-main/collections/java-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/java-mcp-development.md
+projects/awesome-copilot-main/collections/kotlin-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/kotlin-mcp-development.md
+projects/awesome-copilot-main/collections/partners.collection.yml
+projects/awesome-copilot-main/collections/partners.md
+projects/awesome-copilot-main/collections/pcf-development.collection.yml
+projects/awesome-copilot-main/collections/pcf-development.md
+projects/awesome-copilot-main/collections/php-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/php-mcp-development.md
+projects/awesome-copilot-main/collections/power-apps-code-apps.collection.yml
+projects/awesome-copilot-main/collections/power-apps-code-apps.md
+projects/awesome-copilot-main/collections/power-bi-development.collection.yml
+projects/awesome-copilot-main/collections/power-bi-development.md
+projects/awesome-copilot-main/collections/power-platform-mcp-connector-development.collection.yml
+projects/awesome-copilot-main/collections/power-platform-mcp-connector-development.md
+projects/awesome-copilot-main/collections/project-planning.collection.yml
+projects/awesome-copilot-main/collections/project-planning.md
+projects/awesome-copilot-main/collections/python-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/python-mcp-development.md
+projects/awesome-copilot-main/collections/ruby-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/ruby-mcp-development.md
+projects/awesome-copilot-main/collections/rust-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/rust-mcp-development.md
+projects/awesome-copilot-main/collections/security-best-practices.collection.yml
+projects/awesome-copilot-main/collections/security-best-practices.md
+projects/awesome-copilot-main/collections/software-engineering-team.collection.yml
+projects/awesome-copilot-main/collections/software-engineering-team.md
+projects/awesome-copilot-main/collections/structured-autonomy-collection.yml
+projects/awesome-copilot-main/collections/structured-autonomy.md
+projects/awesome-copilot-main/collections/swift-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/swift-mcp-development.md
+projects/awesome-copilot-main/collections/technical-spike.collection.yml
+projects/awesome-copilot-main/collections/technical-spike.md
+projects/awesome-copilot-main/collections/testing-automation.collection.yml
+projects/awesome-copilot-main/collections/testing-automation.md
+projects/awesome-copilot-main/collections/typescript-mcp-development.collection.yml
+projects/awesome-copilot-main/collections/typescript-mcp-development.md
+projects/awesome-copilot-main/docs/.gitkeep
+projects/awesome-copilot-main/docs/README.agents.md
+projects/awesome-copilot-main/docs/README.collections.md
+projects/awesome-copilot-main/docs/README.instructions.md
+projects/awesome-copilot-main/docs/README.prompts.md
+projects/awesome-copilot-main/docs/README.skills.md
+projects/awesome-copilot-main/eng/constants.mjs
+projects/awesome-copilot-main/eng/create-collection.mjs
+projects/awesome-copilot-main/eng/create-skill.mjs
+projects/awesome-copilot-main/eng/update-readme.mjs
+projects/awesome-copilot-main/eng/validate-collections.mjs
+projects/awesome-copilot-main/eng/validate-skills.mjs
+projects/awesome-copilot-main/eng/yaml-parser.mjs
+projects/awesome-copilot-main/instructions/a11y.instructions.md
+projects/awesome-copilot-main/instructions/agents.instructions.md
+projects/awesome-copilot-main/instructions/ai-prompt-engineering-safety-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/angular.instructions.md
+projects/awesome-copilot-main/instructions/ansible.instructions.md
+projects/awesome-copilot-main/instructions/apex.instructions.md
+projects/awesome-copilot-main/instructions/aspnet-rest-apis.instructions.md
+projects/awesome-copilot-main/instructions/astro.instructions.md
+projects/awesome-copilot-main/instructions/azure-devops-pipelines.instructions.md
+projects/awesome-copilot-main/instructions/azure-functions-typescript.instructions.md
+projects/awesome-copilot-main/instructions/azure-logic-apps-power-automate.instructions.md
+projects/awesome-copilot-main/instructions/azure-verified-modules-bicep.instructions.md
+projects/awesome-copilot-main/instructions/azure-verified-modules-terraform.instructions.md
+projects/awesome-copilot-main/instructions/bicep-code-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/blazor.instructions.md
+projects/awesome-copilot-main/instructions/clojure.instructions.md
+projects/awesome-copilot-main/instructions/cmake-vcpkg.instructions.md
+projects/awesome-copilot-main/instructions/code-review-generic.instructions.md
+projects/awesome-copilot-main/instructions/codexer.instructions.md
+projects/awesome-copilot-main/instructions/coldfusion-cfc.instructions.md
+projects/awesome-copilot-main/instructions/coldfusion-cfm.instructions.md
+projects/awesome-copilot-main/instructions/collections.instructions.md
+projects/awesome-copilot-main/instructions/containerization-docker-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/convert-cassandra-to-spring-data-cosmos.instructions.md
+projects/awesome-copilot-main/instructions/convert-jpa-to-spring-data-cosmos.instructions.md
+projects/awesome-copilot-main/instructions/copilot-thought-logging.instructions.md
+projects/awesome-copilot-main/instructions/csharp-ja.instructions.md
+projects/awesome-copilot-main/instructions/csharp-ko.instructions.md
+projects/awesome-copilot-main/instructions/csharp-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/csharp.instructions.md
+projects/awesome-copilot-main/instructions/dart-n-flutter.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-advanced-features.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-agentic-workflows.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-api-reference.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-authentication-security.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-error-handling.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-file-operations.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-modules.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-pandas-integration.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-performance-optimization.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-real-world-usecases.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-sdk.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python-testing-debugging.instructions.md
+projects/awesome-copilot-main/instructions/dataverse-python.instructions.md
+projects/awesome-copilot-main/instructions/declarative-agents-microsoft365.instructions.md
+projects/awesome-copilot-main/instructions/devbox-image-definition.instructions.md
+projects/awesome-copilot-main/instructions/devops-core-principles.instructions.md
+projects/awesome-copilot-main/instructions/dotnet-architecture-good-practices.instructions.md
+projects/awesome-copilot-main/instructions/dotnet-framework.instructions.md
+projects/awesome-copilot-main/instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md
+projects/awesome-copilot-main/instructions/dotnet-maui.instructions.md
+projects/awesome-copilot-main/instructions/dotnet-upgrade.instructions.md
+projects/awesome-copilot-main/instructions/dotnet-wpf.instructions.md
+projects/awesome-copilot-main/instructions/genaiscript.instructions.md
+projects/awesome-copilot-main/instructions/generate-modern-terraform-code-for-azure.instructions.md
+projects/awesome-copilot-main/instructions/gilfoyle-code-review.instructions.md
+projects/awesome-copilot-main/instructions/github-actions-ci-cd-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/go-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/go.instructions.md
+projects/awesome-copilot-main/instructions/instructions.instructions.md
+projects/awesome-copilot-main/instructions/java-11-to-java-17-upgrade.instructions.md
+projects/awesome-copilot-main/instructions/java-17-to-java-21-upgrade.instructions.md
+projects/awesome-copilot-main/instructions/java-21-to-java-25-upgrade.instructions.md
+projects/awesome-copilot-main/instructions/java-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/java.instructions.md
+projects/awesome-copilot-main/instructions/joyride-user-project.instructions.md
+projects/awesome-copilot-main/instructions/joyride-workspace-automation.instructions.md
+projects/awesome-copilot-main/instructions/kotlin-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/kubernetes-deployment-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/langchain-python.instructions.md
+projects/awesome-copilot-main/instructions/localization.instructions.md
+projects/awesome-copilot-main/instructions/makefile.instructions.md
+projects/awesome-copilot-main/instructions/markdown.instructions.md
+projects/awesome-copilot-main/instructions/memory-bank.instructions.md
+projects/awesome-copilot-main/instructions/mongo-dba.instructions.md
+projects/awesome-copilot-main/instructions/ms-sql-dba.instructions.md
+projects/awesome-copilot-main/instructions/nestjs.instructions.md
+projects/awesome-copilot-main/instructions/nextjs-tailwind.instructions.md
+projects/awesome-copilot-main/instructions/nextjs.instructions.md
+projects/awesome-copilot-main/instructions/nodejs-javascript-vitest.instructions.md
+projects/awesome-copilot-main/instructions/object-calisthenics.instructions.md
+projects/awesome-copilot-main/instructions/oqtane.instructions.md
+projects/awesome-copilot-main/instructions/pcf-alm.instructions.md
+projects/awesome-copilot-main/instructions/pcf-api-reference.instructions.md
+projects/awesome-copilot-main/instructions/pcf-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/pcf-canvas-apps.instructions.md
+projects/awesome-copilot-main/instructions/pcf-code-components.instructions.md
+projects/awesome-copilot-main/instructions/pcf-community-resources.instructions.md
+projects/awesome-copilot-main/instructions/pcf-dependent-libraries.instructions.md
+projects/awesome-copilot-main/instructions/pcf-events.instructions.md
+projects/awesome-copilot-main/instructions/pcf-fluent-modern-theming.instructions.md
+projects/awesome-copilot-main/instructions/pcf-limitations.instructions.md
+projects/awesome-copilot-main/instructions/pcf-manifest-schema.instructions.md
+projects/awesome-copilot-main/instructions/pcf-model-driven-apps.instructions.md
+projects/awesome-copilot-main/instructions/pcf-overview.instructions.md
+projects/awesome-copilot-main/instructions/pcf-power-pages.instructions.md
+projects/awesome-copilot-main/instructions/pcf-react-platform-libraries.instructions.md
+projects/awesome-copilot-main/instructions/pcf-sample-components.instructions.md
+projects/awesome-copilot-main/instructions/pcf-tooling.instructions.md
+projects/awesome-copilot-main/instructions/performance-optimization.instructions.md
+projects/awesome-copilot-main/instructions/php-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/playwright-dotnet.instructions.md
+projects/awesome-copilot-main/instructions/playwright-python.instructions.md
+projects/awesome-copilot-main/instructions/playwright-typescript.instructions.md
+projects/awesome-copilot-main/instructions/power-apps-canvas-yaml.instructions.md
+projects/awesome-copilot-main/instructions/power-apps-code-apps.instructions.md
+projects/awesome-copilot-main/instructions/power-bi-custom-visuals-development.instructions.md
+projects/awesome-copilot-main/instructions/power-bi-data-modeling-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/power-bi-dax-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/power-bi-devops-alm-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/power-bi-report-design-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/power-bi-security-rls-best-practices.instructions.md
+projects/awesome-copilot-main/instructions/power-platform-connector.instructions.md
+projects/awesome-copilot-main/instructions/power-platform-mcp-development.instructions.md
+projects/awesome-copilot-main/instructions/powershell-pester-5.instructions.md
+projects/awesome-copilot-main/instructions/powershell.instructions.md
+projects/awesome-copilot-main/instructions/prompt.instructions.md
+projects/awesome-copilot-main/instructions/python-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/python.instructions.md
+projects/awesome-copilot-main/instructions/quarkus-mcp-server-sse.instructions.md
+projects/awesome-copilot-main/instructions/quarkus.instructions.md
+projects/awesome-copilot-main/instructions/r.instructions.md
+projects/awesome-copilot-main/instructions/reactjs.instructions.md
+projects/awesome-copilot-main/instructions/ruby-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/ruby-on-rails.instructions.md
+projects/awesome-copilot-main/instructions/rust-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/rust.instructions.md
+projects/awesome-copilot-main/instructions/security-and-owasp.instructions.md
+projects/awesome-copilot-main/instructions/self-explanatory-code-commenting.instructions.md
+projects/awesome-copilot-main/instructions/shell.instructions.md
+projects/awesome-copilot-main/instructions/spec-driven-workflow-v1.instructions.md
+projects/awesome-copilot-main/instructions/springboot-4-migration.instructions.md
+projects/awesome-copilot-main/instructions/springboot.instructions.md
+projects/awesome-copilot-main/instructions/sql-sp-generation.instructions.md
+projects/awesome-copilot-main/instructions/svelte.instructions.md
+projects/awesome-copilot-main/instructions/swift-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/taming-copilot.instructions.md
+projects/awesome-copilot-main/instructions/tanstack-start-shadcn-tailwind.instructions.md
+projects/awesome-copilot-main/instructions/task-implementation.instructions.md
+projects/awesome-copilot-main/instructions/tasksync.instructions.md
+projects/awesome-copilot-main/instructions/terraform-azure.instructions.md
+projects/awesome-copilot-main/instructions/terraform-sap-btp.instructions.md
+projects/awesome-copilot-main/instructions/terraform.instructions.md
+projects/awesome-copilot-main/instructions/typescript-5-es2022.instructions.md
+projects/awesome-copilot-main/instructions/typescript-mcp-server.instructions.md
+projects/awesome-copilot-main/instructions/update-code-from-shorthand.instructions.md
+projects/awesome-copilot-main/instructions/update-docs-on-code-change.instructions.md
+projects/awesome-copilot-main/instructions/vuejs3.instructions.md
+projects/awesome-copilot-main/instructions/wordpress.instructions.md
+projects/awesome-copilot-main/package-lock.json
+projects/awesome-copilot-main/package.json
+projects/awesome-copilot-main/prompts/add-educational-comments.prompt.md
+projects/awesome-copilot-main/prompts/ai-prompt-engineering-safety-review.prompt.md
+projects/awesome-copilot-main/prompts/architecture-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/aspnet-minimal-api-openapi.prompt.md
+projects/awesome-copilot-main/prompts/az-cost-optimize.prompt.md
+projects/awesome-copilot-main/prompts/azure-resource-health-diagnose.prompt.md
+projects/awesome-copilot-main/prompts/boost-prompt.prompt.md
+projects/awesome-copilot-main/prompts/breakdown-epic-arch.prompt.md
+projects/awesome-copilot-main/prompts/breakdown-epic-pm.prompt.md
+projects/awesome-copilot-main/prompts/breakdown-feature-implementation.prompt.md
+projects/awesome-copilot-main/prompts/breakdown-feature-prd.prompt.md
+projects/awesome-copilot-main/prompts/breakdown-plan.prompt.md
+projects/awesome-copilot-main/prompts/breakdown-test.prompt.md
+projects/awesome-copilot-main/prompts/code-exemplars-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/comment-code-generate-a-tutorial.prompt.md
+projects/awesome-copilot-main/prompts/containerize-aspnet-framework.prompt.md
+projects/awesome-copilot-main/prompts/containerize-aspnetcore.prompt.md
+projects/awesome-copilot-main/prompts/conventional-commit.prompt.md
+projects/awesome-copilot-main/prompts/convert-plaintext-to-md.prompt.md
+projects/awesome-copilot-main/prompts/copilot-instructions-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/cosmosdb-datamodeling.prompt.md
+projects/awesome-copilot-main/prompts/create-agentsmd.prompt.md
+projects/awesome-copilot-main/prompts/create-architectural-decision-record.prompt.md
+projects/awesome-copilot-main/prompts/create-github-action-workflow-specification.prompt.md
+projects/awesome-copilot-main/prompts/create-github-issue-feature-from-specification.prompt.md
+projects/awesome-copilot-main/prompts/create-github-issues-feature-from-implementation-plan.prompt.md
+projects/awesome-copilot-main/prompts/create-github-issues-for-unmet-specification-requirements.prompt.md
+projects/awesome-copilot-main/prompts/create-github-pull-request-from-specification.prompt.md
+projects/awesome-copilot-main/prompts/create-implementation-plan.prompt.md
+projects/awesome-copilot-main/prompts/create-llms.prompt.md
+projects/awesome-copilot-main/prompts/create-oo-component-documentation.prompt.md
+projects/awesome-copilot-main/prompts/create-readme.prompt.md
+projects/awesome-copilot-main/prompts/create-specification.prompt.md
+projects/awesome-copilot-main/prompts/create-spring-boot-java-project.prompt.md
+projects/awesome-copilot-main/prompts/create-spring-boot-kotlin-project.prompt.md
+projects/awesome-copilot-main/prompts/create-technical-spike.prompt.md
+projects/awesome-copilot-main/prompts/create-tldr-page.prompt.md
+projects/awesome-copilot-main/prompts/csharp-async.prompt.md
+projects/awesome-copilot-main/prompts/csharp-docs.prompt.md
+projects/awesome-copilot-main/prompts/csharp-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/csharp-mstest.prompt.md
+projects/awesome-copilot-main/prompts/csharp-nunit.prompt.md
+projects/awesome-copilot-main/prompts/csharp-tunit.prompt.md
+projects/awesome-copilot-main/prompts/csharp-xunit.prompt.md
+projects/awesome-copilot-main/prompts/dataverse-python-advanced-patterns.prompt.md
+projects/awesome-copilot-main/prompts/dataverse-python-production-code.prompt.md
+projects/awesome-copilot-main/prompts/dataverse-python-quickstart.prompt.md
+projects/awesome-copilot-main/prompts/dataverse-python-usecase-builder.prompt.md
+projects/awesome-copilot-main/prompts/declarative-agents.prompt.md
+projects/awesome-copilot-main/prompts/documentation-writer.prompt.md
+projects/awesome-copilot-main/prompts/dotnet-best-practices.prompt.md
+projects/awesome-copilot-main/prompts/dotnet-design-pattern-review.prompt.md
+projects/awesome-copilot-main/prompts/dotnet-upgrade.prompt.md
+projects/awesome-copilot-main/prompts/editorconfig.prompt.md
+projects/awesome-copilot-main/prompts/ef-core.prompt.md
+projects/awesome-copilot-main/prompts/finalize-agent-prompt.prompt.md
+projects/awesome-copilot-main/prompts/first-ask.prompt.md
+projects/awesome-copilot-main/prompts/folder-structure-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/gen-specs-as-issues.prompt.md
+projects/awesome-copilot-main/prompts/generate-custom-instructions-from-codebase.prompt.md
+projects/awesome-copilot-main/prompts/git-flow-branch-creator.prompt.md
+projects/awesome-copilot-main/prompts/github-copilot-starter.prompt.md
+projects/awesome-copilot-main/prompts/go-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/java-add-graalvm-native-image-support.prompt.md
+projects/awesome-copilot-main/prompts/java-docs.prompt.md
+projects/awesome-copilot-main/prompts/java-junit.prompt.md
+projects/awesome-copilot-main/prompts/java-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/java-refactoring-extract-method.prompt.md
+projects/awesome-copilot-main/prompts/java-refactoring-remove-parameter.prompt.md
+projects/awesome-copilot-main/prompts/java-springboot.prompt.md
+projects/awesome-copilot-main/prompts/javascript-typescript-jest.prompt.md
+projects/awesome-copilot-main/prompts/kotlin-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/kotlin-springboot.prompt.md
+projects/awesome-copilot-main/prompts/mcp-copilot-studio-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/memory-merger.prompt.md
+projects/awesome-copilot-main/prompts/mkdocs-translations.prompt.md
+projects/awesome-copilot-main/prompts/model-recommendation.prompt.md
+projects/awesome-copilot-main/prompts/multi-stage-dockerfile.prompt.md
+projects/awesome-copilot-main/prompts/my-issues.prompt.md
+projects/awesome-copilot-main/prompts/my-pull-requests.prompt.md
+projects/awesome-copilot-main/prompts/next-intl-add-language.prompt.md
+projects/awesome-copilot-main/prompts/php-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/playwright-automation-fill-in-form.prompt.md
+projects/awesome-copilot-main/prompts/playwright-explore-website.prompt.md
+projects/awesome-copilot-main/prompts/playwright-generate-test.prompt.md
+projects/awesome-copilot-main/prompts/postgresql-code-review.prompt.md
+projects/awesome-copilot-main/prompts/postgresql-optimization.prompt.md
+projects/awesome-copilot-main/prompts/power-apps-code-app-scaffold.prompt.md
+projects/awesome-copilot-main/prompts/power-bi-dax-optimization.prompt.md
+projects/awesome-copilot-main/prompts/power-bi-model-design-review.prompt.md
+projects/awesome-copilot-main/prompts/power-bi-performance-troubleshooting.prompt.md
+projects/awesome-copilot-main/prompts/power-bi-report-design-consultation.prompt.md
+projects/awesome-copilot-main/prompts/power-platform-mcp-connector-suite.prompt.md
+projects/awesome-copilot-main/prompts/project-workflow-analysis-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/prompt-builder.prompt.md
+projects/awesome-copilot-main/prompts/pytest-coverage.prompt.md
+projects/awesome-copilot-main/prompts/python-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/readme-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/remember-interactive-programming.prompt.md
+projects/awesome-copilot-main/prompts/remember.prompt.md
+projects/awesome-copilot-main/prompts/repo-story-time.prompt.md
+projects/awesome-copilot-main/prompts/review-and-refactor.prompt.md
+projects/awesome-copilot-main/prompts/ruby-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/rust-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/shuffle-json-data.prompt.md
+projects/awesome-copilot-main/prompts/sql-code-review.prompt.md
+projects/awesome-copilot-main/prompts/sql-optimization.prompt.md
+projects/awesome-copilot-main/prompts/structured-autonomy-generate.prompt.md
+projects/awesome-copilot-main/prompts/structured-autonomy-implement.prompt.md
+projects/awesome-copilot-main/prompts/structured-autonomy-plan.prompt.md
+projects/awesome-copilot-main/prompts/suggest-awesome-github-copilot-agents.prompt.md
+projects/awesome-copilot-main/prompts/suggest-awesome-github-copilot-chatmodes.prompt.md
+projects/awesome-copilot-main/prompts/suggest-awesome-github-copilot-collections.prompt.md
+projects/awesome-copilot-main/prompts/suggest-awesome-github-copilot-instructions.prompt.md
+projects/awesome-copilot-main/prompts/suggest-awesome-github-copilot-prompts.prompt.md
+projects/awesome-copilot-main/prompts/swift-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/technology-stack-blueprint-generator.prompt.md
+projects/awesome-copilot-main/prompts/tldr-prompt.prompt.md
+projects/awesome-copilot-main/prompts/typescript-mcp-server-generator.prompt.md
+projects/awesome-copilot-main/prompts/update-avm-modules-in-bicep.prompt.md
+projects/awesome-copilot-main/prompts/update-implementation-plan.prompt.md
+projects/awesome-copilot-main/prompts/update-llms.prompt.md
+projects/awesome-copilot-main/prompts/update-markdown-file-index.prompt.md
+projects/awesome-copilot-main/prompts/update-oo-component-documentation.prompt.md
+projects/awesome-copilot-main/prompts/update-specification.prompt.md
+projects/awesome-copilot-main/prompts/write-coding-standards-from-file.prompt.md
+projects/awesome-copilot-main/scripts/fix-line-endings.sh
+projects/awesome-copilot-main/skills/azure-role-selector/LICENSE.txt
+projects/awesome-copilot-main/skills/azure-role-selector/SKILL.md
+projects/awesome-copilot-main/skills/snowflake-semanticview/SKILL.md
+projects/awesome-copilot-main/skills/webapp-testing/SKILL.md
+projects/awesome-copilot-main/skills/webapp-testing/test-helper.js
+projects/interactive-examples/JavaScript/array/array-concat.js
+projects/interactive-examples/JavaScript/array/array-copywithin.js
+projects/interactive-examples/JavaScript/array/array-entries.js
+projects/interactive-examples/JavaScript/array/array-every.js
+projects/interactive-examples/JavaScript/array/array-fill.js
+projects/interactive-examples/JavaScript/array/array-filter.js
+projects/interactive-examples/JavaScript/array/array-find.js
+projects/interactive-examples/JavaScript/array/array-findindex.js
+projects/interactive-examples/JavaScript/array/array-foreach.js
+projects/interactive-examples/JavaScript/array/array-from.js
+projects/interactive-examples/JavaScript/array/array-includes.js
+projects/interactive-examples/JavaScript/array/array-indexof.js
+projects/interactive-examples/JavaScript/array/array-join.js
+projects/interactive-examples/JavaScript/array/array-keys.js
+projects/interactive-examples/JavaScript/array/array-lastindexof.js
+projects/interactive-examples/JavaScript/array/array-length.js
+projects/interactive-examples/JavaScript/array/array-map.js
+projects/interactive-examples/JavaScript/array/array-pop.js
+projects/interactive-examples/JavaScript/array/array-push.js
+projects/interactive-examples/JavaScript/array/array-reduce-right.js
+projects/interactive-examples/JavaScript/array/array-reduce.js
+projects/interactive-examples/JavaScript/array/array-reverse.js
+projects/interactive-examples/JavaScript/array/array-shift.js
+projects/interactive-examples/JavaScript/array/array-slice.js
+projects/interactive-examples/JavaScript/array/array-some.js
+projects/interactive-examples/JavaScript/array/array-sort.js
+projects/interactive-examples/JavaScript/array/array-splice.js
+projects/interactive-examples/JavaScript/array/array-tolocalestring.js
+projects/interactive-examples/JavaScript/array/array-tostring.js
+projects/interactive-examples/JavaScript/array/array-unshift.js
+projects/interactive-examples/JavaScript/array/array-values.js
+projects/interactive-examples/JavaScript/array/meta.json
+projects/interactive-examples/JavaScript/arraybuffer/arraybuffer-bytelength.js
+projects/interactive-examples/JavaScript/arraybuffer/arraybuffer-constructor.js
+projects/interactive-examples/JavaScript/arraybuffer/arraybuffer-isview.js
+projects/interactive-examples/JavaScript/arraybuffer/arraybuffer-slice.js
+projects/interactive-examples/JavaScript/arraybuffer/meta.json
+projects/interactive-examples/JavaScript/atomics/atomics-add.js
+projects/interactive-examples/JavaScript/atomics/atomics-and.js
+projects/interactive-examples/JavaScript/atomics/atomics-compareexchange.js
+projects/interactive-examples/JavaScript/atomics/atomics-exchange.js
+projects/interactive-examples/JavaScript/atomics/atomics-islockfree.js
+projects/interactive-examples/JavaScript/atomics/atomics-load.js
+projects/interactive-examples/JavaScript/atomics/atomics-or.js
+projects/interactive-examples/JavaScript/atomics/atomics-store.js
+projects/interactive-examples/JavaScript/atomics/atomics-sub.js
+projects/interactive-examples/JavaScript/atomics/atomics-xor.js
+projects/interactive-examples/JavaScript/atomics/meta.json
+projects/interactive-examples/JavaScript/bigint/bigint-asintn.js
+projects/interactive-examples/JavaScript/bigint/bigint-asuintn.js
+projects/interactive-examples/JavaScript/bigint/bigint-tolocalestring.js
+projects/interactive-examples/JavaScript/bigint/bigint-tostring.js
+projects/interactive-examples/JavaScript/bigint/bigint-valueof.js
+projects/interactive-examples/JavaScript/bigint/meta.json
+projects/interactive-examples/JavaScript/boolean/boolean-constructor.js
+projects/interactive-examples/JavaScript/boolean/boolean-tostring.js
+projects/interactive-examples/JavaScript/boolean/boolean-valueof.js
+projects/interactive-examples/JavaScript/boolean/meta.json
+projects/interactive-examples/JavaScript/classes/classes-constructor.js
+projects/interactive-examples/JavaScript/classes/classes-extends.js
+projects/interactive-examples/JavaScript/classes/classes-static.js
+projects/interactive-examples/JavaScript/classes/meta.json
+projects/interactive-examples/JavaScript/dataview/dataview-buffer.js
+projects/interactive-examples/JavaScript/dataview/dataview-bytelength.js
+projects/interactive-examples/JavaScript/dataview/dataview-byteoffset.js
+projects/interactive-examples/JavaScript/dataview/dataview-constructor.js
+projects/interactive-examples/JavaScript/dataview/dataview-getbigint64.js
+projects/interactive-examples/JavaScript/dataview/dataview-getbiguint64.js
+projects/interactive-examples/JavaScript/dataview/dataview-getfloat32.js
+projects/interactive-examples/JavaScript/dataview/dataview-getfloat64.js
+projects/interactive-examples/JavaScript/dataview/dataview-getint16.js
+projects/interactive-examples/JavaScript/dataview/dataview-getint32.js
+projects/interactive-examples/JavaScript/dataview/dataview-getint8.js
+projects/interactive-examples/JavaScript/dataview/dataview-getuint16.js
+projects/interactive-examples/JavaScript/dataview/dataview-getuint32.js
+projects/interactive-examples/JavaScript/dataview/dataview-getuint8.js
+projects/interactive-examples/JavaScript/dataview/dataview-setbigint64.js
+projects/interactive-examples/JavaScript/dataview/dataview-setbiguint64.js
+projects/interactive-examples/JavaScript/dataview/dataview-setfloat32.js
+projects/interactive-examples/JavaScript/dataview/dataview-setfloat64.js
+projects/interactive-examples/JavaScript/dataview/dataview-setint16.js
+projects/interactive-examples/JavaScript/dataview/dataview-setint32.js
+projects/interactive-examples/JavaScript/dataview/dataview-setint8.js
+projects/interactive-examples/JavaScript/dataview/dataview-setuint16.js
+projects/interactive-examples/JavaScript/dataview/dataview-setuint32.js
+projects/interactive-examples/JavaScript/dataview/dataview-setuint8.js
+projects/interactive-examples/JavaScript/dataview/meta.json
+projects/interactive-examples/JavaScript/date/date-constructor.js
+projects/interactive-examples/JavaScript/date/date-getdate.js
+projects/interactive-examples/JavaScript/date/date-getday.js
+projects/interactive-examples/JavaScript/date/date-getfullyear.js
+projects/interactive-examples/JavaScript/date/date-gethours.js
+projects/interactive-examples/JavaScript/date/date-getmilliseconds.js
+projects/interactive-examples/JavaScript/date/date-getminutes.js
+projects/interactive-examples/JavaScript/date/date-getmonth.js
+projects/interactive-examples/JavaScript/date/date-getseconds.js
+projects/interactive-examples/JavaScript/date/date-gettime.js
+projects/interactive-examples/JavaScript/date/date-gettimezoneoffset.js
+projects/interactive-examples/JavaScript/date/date-getutcdate.js
+projects/interactive-examples/JavaScript/date/date-getutcday.js
+projects/interactive-examples/JavaScript/date/date-getutcfullyear.js
+projects/interactive-examples/JavaScript/date/date-getutchours.js
+projects/interactive-examples/JavaScript/date/date-getutcmilliseconds.js
+projects/interactive-examples/JavaScript/date/date-getutcminutes.js
+projects/interactive-examples/JavaScript/date/date-getutcmonth.js
+projects/interactive-examples/JavaScript/date/date-getutcseconds.js
+projects/interactive-examples/JavaScript/date/date-now.js
+projects/interactive-examples/JavaScript/date/date-parse.js
+projects/interactive-examples/JavaScript/date/date-setdate.js
+projects/interactive-examples/JavaScript/date/date-setfullyear.js
+projects/interactive-examples/JavaScript/date/date-sethours.js
+projects/interactive-examples/JavaScript/date/date-setmilliseconds.js
+projects/interactive-examples/JavaScript/date/date-setminutes.js
+projects/interactive-examples/JavaScript/date/date-setmonth.js
+projects/interactive-examples/JavaScript/date/date-setseconds.js
+projects/interactive-examples/JavaScript/date/date-settime.js
+projects/interactive-examples/JavaScript/date/date-setutcdate.js
+projects/interactive-examples/JavaScript/date/date-setutcfullyear.js
+projects/interactive-examples/JavaScript/date/date-setutchours.js
+projects/interactive-examples/JavaScript/date/date-setutcmilliseconds.js
+projects/interactive-examples/JavaScript/date/date-setutcminutes.js
+projects/interactive-examples/JavaScript/date/date-setutcmonth.js
+projects/interactive-examples/JavaScript/date/date-setutcseconds.js
+projects/interactive-examples/JavaScript/date/date-todatestring.js
+projects/interactive-examples/JavaScript/date/date-toisostring.js
+projects/interactive-examples/JavaScript/date/date-tojson.js
+projects/interactive-examples/JavaScript/date/date-tolocaledatestring.js
+projects/interactive-examples/JavaScript/date/date-tolocalestring.js
+projects/interactive-examples/JavaScript/date/date-tolocaletimestring.js
+projects/interactive-examples/JavaScript/date/date-tostring.js
+projects/interactive-examples/JavaScript/date/date-totimestring.js
+projects/interactive-examples/JavaScript/date/date-toutcstring.js
+projects/interactive-examples/JavaScript/date/date-utc.js
+projects/interactive-examples/JavaScript/date/date-valueof.js
+projects/interactive-examples/JavaScript/date/meta.json
+projects/interactive-examples/JavaScript/expressions/expressions-arithmetic.js
+projects/interactive-examples/JavaScript/expressions/expressions-assignment.js
+projects/interactive-examples/JavaScript/expressions/expressions-bitwiseoperators.js
+projects/interactive-examples/JavaScript/expressions/expressions-classexpression.js
+projects/interactive-examples/JavaScript/expressions/expressions-commaoperators.js
+projects/interactive-examples/JavaScript/expressions/expressions-comparisonoperators.js
+projects/interactive-examples/JavaScript/expressions/expressions-conditionaloperators.js
+projects/interactive-examples/JavaScript/expressions/expressions-deleteoperator.js
+projects/interactive-examples/JavaScript/expressions/expressions-destructuringassignment.js
+projects/interactive-examples/JavaScript/expressions/expressions-functionasteriskexpression.js
+projects/interactive-examples/JavaScript/expressions/expressions-functionexpression.js
+projects/interactive-examples/JavaScript/expressions/expressions-groupingoperator.js
+projects/interactive-examples/JavaScript/expressions/expressions-inoperator.js
+projects/interactive-examples/JavaScript/expressions/expressions-instanceof.js
+projects/interactive-examples/JavaScript/expressions/expressions-logicaloperator.js
+projects/interactive-examples/JavaScript/expressions/expressions-newoperator.js
+projects/interactive-examples/JavaScript/expressions/expressions-newtarget.js
+projects/interactive-examples/JavaScript/expressions/expressions-objectinitializer.js
+projects/interactive-examples/JavaScript/expressions/expressions-operatorprecedence.js
+projects/interactive-examples/JavaScript/expressions/expressions-propertyaccessors.js
+projects/interactive-examples/JavaScript/expressions/expressions-spreadsyntax.js
+projects/interactive-examples/JavaScript/expressions/expressions-this.js
+projects/interactive-examples/JavaScript/expressions/expressions-typeof.js
+projects/interactive-examples/JavaScript/expressions/expressions-voidoperator.js
+projects/interactive-examples/JavaScript/expressions/expressions-yield.js
+projects/interactive-examples/JavaScript/expressions/expressions-yieldasterisk.js
+projects/interactive-examples/JavaScript/expressions/meta.json
+projects/interactive-examples/JavaScript/function/function-apply.js
+projects/interactive-examples/JavaScript/function/function-bind.js
+projects/interactive-examples/JavaScript/function/function-call.js
+projects/interactive-examples/JavaScript/function/function-constructor.js
+projects/interactive-examples/JavaScript/function/function-length.js
+projects/interactive-examples/JavaScript/function/function-name.js
+projects/interactive-examples/JavaScript/function/function-tostring.js
+projects/interactive-examples/JavaScript/function/meta.json
+projects/interactive-examples/JavaScript/functions/functions-arguments.js
+projects/interactive-examples/JavaScript/functions/functions-arrow.js
+projects/interactive-examples/JavaScript/functions/functions-default.js
+projects/interactive-examples/JavaScript/functions/functions-definitions.js
+projects/interactive-examples/JavaScript/functions/functions-getter.js
+projects/interactive-examples/JavaScript/functions/functions-restparameters.js
+projects/interactive-examples/JavaScript/functions/functions-setter.js
+projects/interactive-examples/JavaScript/functions/meta.json
+projects/interactive-examples/JavaScript/globalprops/globalprops-decodeuri.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-decodeuricomponent.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-encodeuri.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-encodeuricomponent.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-eval.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-globalthis.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-infinity.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-isfinite.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-isnan.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-nan.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-null.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-parsefloat.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-parseint.js
+projects/interactive-examples/JavaScript/globalprops/globalprops-undefined.js
+projects/interactive-examples/JavaScript/globalprops/meta.json
+projects/interactive-examples/JavaScript/intl/intl-collator-prototype-compare.js
+projects/interactive-examples/JavaScript/intl/intl-collator-supportedlocalesof.js
+projects/interactive-examples/JavaScript/intl/intl-collator.js
+projects/interactive-examples/JavaScript/intl/intl-datetimeformat-prototype-format.js
+projects/interactive-examples/JavaScript/intl/intl-datetimeformat-prototype-formatrange.js
+projects/interactive-examples/JavaScript/intl/intl-datetimeformat-prototype-resolvedoptions.js
+projects/interactive-examples/JavaScript/intl/intl-datetimeformat-supportedlocalesof.js
+projects/interactive-examples/JavaScript/intl/intl-datetimeformat.js
+projects/interactive-examples/JavaScript/intl/intl-getcanonicallocales.js
+projects/interactive-examples/JavaScript/intl/intl-listformat.js
+projects/interactive-examples/JavaScript/intl/intl-locale-prototype-maximize.js
+projects/interactive-examples/JavaScript/intl/intl-locale-prototype-minimize.js
+projects/interactive-examples/JavaScript/intl/intl-locale-prototype-tostring.js
+projects/interactive-examples/JavaScript/intl/intl-locale.js
+projects/interactive-examples/JavaScript/intl/intl-numberformat-prototype-format.js
+projects/interactive-examples/JavaScript/intl/intl-numberformat-prototype-resolvedoptions.js
+projects/interactive-examples/JavaScript/intl/intl-numberformat-supportedlocalesof.js
+projects/interactive-examples/JavaScript/intl/intl-numberformat.js
+projects/interactive-examples/JavaScript/intl/intl-relativetimeformat-prototype-format.js
+projects/interactive-examples/JavaScript/intl/intl-relativetimeformat-prototype-formattoparts.js
+projects/interactive-examples/JavaScript/intl/intl-relativetimeformat-prototype-resolvedoptions.js
+projects/interactive-examples/JavaScript/intl/intl-relativetimeformat-supportedlocalesof.js
+projects/interactive-examples/JavaScript/intl/intl-relativetimeformat.js
+projects/interactive-examples/JavaScript/intl/meta.json
+projects/interactive-examples/JavaScript/json/json-parse.js
+projects/interactive-examples/JavaScript/json/json-stringify.js
+projects/interactive-examples/JavaScript/json/meta.json
+projects/interactive-examples/JavaScript/map/map-prototype-@@iterator.js
+projects/interactive-examples/JavaScript/map/map-prototype-@@tostringtag.js
+projects/interactive-examples/JavaScript/map/map-prototype-clear.js
+projects/interactive-examples/JavaScript/map/map-prototype-delete.js
+projects/interactive-examples/JavaScript/map/map-prototype-entries.js
+projects/interactive-examples/JavaScript/map/map-prototype-foreach.js
+projects/interactive-examples/JavaScript/map/map-prototype-get.js
+projects/interactive-examples/JavaScript/map/map-prototype-has.js
+projects/interactive-examples/JavaScript/map/map-prototype-keys.js
+projects/interactive-examples/JavaScript/map/map-prototype-set.js
+projects/interactive-examples/JavaScript/map/map-prototype-size.js
+projects/interactive-examples/JavaScript/map/map-prototype-values.js
+projects/interactive-examples/JavaScript/map/meta.json
+projects/interactive-examples/JavaScript/math/math-abs.js
+projects/interactive-examples/JavaScript/math/math-acos.js
+projects/interactive-examples/JavaScript/math/math-acosh.js
+projects/interactive-examples/JavaScript/math/math-asin.js
+projects/interactive-examples/JavaScript/math/math-asinh.js
+projects/interactive-examples/JavaScript/math/math-atan.js
+projects/interactive-examples/JavaScript/math/math-atan2.js
+projects/interactive-examples/JavaScript/math/math-atanh.js
+projects/interactive-examples/JavaScript/math/math-cbrt.js
+projects/interactive-examples/JavaScript/math/math-ceil.js
+projects/interactive-examples/JavaScript/math/math-clz32.js
+projects/interactive-examples/JavaScript/math/math-cos.js
+projects/interactive-examples/JavaScript/math/math-cosh.js
+projects/interactive-examples/JavaScript/math/math-e.js
+projects/interactive-examples/JavaScript/math/math-exp.js
+projects/interactive-examples/JavaScript/math/math-expm1.js
+projects/interactive-examples/JavaScript/math/math-floor.js
+projects/interactive-examples/JavaScript/math/math-fround.js
+projects/interactive-examples/JavaScript/math/math-hypot.js
+projects/interactive-examples/JavaScript/math/math-imul.js
+projects/interactive-examples/JavaScript/math/math-ln10.js
+projects/interactive-examples/JavaScript/math/math-ln2.js
+projects/interactive-examples/JavaScript/math/math-log.js
+projects/interactive-examples/JavaScript/math/math-log10.js
+projects/interactive-examples/JavaScript/math/math-log10e.js
+projects/interactive-examples/JavaScript/math/math-log1p.js
+projects/interactive-examples/JavaScript/math/math-log2.js
+projects/interactive-examples/JavaScript/math/math-log2e.js
+projects/interactive-examples/JavaScript/math/math-max.js
+projects/interactive-examples/JavaScript/math/math-min.js
+projects/interactive-examples/JavaScript/math/math-pi.js
+projects/interactive-examples/JavaScript/math/math-pow.js
+projects/interactive-examples/JavaScript/math/math-random.js
+projects/interactive-examples/JavaScript/math/math-round.js
+projects/interactive-examples/JavaScript/math/math-sign.js
+projects/interactive-examples/JavaScript/math/math-sin.js
+projects/interactive-examples/JavaScript/math/math-sinh.js
+projects/interactive-examples/JavaScript/math/math-sqrt.js
+projects/interactive-examples/JavaScript/math/math-sqrt1_2.js
+projects/interactive-examples/JavaScript/math/math-sqrt2.js
+projects/interactive-examples/JavaScript/math/math-tan.js
+projects/interactive-examples/JavaScript/math/math-tanh.js
+projects/interactive-examples/JavaScript/math/math-trunc.js
+projects/interactive-examples/JavaScript/math/meta.json
+projects/interactive-examples/JavaScript/number/meta.json
+projects/interactive-examples/JavaScript/number/number-epsilon.js
+projects/interactive-examples/JavaScript/number/number-isfinite.js
+projects/interactive-examples/JavaScript/number/number-isinteger.js
+projects/interactive-examples/JavaScript/number/number-isnan.js
+projects/interactive-examples/JavaScript/number/number-issafeinteger.js
+projects/interactive-examples/JavaScript/number/number-max-safe-integer.js
+projects/interactive-examples/JavaScript/number/number-max-value.js
+projects/interactive-examples/JavaScript/number/number-min-safe-integer.js
+projects/interactive-examples/JavaScript/number/number-min-value.js
+projects/interactive-examples/JavaScript/number/number-nan.js
+projects/interactive-examples/JavaScript/number/number-negative-infinity.js
+projects/interactive-examples/JavaScript/number/number-parsefloat.js
+projects/interactive-examples/JavaScript/number/number-parseint.js
+projects/interactive-examples/JavaScript/number/number-positive-infinity.js
+projects/interactive-examples/JavaScript/number/number-toexponential.js
+projects/interactive-examples/JavaScript/number/number-tofixed.js
+projects/interactive-examples/JavaScript/number/number-tolocalestring.js
+projects/interactive-examples/JavaScript/number/number-toprecision.js
+projects/interactive-examples/JavaScript/number/number-tostring.js
+projects/interactive-examples/JavaScript/number/number-valueof.js
+projects/interactive-examples/JavaScript/object/meta.json
+projects/interactive-examples/JavaScript/object/object-assign.js
+projects/interactive-examples/JavaScript/object/object-create.js
+projects/interactive-examples/JavaScript/object/object-defineproperties.js
+projects/interactive-examples/JavaScript/object/object-defineproperty.js
+projects/interactive-examples/JavaScript/object/object-entries.js
+projects/interactive-examples/JavaScript/object/object-freeze.js
+projects/interactive-examples/JavaScript/object/object-fromentries.js
+projects/interactive-examples/JavaScript/object/object-getownpropertydescriptor.js
+projects/interactive-examples/JavaScript/object/object-getownpropertydescriptors.js
+projects/interactive-examples/JavaScript/object/object-getownpropertynames.js
+projects/interactive-examples/JavaScript/object/object-getownpropertysymbols.js
+projects/interactive-examples/JavaScript/object/object-getprototypeof.js
+projects/interactive-examples/JavaScript/object/object-isextensible.js
+projects/interactive-examples/JavaScript/object/object-isfrozen.js
+projects/interactive-examples/JavaScript/object/object-issealed.js
+projects/interactive-examples/JavaScript/object/object-keys.js
+projects/interactive-examples/JavaScript/object/object-preventextensions.js
+projects/interactive-examples/JavaScript/object/object-prototype-hasownproperty.js
+projects/interactive-examples/JavaScript/object/object-prototype-isprototypeof.js
+projects/interactive-examples/JavaScript/object/object-prototype-propertyisenumerable.js
+projects/interactive-examples/JavaScript/object/object-prototype-seal.js
+projects/interactive-examples/JavaScript/object/object-prototype-tolocalestring.js
+projects/interactive-examples/JavaScript/object/object-prototype-tostring.js
+projects/interactive-examples/JavaScript/object/object-prototype-valueof.js
+projects/interactive-examples/JavaScript/object/object-values.js
+projects/interactive-examples/JavaScript/promise/meta.json
+projects/interactive-examples/JavaScript/promise/promise-all.js
+projects/interactive-examples/JavaScript/promise/promise-allsettled.js
+projects/interactive-examples/JavaScript/promise/promise-catch.js
+projects/interactive-examples/JavaScript/promise/promise-constructor.js
+projects/interactive-examples/JavaScript/promise/promise-race.js
+projects/interactive-examples/JavaScript/promise/promise-reject.js
+projects/interactive-examples/JavaScript/promise/promise-resolve.js
+projects/interactive-examples/JavaScript/promise/promise-then.js
+projects/interactive-examples/JavaScript/proxyhandler/meta.json
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-apply.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-construct.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-defineproperty.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-deleteproperty.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-get.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-getownpropertydescriptor.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-getprototypeof.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-has.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-isextensible.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-ownkeys.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-preventextensions.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-set.js
+projects/interactive-examples/JavaScript/proxyhandler/proxyhandler-setprototypeof.js
+projects/interactive-examples/JavaScript/reflect/meta.json
+projects/interactive-examples/JavaScript/reflect/reflect-apply.js
+projects/interactive-examples/JavaScript/reflect/reflect-construct.js
+projects/interactive-examples/JavaScript/reflect/reflect-defineproperty.js
+projects/interactive-examples/JavaScript/reflect/reflect-deleteproperty.js
+projects/interactive-examples/JavaScript/reflect/reflect-get.js
+projects/interactive-examples/JavaScript/reflect/reflect-getownpropertydescriptor.js
+projects/interactive-examples/JavaScript/reflect/reflect-getprototypeof.js
+projects/interactive-examples/JavaScript/reflect/reflect-has.js
+projects/interactive-examples/JavaScript/reflect/reflect-isextensible.js
+projects/interactive-examples/JavaScript/reflect/reflect-ownkeys.js
+projects/interactive-examples/JavaScript/reflect/reflect-preventextensions.js
+projects/interactive-examples/JavaScript/reflect/reflect-set.js
+projects/interactive-examples/JavaScript/reflect/reflect-setprototypeof.js
+projects/interactive-examples/JavaScript/regexp/meta.json
+projects/interactive-examples/JavaScript/regexp/regexp-constructor.js
+projects/interactive-examples/JavaScript/regexp/regexp-getregexp-@@species.js
+projects/interactive-examples/JavaScript/regexp/regexp-lastindex.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-@@match.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-@@matchall.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-@@replace.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-@@search.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-@@split.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-exec.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-flags.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-global.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-ignorecase.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-multiline.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-source.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-sticky.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-test.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-tostring.js
+projects/interactive-examples/JavaScript/regexp/regexp-prototype-unicode.js
+projects/interactive-examples/JavaScript/set/meta.json
+projects/interactive-examples/JavaScript/set/set-prototype-@@iterator.js
+projects/interactive-examples/JavaScript/set/set-prototype-add.js
+projects/interactive-examples/JavaScript/set/set-prototype-clear.js
+projects/interactive-examples/JavaScript/set/set-prototype-constructor.js
+projects/interactive-examples/JavaScript/set/set-prototype-delete.js
+projects/interactive-examples/JavaScript/set/set-prototype-entries.js
+projects/interactive-examples/JavaScript/set/set-prototype-foreach.js
+projects/interactive-examples/JavaScript/set/set-prototype-has.js
+projects/interactive-examples/JavaScript/set/set-prototype-size.js
+projects/interactive-examples/JavaScript/set/set-prototype-values.js
+projects/interactive-examples/JavaScript/sharedarraybuffer/meta.json
+projects/interactive-examples/JavaScript/sharedarraybuffer/sharedarraybuffer-bytelength.js
+projects/interactive-examples/JavaScript/sharedarraybuffer/sharedarraybuffer-constructor.js
+projects/interactive-examples/JavaScript/sharedarraybuffer/sharedarraybuffer-slice.js
+projects/interactive-examples/JavaScript/statement/meta.json
+projects/interactive-examples/JavaScript/statement/statement-async-for-in.js
+projects/interactive-examples/JavaScript/statement/statement-async-function-asterisk.js
+projects/interactive-examples/JavaScript/statement/statement-async.js
+projects/interactive-examples/JavaScript/statement/statement-block.js
+projects/interactive-examples/JavaScript/statement/statement-break.js
+projects/interactive-examples/JavaScript/statement/statement-class.js
+projects/interactive-examples/JavaScript/statement/statement-const.js
+projects/interactive-examples/JavaScript/statement/statement-continue.js
+projects/interactive-examples/JavaScript/statement/statement-default.js
+projects/interactive-examples/JavaScript/statement/statement-dowhile.js
+projects/interactive-examples/JavaScript/statement/statement-empty.js
+projects/interactive-examples/JavaScript/statement/statement-for.js
+projects/interactive-examples/JavaScript/statement/statement-forin.js
+projects/interactive-examples/JavaScript/statement/statement-forof.js
+projects/interactive-examples/JavaScript/statement/statement-function.js
+projects/interactive-examples/JavaScript/statement/statement-functionasterisk.js
+projects/interactive-examples/JavaScript/statement/statement-ifelse.js
+projects/interactive-examples/JavaScript/statement/statement-label.js
+projects/interactive-examples/JavaScript/statement/statement-let.js
+projects/interactive-examples/JavaScript/statement/statement-return.js
+projects/interactive-examples/JavaScript/statement/statement-switch.js
+projects/interactive-examples/JavaScript/statement/statement-throw.js
+projects/interactive-examples/JavaScript/statement/statement-trycatch.js
+projects/interactive-examples/JavaScript/statement/statement-var.js
+projects/interactive-examples/JavaScript/statement/statement-while.js
+projects/interactive-examples/JavaScript/string/meta.json
+projects/interactive-examples/JavaScript/string/string-charat.js
+projects/interactive-examples/JavaScript/string/string-charcodeat.js
+projects/interactive-examples/JavaScript/string/string-codepointat.js
+projects/interactive-examples/JavaScript/string/string-concat.js
+projects/interactive-examples/JavaScript/string/string-endswith.js
+projects/interactive-examples/JavaScript/string/string-fromcharcode.js
+projects/interactive-examples/JavaScript/string/string-fromcodepoint.js
+projects/interactive-examples/JavaScript/string/string-includes.js
+projects/interactive-examples/JavaScript/string/string-indexof.js
+projects/interactive-examples/JavaScript/string/string-iterator.js
+projects/interactive-examples/JavaScript/string/string-lastindexof.js
+projects/interactive-examples/JavaScript/string/string-length.js
+projects/interactive-examples/JavaScript/string/string-localecompare.js
+projects/interactive-examples/JavaScript/string/string-match.js
+projects/interactive-examples/JavaScript/string/string-matchall.js
+projects/interactive-examples/JavaScript/string/string-normalize.js
+projects/interactive-examples/JavaScript/string/string-padend.js
+projects/interactive-examples/JavaScript/string/string-padstart.js
+projects/interactive-examples/JavaScript/string/string-raw.js
+projects/interactive-examples/JavaScript/string/string-repeat.js
+projects/interactive-examples/JavaScript/string/string-replace.js
+projects/interactive-examples/JavaScript/string/string-search.js
+projects/interactive-examples/JavaScript/string/string-slice.js
+projects/interactive-examples/JavaScript/string/string-split.js
+projects/interactive-examples/JavaScript/string/string-startswith.js
+projects/interactive-examples/JavaScript/string/string-substr.js
+projects/interactive-examples/JavaScript/string/string-substring.js
+projects/interactive-examples/JavaScript/string/string-tolocalelowercase.js
+projects/interactive-examples/JavaScript/string/string-tolocaleuppercase.js
+projects/interactive-examples/JavaScript/string/string-tolowercase.js
+projects/interactive-examples/JavaScript/string/string-tostring.js
+projects/interactive-examples/JavaScript/string/string-touppercase.js
+projects/interactive-examples/JavaScript/string/string-trim.js
+projects/interactive-examples/JavaScript/string/string-trimend.js
+projects/interactive-examples/JavaScript/string/string-trimstart.js
+projects/interactive-examples/JavaScript/string/string-valueof.js
+projects/interactive-examples/JavaScript/symbol/meta.json
+projects/interactive-examples/JavaScript/symbol/symbol-constructor.js
+projects/interactive-examples/JavaScript/symbol/symbol-for.js
+projects/interactive-examples/JavaScript/symbol/symbol-hasinstance.js
+projects/interactive-examples/JavaScript/symbol/symbol-isconcatspreadable.js
+projects/interactive-examples/JavaScript/symbol/symbol-iterator.js
+projects/interactive-examples/JavaScript/symbol/symbol-keyfor.js
+projects/interactive-examples/JavaScript/symbol/symbol-match.js
+projects/interactive-examples/JavaScript/symbol/symbol-matchall.js
+projects/interactive-examples/JavaScript/symbol/symbol-prototype-description.js
+projects/interactive-examples/JavaScript/symbol/symbol-prototype-tostring.js
+projects/interactive-examples/JavaScript/symbol/symbol-prototype.js
+projects/interactive-examples/JavaScript/symbol/symbol-replace.js
+projects/interactive-examples/JavaScript/symbol/symbol-search.js
+projects/interactive-examples/JavaScript/symbol/symbol-species.js
+projects/interactive-examples/JavaScript/symbol/symbol-split.js
+projects/interactive-examples/JavaScript/symbol/symbol-toprimitive.js
+projects/interactive-examples/JavaScript/symbol/symbol-tostringtag.js
+projects/interactive-examples/JavaScript/symbol/symbol-unscopables.js
+projects/interactive-examples/JavaScript/typedarray/meta.json
+projects/interactive-examples/JavaScript/typedarray/typedarray-buffer.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-bytelength.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-bytes-per-element.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-constructor.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-copywithin.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-entries.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-every.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-fill.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-filter.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-find.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-findindex.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-from.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-includes.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-indexof.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-join.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-keys.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-lastindexof.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-length.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-map.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-name.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-of.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-reduce.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-reverse.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-set.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-slice.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-some.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-sort.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-subarray.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-tostring.js
+projects/interactive-examples/JavaScript/typedarray/typedarray-values.js
+projects/interactive-examples/JavaScript/weakmap/meta.json
+projects/interactive-examples/JavaScript/weakmap/weakmap-prototype-delete.js
+projects/interactive-examples/JavaScript/weakmap/weakmap-prototype-get.js
+projects/interactive-examples/JavaScript/weakmap/weakmap-prototype-has.js
+projects/interactive-examples/JavaScript/weakmap/weakmap-prototype-set.js
+projects/interactive-examples/JavaScript/weakset/meta.json
+projects/interactive-examples/JavaScript/weakset/weakset-prototype-add.js
+projects/interactive-examples/JavaScript/weakset/weakset-prototype-delete.js
+projects/interactive-examples/JavaScript/weakset/weakset-prototype-has.js
+projects/interactive-examples/LICENSE
+projects/interactive-examples/README.md
+scripts/manual-iterate.js
+scripts/manual-validate.js
+tests/test0001/index.html
+tests/test0001/main.js
+tests/test0001/split-json.js
